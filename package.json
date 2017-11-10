@@ -1,0 +1,39 @@
+{
+  "name": "react-pure-loaders",
+  "version": "0.0.0-development",
+  "description": "React PureComponent loading animations ",
+  "main": "index.js",
+  "repository": "git@github.com:jameswlane/react-pure-loaders.git",
+  "author": "James W. Lane <james.w.lane@mac.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "ts:build": "tsc",
+    "ts:watch": "tsc -w",
+    "tslint": "tslint --config tslint.json --project tsconfig.json \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "tslint:fix": "tslint --config tslint.json --project tsconfig.json --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn tslint && yarn test",
+    "verify:npmvet": "npmvet --renderer ci --strict",
+    "verify:david": "david",
+    "verify:nsp": "nsp check --output summary",
+    "verify:check": "depcheck --ignores=@types/enzyme,@types/jest",
+    "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/jameswlane/react-pure-loaders/issues"
+  },
+  "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

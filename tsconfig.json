@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2016",
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
