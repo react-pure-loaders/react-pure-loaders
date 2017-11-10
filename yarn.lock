@@ -51,7 +51,7 @@
     lodash "^4.17.4"
     pify "^3.0.0"
 
-"@storybook/addon-actions@^3.2.15":
+"@storybook/addon-actions@3.2.15", "@storybook/addon-actions@^3.2.15":
   version "3.2.15"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.2.15.tgz#a54228d86baeb637adbbbdd11ff0c040d9862952"
   dependencies:
@@ -206,25 +206,29 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/inline-style-prefixer/-/inline-style-prefixer-3.0.1.tgz#8541e636b029124b747952e9a28848286d2b5bf6"
 
-"@types/node@*", "@types/node@8.0.50":
+"@types/node@*":
   version "8.0.50"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.50.tgz#dc545448e128c88c4eec7cd64025fcc3b7604541"
+
+"@types/node@8.0.51":
+  version "8.0.51"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.51.tgz#b31d716fb8d58eeb95c068a039b9b6292817d5fb"
 
 "@types/react@*", "@types/react@^16.0.18":
   version "16.0.22"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.22.tgz#19ad106e124aceebd2b4d430a278d55413ee8759"
 
-"@types/storybook__addon-actions@^3.0.1":
+"@types/storybook__addon-actions@3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-3.0.1.tgz#e76b6cc3e6221d6578962a2ae59c3c33b6762453"
 
-"@types/storybook__addon-knobs@^3.2.1":
+"@types/storybook__addon-knobs@3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-3.2.1.tgz#d16f1e8d0bd4c52d0a3736ab93a5782493e82cf5"
   dependencies:
     "@types/react" "*"
 
-"@types/storybook__react@^3.0.5":
+"@types/storybook__react@3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-3.0.5.tgz#aea4d67146a59de9cf5bacfe8bd24f7abd6128a6"
   dependencies:
