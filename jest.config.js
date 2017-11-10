@@ -10,7 +10,10 @@ module.exports = {
   "testMatch": [
     "**/tests/**/*.test.(ts|tsx|js)"
   ],
-  "setupFiles": [],
+  "setupFiles": [
+    "raf/polyfill",
+    "./tests/setup/enzyme.ts"
+  ],
   "moduleFileExtensions": [
     "ts",
     "tsx",
