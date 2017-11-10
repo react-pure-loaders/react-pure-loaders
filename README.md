@@ -1,4 +1,5 @@
 # react-pure-loaders
+[![Greenkeeper badge](https://badges.greenkeeper.io/jameswlane/react-pure-loaders.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jameswlane/react-pure-loaders.svg?branch=master)](https://travis-ci.org/jameswlane/react-pure-loaders)
 [![dependencies Status](https://david-dm.org/jameswlane/react-pure-loaders/status.svg)](https://david-dm.org/jameswlane/react-pure-loaders)
 [![devDependencies Status](https://david-dm.org/jameswlane/react-pure-loaders/dev-status.svg)](https://david-dm.org/jameswlane/react-pure-loaders?type=dev)
