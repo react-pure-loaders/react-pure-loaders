@@ -47,7 +47,7 @@
     "enzyme-to-json": "3.2.2",
     "jest": "21.2.1",
     "raf": "3.4.0",
-    "react": "16.1.0",
+    "react": "16.1.1",
     "react-dom": "16.1.0",
     "semantic-release": "8.2.0",
     "ts-jest": "21.2.2",
