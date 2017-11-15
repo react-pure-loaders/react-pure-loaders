@@ -43,7 +43,7 @@
     "coveralls": "3.0.0",
     "cz-conventional-changelog": "2.1.0",
     "enzyme": "3.2.0",
-    "enzyme-adapter-react-16": "1.0.4",
+    "enzyme-adapter-react-16": "1.1.0",
     "enzyme-to-json": "3.2.2",
     "jest": "21.2.1",
     "raf": "3.4.0",
