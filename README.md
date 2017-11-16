@@ -1,5 +1,5 @@
 # react-pure-loaders
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 [![Greenkeeper badge](https://badges.greenkeeper.io/jameswlane/react-pure-loaders.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jameswlane/react-pure-loaders.svg?branch=master)](https://travis-ci.org/jameswlane/react-pure-loaders)
 [![dependencies Status](https://david-dm.org/jameswlane/react-pure-loaders/status.svg)](https://david-dm.org/jameswlane/react-pure-loaders)
@@ -17,8 +17,8 @@ React PureComponent loading animations
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;"/><br /><sub><b>James W. Lane III</b></sub>](http://fueledbydreams.com)<br />[💻](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Code") [📖](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/14790466?v=4" width="100px;"/><br /><sub><b>Greenkeeper</b></sub>](https://greenkeeper.io/)<br />[🔧](#tool-greenkeeperio-bot "Tools") |
-| :---: | :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;"/><br /><sub><b>James W. Lane III</b></sub>](http://fueledbydreams.com)<br />[💻](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Code") [📖](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/14790466?v=4" width="100px;"/><br /><sub><b>Greenkeeper</b></sub>](https://greenkeeper.io/)<br />[🔧](#tool-greenkeeperio-bot "Tools") | [<img src="https://avatars0.githubusercontent.com/u/29791463?v=4" width="100px;"/><br /><sub><b>fossabot</b></sub>](http://fossa.io)<br />[🔧](#tool-fossabot "Tools") |
+| :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
