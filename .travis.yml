@@ -16,7 +16,7 @@ before_script:
 - yarn global add npmvet david nsp depcheck types-checker
 - greenkeeper-lockfile-update
 script:
-- yarn verify
+- yarn verify:ci
 after_script:
 - greenkeeper-lockfile-upload
 after_success:
