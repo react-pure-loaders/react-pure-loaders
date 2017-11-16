@@ -12,7 +12,7 @@
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "coverage:report": "codecov",
+    "coverage:report": "coveralls",
     "precommit": "lint-staged && opt --in pre-commit --exec \"yarn verify\"",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli all-contributors-cli",
