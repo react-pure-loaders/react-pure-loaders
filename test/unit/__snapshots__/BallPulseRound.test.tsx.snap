@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1wf477b > div,
+[data-css-1wf477b] > div {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_v07k1z 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_v07k1z 1.2s infinite ease-in-out;
+}
+
+<BallPulseRound
+  loading={true}
+>
+  <div
+    data-css-1wf477b=""
+  >
+    <div />
+  </div>
+</BallPulseRound>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1wf477b > div,
+[data-css-1wf477b] > div {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_v07k1z 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_v07k1z 1.2s infinite ease-in-out;
+}
+
+<div
+  data-css-1wf477b=""
+>
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1wf477b > div,
+[data-css-1wf477b] > div {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_v07k1z 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_v07k1z 1.2s infinite ease-in-out;
+}
+
+<div
+  data-css-1wf477b=""
+>
+  <div />
+</div>
+`;

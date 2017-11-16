@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-104odxe > div,
+[data-css-104odxe] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<SquareSpin
+  loading={true}
+>
+  <div
+    data-css-104odxe=""
+  >
+    <div />
+  </div>
+</SquareSpin>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-104odxe > div,
+[data-css-104odxe] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<div
+  data-css-104odxe=""
+>
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-104odxe > div,
+[data-css-104odxe] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<div
+  data-css-104odxe=""
+>
+  <div />
+</div>
+`;

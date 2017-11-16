@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-qdzpww,
+[data-css-qdzpww] {
+  position: relative;
+  transform: translate(-15px, -15px);
+  -webkit-transform: translate(-15px, -15px);
+}
+
+.css-qdzpww > div,
+[data-css-qdzpww] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: -7px;
+  margin-left: 15px;
+  position: absolute;
+  top: 4px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-qdzpww > div:first-child,
+[data-css-qdzpww] > div:first-child {
+  animation: animation_qi7fs0 0.7s 0s infinite linear;
+  -webkit-animation: animation_qi7fs0 0.7s 0s infinite linear;
+}
+
+.css-qdzpww > div:last-child,
+[data-css-qdzpww] > div:last-child {
+  animation: animation_1dvwwiv 0.7s 0s infinite linear;
+  -webkit-animation: animation_1dvwwiv 0.7s 0s infinite linear;
+}
+
+<BallZigZag
+  loading={true}
+>
+  <div
+    data-css-qdzpww=""
+  >
+    <div />
+    <div />
+  </div>
+</BallZigZag>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-qdzpww,
+[data-css-qdzpww] {
+  position: relative;
+  transform: translate(-15px, -15px);
+  -webkit-transform: translate(-15px, -15px);
+}
+
+.css-qdzpww > div,
+[data-css-qdzpww] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: -7px;
+  margin-left: 15px;
+  position: absolute;
+  top: 4px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-qdzpww > div:first-child,
+[data-css-qdzpww] > div:first-child {
+  animation: animation_qi7fs0 0.7s 0s infinite linear;
+  -webkit-animation: animation_qi7fs0 0.7s 0s infinite linear;
+}
+
+.css-qdzpww > div:last-child,
+[data-css-qdzpww] > div:last-child {
+  animation: animation_1dvwwiv 0.7s 0s infinite linear;
+  -webkit-animation: animation_1dvwwiv 0.7s 0s infinite linear;
+}
+
+<div
+  data-css-qdzpww=""
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-qdzpww,
+[data-css-qdzpww] {
+  position: relative;
+  transform: translate(-15px, -15px);
+  -webkit-transform: translate(-15px, -15px);
+}
+
+.css-qdzpww > div,
+[data-css-qdzpww] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: -7px;
+  margin-left: 15px;
+  position: absolute;
+  top: 4px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-qdzpww > div:first-child,
+[data-css-qdzpww] > div:first-child {
+  animation: animation_qi7fs0 0.7s 0s infinite linear;
+  -webkit-animation: animation_qi7fs0 0.7s 0s infinite linear;
+}
+
+.css-qdzpww > div:last-child,
+[data-css-qdzpww] > div:last-child {
+  animation: animation_1dvwwiv 0.7s 0s infinite linear;
+  -webkit-animation: animation_1dvwwiv 0.7s 0s infinite linear;
+}
+
+<div
+  data-css-qdzpww=""
+>
+  <div />
+  <div />
+</div>
+`;

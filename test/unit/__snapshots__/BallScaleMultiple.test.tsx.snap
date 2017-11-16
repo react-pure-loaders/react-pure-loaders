@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-ge1ofc,
+[data-css-ge1ofc] {
+  position: relative;
+  transform: translateY(-60px / 2);
+  -webkit-transform: translateY(-60px / 2);
+}
+
+.css-ge1ofc > div,
+[data-css-ge1ofc] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 0px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_wxokr 1s 0s linear infinite;
+  left: -30px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_wxokr 1s 0s linear infinite;
+}
+
+<BallScaleMultiple
+  loading={true}
+>
+  <div
+    data-css-ge1ofc=""
+  >
+    <div />
+    <div />
+    <div />
+  </div>
+</BallScaleMultiple>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-ge1ofc,
+[data-css-ge1ofc] {
+  position: relative;
+  transform: translateY(-60px / 2);
+  -webkit-transform: translateY(-60px / 2);
+}
+
+.css-ge1ofc > div,
+[data-css-ge1ofc] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 0px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_wxokr 1s 0s linear infinite;
+  left: -30px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_wxokr 1s 0s linear infinite;
+}
+
+<div
+  data-css-ge1ofc=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-ge1ofc,
+[data-css-ge1ofc] {
+  position: relative;
+  transform: translateY(-60px / 2);
+  -webkit-transform: translateY(-60px / 2);
+}
+
+.css-ge1ofc > div,
+[data-css-ge1ofc] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 0px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_wxokr 1s 0s linear infinite;
+  left: -30px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_wxokr 1s 0s linear infinite;
+}
+
+<div
+  data-css-ge1ofc=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;

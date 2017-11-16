@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-f74ofh > div,
+[data-css-f74ofh] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<BallScaleRipple
+  loading={true}
+>
+  <div
+    data-css-f74ofh=""
+  >
+    <div />
+  </div>
+</BallScaleRipple>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-f74ofh > div,
+[data-css-f74ofh] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<div
+  data-css-f74ofh=""
+>
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-f74ofh > div,
+[data-css-f74ofh] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<div
+  data-css-f74ofh=""
+>
+  <div />
+</div>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-7rrckc,
+[data-css-7rrckc] {
+  left: -10px;
+  position: relative;
+  top: -10px;
+}
+
+.css-7rrckc > div,
+[data-css-7rrckc] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  position: absolute;
+  -webkit-animation-fill-mode: both;
+}
+
+<BallSpinFadeLoader
+  loading={true}
+>
+  <div
+    data-css-7rrckc=""
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</BallSpinFadeLoader>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-7rrckc,
+[data-css-7rrckc] {
+  left: -10px;
+  position: relative;
+  top: -10px;
+}
+
+.css-7rrckc > div,
+[data-css-7rrckc] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  position: absolute;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-7rrckc=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-7rrckc,
+[data-css-7rrckc] {
+  left: -10px;
+  position: relative;
+  top: -10px;
+}
+
+.css-7rrckc > div,
+[data-css-7rrckc] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  position: absolute;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-7rrckc=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

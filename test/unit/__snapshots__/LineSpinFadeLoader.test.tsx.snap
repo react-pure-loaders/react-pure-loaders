@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-14zajqm,
+[data-css-14zajqm] {
+  position: relative;
+}
+
+.css-14zajqm > div:first-of-type,
+[data-css-14zajqm] > div:first-of-type {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_1dfnslg 0.5s 0s infinite;
+  left: -30px;
+  position: relative;
+  -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(2),
+[data-css-14zajqm] > div:nth-child(2) {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_mvibk4 0.5s 0s infinite;
+  left: -30px;
+  margin-top: -50px;
+  position: relative;
+  -webkit-animation: animation_mvibk4 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(3),
+[data-css-14zajqm] > div:nth-child(3),
+.css-14zajqm > div:nth-child(4),
+[data-css-14zajqm] > div:nth-child(4),
+.css-14zajqm > div:nth-child(5),
+[data-css-14zajqm] > div:nth-child(5),
+.css-14zajqm > div:nth-child(6),
+[data-css-14zajqm] > div:nth-child(6) {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  left: 70px;
+  position: absolute;
+  top: 25px;
+  transform: translate(0,-6.25px);
+  -webkit-transform: translate(0,-6.25px);
+}
+
+<Pacman
+  loading={true}
+>
+  <div
+    data-css-14zajqm=""
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</Pacman>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-14zajqm,
+[data-css-14zajqm] {
+  position: relative;
+}
+
+.css-14zajqm > div:first-of-type,
+[data-css-14zajqm] > div:first-of-type {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_1dfnslg 0.5s 0s infinite;
+  left: -30px;
+  position: relative;
+  -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(2),
+[data-css-14zajqm] > div:nth-child(2) {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_mvibk4 0.5s 0s infinite;
+  left: -30px;
+  margin-top: -50px;
+  position: relative;
+  -webkit-animation: animation_mvibk4 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(3),
+[data-css-14zajqm] > div:nth-child(3),
+.css-14zajqm > div:nth-child(4),
+[data-css-14zajqm] > div:nth-child(4),
+.css-14zajqm > div:nth-child(5),
+[data-css-14zajqm] > div:nth-child(5),
+.css-14zajqm > div:nth-child(6),
+[data-css-14zajqm] > div:nth-child(6) {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  left: 70px;
+  position: absolute;
+  top: 25px;
+  transform: translate(0,-6.25px);
+  -webkit-transform: translate(0,-6.25px);
+}
+
+<div
+  data-css-14zajqm=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-14zajqm,
+[data-css-14zajqm] {
+  position: relative;
+}
+
+.css-14zajqm > div:first-of-type,
+[data-css-14zajqm] > div:first-of-type {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_1dfnslg 0.5s 0s infinite;
+  left: -30px;
+  position: relative;
+  -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(2),
+[data-css-14zajqm] > div:nth-child(2) {
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  height: 0px;
+  width: 0px;
+  animation: animation_mvibk4 0.5s 0s infinite;
+  left: -30px;
+  margin-top: -50px;
+  position: relative;
+  -webkit-animation: animation_mvibk4 0.5s 0s infinite;
+}
+
+.css-14zajqm > div:nth-child(3),
+[data-css-14zajqm] > div:nth-child(3),
+.css-14zajqm > div:nth-child(4),
+[data-css-14zajqm] > div:nth-child(4),
+.css-14zajqm > div:nth-child(5),
+[data-css-14zajqm] > div:nth-child(5),
+.css-14zajqm > div:nth-child(6),
+[data-css-14zajqm] > div:nth-child(6) {
+  border-radius: 100%;
+  height: 10px;
+  margin: 2px;
+  width: 10px;
+  background-color: #fff;
+  left: 70px;
+  position: absolute;
+  top: 25px;
+  transform: translate(0,-6.25px);
+  -webkit-transform: translate(0,-6.25px);
+}
+
+<div
+  data-css-14zajqm=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

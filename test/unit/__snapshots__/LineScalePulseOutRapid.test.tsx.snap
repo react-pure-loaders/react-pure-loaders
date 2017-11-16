@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-ydrdku > div,
+[data-css-ydrdku] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+}
+
+.css-ydrdku > div:nth-child(2),
+[data-css-ydrdku] > div:nth-child(2),
+.css-ydrdku > div:nth-child(4),
+[data-css-ydrdku] > div:nth-child(4) {
+  animation-delay: -0.25s !important;
+  -webkit-animation-delay: -0.25s !important;
+}
+
+.css-ydrdku > div:nth-child(1),
+[data-css-ydrdku] > div:nth-child(1),
+.css-ydrdku > div:nth-child(5),
+[data-css-ydrdku] > div:nth-child(5) {
+  animation-delay: 0s !important;
+  -webkit-animation-delay: 0s !important;
+}
+
+<LineScalePulseOutRapid
+  loading={true}
+>
+  <div
+    data-css-ydrdku=""
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</LineScalePulseOutRapid>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-ydrdku > div,
+[data-css-ydrdku] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+}
+
+.css-ydrdku > div:nth-child(2),
+[data-css-ydrdku] > div:nth-child(2),
+.css-ydrdku > div:nth-child(4),
+[data-css-ydrdku] > div:nth-child(4) {
+  animation-delay: -0.25s !important;
+  -webkit-animation-delay: -0.25s !important;
+}
+
+.css-ydrdku > div:nth-child(1),
+[data-css-ydrdku] > div:nth-child(1),
+.css-ydrdku > div:nth-child(5),
+[data-css-ydrdku] > div:nth-child(5) {
+  animation-delay: 0s !important;
+  -webkit-animation-delay: 0s !important;
+}
+
+<div
+  data-css-ydrdku=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-ydrdku > div,
+[data-css-ydrdku] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+}
+
+.css-ydrdku > div:nth-child(2),
+[data-css-ydrdku] > div:nth-child(2),
+.css-ydrdku > div:nth-child(4),
+[data-css-ydrdku] > div:nth-child(4) {
+  animation-delay: -0.25s !important;
+  -webkit-animation-delay: -0.25s !important;
+}
+
+.css-ydrdku > div:nth-child(1),
+[data-css-ydrdku] > div:nth-child(1),
+.css-ydrdku > div:nth-child(5),
+[data-css-ydrdku] > div:nth-child(5) {
+  animation-delay: 0s !important;
+  -webkit-animation-delay: 0s !important;
+}
+
+<div
+  data-css-ydrdku=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

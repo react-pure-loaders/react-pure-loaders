@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1p200ny > div,
+[data-css-1p200ny] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+}
+
+.css-1p200ny > div:nth-child(2),
+[data-css-1p200ny] > div:nth-child(2),
+.css-1p200ny > div:nth-child(4),
+[data-css-1p200ny] > div:nth-child(4) {
+  animation-delay: -0.40s !important;
+  -webkit-animation-delay: -0.40s !important;
+}
+
+.css-1p200ny > div:nth-child(1),
+[data-css-1p200ny] > div:nth-child(1),
+.css-1p200ny > div:nth-child(5),
+[data-css-1p200ny] > div:nth-child(5) {
+  animation-delay: -0.20s !important;
+  -webkit-animation-delay: -0.20s !important;
+}
+
+<LineScalePulseOut
+  loading={true}
+>
+  <div
+    data-css-1p200ny=""
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</LineScalePulseOut>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1p200ny > div,
+[data-css-1p200ny] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+}
+
+.css-1p200ny > div:nth-child(2),
+[data-css-1p200ny] > div:nth-child(2),
+.css-1p200ny > div:nth-child(4),
+[data-css-1p200ny] > div:nth-child(4) {
+  animation-delay: -0.40s !important;
+  -webkit-animation-delay: -0.40s !important;
+}
+
+.css-1p200ny > div:nth-child(1),
+[data-css-1p200ny] > div:nth-child(1),
+.css-1p200ny > div:nth-child(5),
+[data-css-1p200ny] > div:nth-child(5) {
+  animation-delay: -0.20s !important;
+  -webkit-animation-delay: -0.20s !important;
+}
+
+<div
+  data-css-1p200ny=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1p200ny > div,
+[data-css-1p200ny] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
+}
+
+.css-1p200ny > div:nth-child(2),
+[data-css-1p200ny] > div:nth-child(2),
+.css-1p200ny > div:nth-child(4),
+[data-css-1p200ny] > div:nth-child(4) {
+  animation-delay: -0.40s !important;
+  -webkit-animation-delay: -0.40s !important;
+}
+
+.css-1p200ny > div:nth-child(1),
+[data-css-1p200ny] > div:nth-child(1),
+.css-1p200ny > div:nth-child(5),
+[data-css-1p200ny] > div:nth-child(5) {
+  animation-delay: -0.20s !important;
+  -webkit-animation-delay: -0.20s !important;
+}
+
+<div
+  data-css-1p200ny=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

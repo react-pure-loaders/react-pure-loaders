@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-18ue25a,
+[data-css-18ue25a] {
+  position: relative;
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+}
+
+.css-18ue25a > div,
+[data-css-18ue25a] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-18ue25a > div:first-child,
+[data-css-18ue25a] > div:first-child {
+  animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 16px;
+  left: -7px;
+  top: 7px;
+  width: 16px;
+  -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+.css-18ue25a > div:last-child,
+[data-css-18ue25a] > div:last-child {
+  animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  animation-duration: 1s;
+  background: transparent;
+  border: 2px solid;
+  border-color: #fff transparent #fff transparent;
+  height: 30px;
+  left: -16px;
+  position: absolute;
+  top: -2px;
+  width: 30px;
+  -webkit-animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  -webkit-animation-duration: 1s;
+}
+
+<BallClipRotatePulse
+  loading={true}
+>
+  <div
+    data-css-18ue25a=""
+  >
+    <div />
+    <div />
+  </div>
+</BallClipRotatePulse>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-18ue25a,
+[data-css-18ue25a] {
+  position: relative;
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+}
+
+.css-18ue25a > div,
+[data-css-18ue25a] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-18ue25a > div:first-child,
+[data-css-18ue25a] > div:first-child {
+  animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 16px;
+  left: -7px;
+  top: 7px;
+  width: 16px;
+  -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+.css-18ue25a > div:last-child,
+[data-css-18ue25a] > div:last-child {
+  animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  animation-duration: 1s;
+  background: transparent;
+  border: 2px solid;
+  border-color: #fff transparent #fff transparent;
+  height: 30px;
+  left: -16px;
+  position: absolute;
+  top: -2px;
+  width: 30px;
+  -webkit-animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  -webkit-animation-duration: 1s;
+}
+
+<div
+  data-css-18ue25a=""
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-18ue25a,
+[data-css-18ue25a] {
+  position: relative;
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+}
+
+.css-18ue25a > div,
+[data-css-18ue25a] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  -webkit-animation-fill-mode: both;
+}
+
+.css-18ue25a > div:first-child,
+[data-css-18ue25a] > div:first-child {
+  animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  background: #fff;
+  height: 16px;
+  left: -7px;
+  top: 7px;
+  width: 16px;
+  -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+.css-18ue25a > div:last-child,
+[data-css-18ue25a] > div:last-child {
+  animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  animation-duration: 1s;
+  background: transparent;
+  border: 2px solid;
+  border-color: #fff transparent #fff transparent;
+  height: 30px;
+  left: -16px;
+  position: absolute;
+  top: -2px;
+  width: 30px;
+  -webkit-animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  -webkit-animation-duration: 1s;
+}
+
+<div
+  data-css-18ue25a=""
+>
+  <div />
+  <div />
+</div>
+`;

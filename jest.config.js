@@ -8,11 +8,15 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
   },
   "testMatch": [
-    "**/tests/**/*.test.(ts|tsx|js)"
+    "**/test/**/*.test.(ts|tsx|js)"
   ],
   "setupFiles": [
     "raf/polyfill",
-    "./tests/setup/enzyme.ts"
+    "./test/setup/enzyme.ts"
+  ],
+  snapshotSerializers: [
+    "enzyme-to-json/serializer",
+    "jest-glamor-react"
   ],
   "moduleFileExtensions": [
     "ts",

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-emfl65 > div,
+[data-css-emfl65] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0px;
+  width: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<TriangleSkewSpin
+  loading={true}
+>
+  <div
+    data-css-emfl65=""
+  >
+    <div />
+  </div>
+</TriangleSkewSpin>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-emfl65 > div,
+[data-css-emfl65] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0px;
+  width: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<div
+  data-css-emfl65=""
+>
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-emfl65 > div,
+[data-css-emfl65] > div {
+  animation-fill-mode: both;
+  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  border-bottom: 20px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0px;
+  width: 0px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+}
+
+<div
+  data-css-emfl65=""
+>
+  <div />
+</div>
+`;

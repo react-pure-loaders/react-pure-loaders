@@ -1,0 +1,28 @@
+import { mount, render, shallow } from 'enzyme';
+import { StyleSheet } from 'glamor/lib/sheet';
+import * as React from 'react';
+import { CubeTransition } from '../../src';
+
+const stylesheet = new StyleSheet();
+
+describe('<CubeTransition>', () => {
+  beforeEach(() => {
+    stylesheet.flush();
+  });
+
+  test('<CubeTransition> Shallow', () => {
+    const ui = (<CubeTransition loading={true}/>);
+
+    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
+  });
+  test('<CubeTransition> Mount', () => {
+    const ui = (<CubeTransition loading={true}/>);
+
+    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
+  });
+  test('<CubeTransition> Render', () => {
+    const ui = (<CubeTransition loading={true}/>);
+
+    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
+  });
+});

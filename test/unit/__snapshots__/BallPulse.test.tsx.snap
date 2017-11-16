@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-aqgkbo > div,
+[data-css-aqgkbo] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<BallPulse
+  loading={true}
+>
+  <div
+    data-css-aqgkbo=""
+  >
+    <div />
+    <div />
+    <div />
+  </div>
+</BallPulse>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-aqgkbo > div,
+[data-css-aqgkbo] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-aqgkbo=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-aqgkbo > div,
+[data-css-aqgkbo] > div {
+  border-radius: 100%;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-aqgkbo=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;

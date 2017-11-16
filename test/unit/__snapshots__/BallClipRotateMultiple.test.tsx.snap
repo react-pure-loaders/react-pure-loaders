@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1thllbp,
+[data-css-1thllbp] {
+  position: relative;
+}
+
+.css-1thllbp > div,
+[data-css-1thllbp] > div {
+  animation-fill-mode: both;
+  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 100%;
+  border-top-color: transparent;
+  height: 35px;
+  left: -20px;
+  position: absolute;
+  top: -20px;
+  width: 35px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+}
+
+.css-1thllbp > div:last-child,
+[data-css-1thllbp] > div:last-child {
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+  border-color: #fff transparent #fff transparent;
+  display: inline-block;
+  height: 15px;
+  left: -10px;
+  top: -10px;
+  width: 15px;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-duration: 0.5s;
+}
+
+<BallClipRotateMultiple
+  loading={true}
+>
+  <div
+    data-css-1thllbp=""
+  >
+    <div />
+    <div />
+  </div>
+</BallClipRotateMultiple>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1thllbp,
+[data-css-1thllbp] {
+  position: relative;
+}
+
+.css-1thllbp > div,
+[data-css-1thllbp] > div {
+  animation-fill-mode: both;
+  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 100%;
+  border-top-color: transparent;
+  height: 35px;
+  left: -20px;
+  position: absolute;
+  top: -20px;
+  width: 35px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+}
+
+.css-1thllbp > div:last-child,
+[data-css-1thllbp] > div:last-child {
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+  border-color: #fff transparent #fff transparent;
+  display: inline-block;
+  height: 15px;
+  left: -10px;
+  top: -10px;
+  width: 15px;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-duration: 0.5s;
+}
+
+<div
+  data-css-1thllbp=""
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1thllbp,
+[data-css-1thllbp] {
+  position: relative;
+}
+
+.css-1thllbp > div,
+[data-css-1thllbp] > div {
+  animation-fill-mode: both;
+  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 100%;
+  border-top-color: transparent;
+  height: 35px;
+  left: -20px;
+  position: absolute;
+  top: -20px;
+  width: 35px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+}
+
+.css-1thllbp > div:last-child,
+[data-css-1thllbp] > div:last-child {
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+  border-color: #fff transparent #fff transparent;
+  display: inline-block;
+  height: 15px;
+  left: -10px;
+  top: -10px;
+  width: 15px;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-duration: 0.5s;
+}
+
+<div
+  data-css-1thllbp=""
+>
+  <div />
+  <div />
+</div>
+`;

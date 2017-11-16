@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-16vp06i,
+[data-css-16vp06i] {
+  position: relative;
+  transform: translate(-25, -25);
+  -webkit-transform: translate(-25, -25);
+}
+
+.css-16vp06i > div,
+[data-css-16vp06i] > div {
+  animation-fill-mode: both;
+  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+  background-color: #fff;
+  height: 10px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+}
+
+.css-16vp06i > div:last-child,
+[data-css-16vp06i] > div:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+}
+
+<CubeTransition
+  loading={true}
+>
+  <div
+    data-css-16vp06i=""
+  >
+    <div />
+    <div />
+  </div>
+</CubeTransition>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-16vp06i,
+[data-css-16vp06i] {
+  position: relative;
+  transform: translate(-25, -25);
+  -webkit-transform: translate(-25, -25);
+}
+
+.css-16vp06i > div,
+[data-css-16vp06i] > div {
+  animation-fill-mode: both;
+  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+  background-color: #fff;
+  height: 10px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+}
+
+.css-16vp06i > div:last-child,
+[data-css-16vp06i] > div:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+}
+
+<div
+  data-css-16vp06i=""
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-16vp06i,
+[data-css-16vp06i] {
+  position: relative;
+  transform: translate(-25, -25);
+  -webkit-transform: translate(-25, -25);
+}
+
+.css-16vp06i > div,
+[data-css-16vp06i] > div {
+  animation-fill-mode: both;
+  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+  background-color: #fff;
+  height: 10px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+}
+
+.css-16vp06i > div:last-child,
+[data-css-16vp06i] > div:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+}
+
+<div
+  data-css-16vp06i=""
+>
+  <div />
+  <div />
+</div>
+`;

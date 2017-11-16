@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-11aiart,
+[data-css-11aiart] {
+  position: relative;
+  transform: translateY(-25);
+  -webkit-transform: translateY(-25);
+}
+
+.css-11aiart > div,
+[data-css-11aiart] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  left: -26px;
+  position: absolute;
+  top: -2px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<BallScaleRippleMultiple
+  loading={true}
+>
+  <div
+    data-css-11aiart=""
+  >
+    <div />
+    <div />
+    <div />
+  </div>
+</BallScaleRippleMultiple>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-11aiart,
+[data-css-11aiart] {
+  position: relative;
+  transform: translateY(-25);
+  -webkit-transform: translateY(-25);
+}
+
+.css-11aiart > div,
+[data-css-11aiart] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  left: -26px;
+  position: absolute;
+  top: -2px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<div
+  data-css-11aiart=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-11aiart,
+[data-css-11aiart] {
+  position: relative;
+  transform: translateY(-25);
+  -webkit-transform: translateY(-25);
+}
+
+.css-11aiart > div,
+[data-css-11aiart] > div {
+  animation-fill-mode: both;
+  animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  height: 50px;
+  left: -26px;
+  position: absolute;
+  top: -2px;
+  width: 50px;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_1po4xu4 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+}
+
+<div
+  data-css-11aiart=""
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;

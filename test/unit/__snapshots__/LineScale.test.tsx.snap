@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-ffzl0i > div,
+[data-css-ffzl0i] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<LineScale
+  loading={true}
+>
+  <div
+    data-css-ffzl0i=""
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</LineScale>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-ffzl0i > div,
+[data-css-ffzl0i] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-ffzl0i=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-ffzl0i > div,
+[data-css-ffzl0i] > div {
+  border-radius: 2px;
+  height: 35px;
+  margin: 2px;
+  width: 4px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+}
+
+<div
+  data-css-ffzl0i=""
+>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

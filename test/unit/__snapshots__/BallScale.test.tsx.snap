@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enzyme.mount 1`] = `
+.css-1yz76pw > div,
+[data-css-1yz76pw] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 2px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+}
+
+<BallScale
+  loading={true}
+>
+  <div
+    data-css-1yz76pw=""
+  >
+    <div />
+  </div>
+</BallScale>
+`;
+
+exports[`enzyme.render 1`] = `
+.css-1yz76pw > div,
+[data-css-1yz76pw] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 2px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+}
+
+<div
+  data-css-1yz76pw=""
+>
+  <div />
+</div>
+`;
+
+exports[`enzyme.shallow 1`] = `
+.css-1yz76pw > div,
+[data-css-1yz76pw] > div {
+  border-radius: 100%;
+  height: 60px;
+  margin: 2px;
+  width: 60px;
+  background-color: #fff;
+  animation-fill-mode: both;
+  animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+  display: inline-block;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation: animation_3rvwq6 1s 0s ease-in-out infinite;
+}
+
+<div
+  data-css-1yz76pw=""
+>
+  <div />
+</div>
+`;
