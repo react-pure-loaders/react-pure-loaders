@@ -62,8 +62,8 @@ MIT
 [coverage]: https://coveralls.io/github/jameswlane/react-pure-loaders?branch=master
 [david-dm-badge]: https://david-dm.org/jameswlane/react-pure-loaders/status.svg
 [david-dm]: https://david-dm.org/jameswlane/react-pure-loaders
-[david-dm-dev-badge]: https://dependencyci.com/github/jameswlane/react-pure-loaders/badge?style=flat-square
-[david-dm-dev]: https://dependencyci.com/github/jameswlane/react-pure-loaders
+[david-dm-dev-badge]: https://david-dm.org/jameswlane/react-pure-loaders/dev-status.svg
+[david-dm-dev]: https://david-dm.org/jameswlane/react-pure-loaders?type=dev
 [version-badge]: https://img.shields.io/npm/v/react-pure-loaders.svg
 [package]: http://npm.im/react-pure-loaders
 [downloads-badge]: https://img.shields.io/npm/dm/react-pure-loaders.svg
