@@ -98,3 +98,5 @@ This project follows the [all-contributors][all-contributors] specification. Con
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20react-pure-loaders!%20https://github.com/jameswlane/react-pure-loaders%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/jameswlane/react-pure-loaders.svg?style=social
 [all-contributors]: https://github.com/kentcdodds/all-contributors
+[npm]: https://www.npmjs.com/
+[node]: https://nodejs.org
