@@ -2,24 +2,24 @@
 
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
-
 [![dependencies Status][david-dm-badge]][david-dm]
 [![devDependencies Status][david-dm-dev-badge]][david-dm-dev]
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npm-stat]
+
 [![MIT License][license-badge]][LICENSE]
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![FOSSA Status][fossa-badge]][fossa]
 [![Known Vulnerabilities][snyk-badge]][snyk]
 [![PRs Welcome][prs-badge]][prs]
 [![All Contributors][contributors-badge]][contributors]
+
 [![Donate][donate-badge]][donate]
 [![Code of Conduct][coc-badge]][coc]
 [![Roadmap][roadmap-badge]][roadmap]
 [![Examples][examples-badge]][examples]
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![Commitizen friendly][commitizen-badge]][commitizen]
-
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
