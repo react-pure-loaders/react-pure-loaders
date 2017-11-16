@@ -1,4 +1,8 @@
+.storybook
+coverage
 src
+stories
+test
 .nvmrc
 .travis.yml
 jest.config.js
