@@ -52,7 +52,6 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 This project follows the [all-contributors][all-contributors] specification. Contributions of any kind welcome!
 
 ## License
-MIT
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjameswlane%2Freact-pure-loaders.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjameswlane%2Freact-pure-loaders?ref=badge_large)
 
 
