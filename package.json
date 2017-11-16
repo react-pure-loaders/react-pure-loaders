@@ -7,6 +7,16 @@
   "author": "James W. Lane <james.w.lane@mac.com>",
   "license": "MIT",
   "scripts": {
+    "clean": "rimraf lib coverage",
+    "commit": "git-cz",
+    "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "coverage:report": "codecov",
+    "precommit": "lint-staged && opt --in pre-commit --exec \"yarn verify\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli all-contributors-cli",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "ts:build": "tsc",
@@ -14,15 +24,15 @@
     "tslint": "tslint --config tslint.json --project tsconfig.json \"src/**/*.ts\" \"test/**/*.test.ts\"",
     "tslint:fix": "tslint --config tslint.json --project tsconfig.json --fix \"src/**/*.ts\" \"test/**/*.test.ts\"",
     "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn verify:tscheck && yarn tslint && yarn test",
-    "verify:npmvet": "npmvet --renderer ci --strict",
+    "verify:check": "depcheck",
     "verify:david": "david",
+    "verify:npmvet": "npmvet --renderer ci --strict",
     "verify:nsp": "nsp check --output summary",
-    "verify:check": "depcheck --ignores=@types/enzyme,@types/jest",
-    "verify:tscheck": "types-checker",
-    "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli",
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "verify:tscheck": "types-checker"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "react"
   ],
@@ -41,7 +51,9 @@
     "@types/storybook__addon-actions": "3.0.1",
     "@types/storybook__addon-knobs": "3.2.1",
     "@types/storybook__react": "3.0.5",
+    "all-contributors-cli": "4.8.1",
     "awesome-typescript-loader": "3.3.0",
+    "commitizen": "2.9.6",
     "coveralls": "3.0.0",
     "css": "2.2.1",
     "cz-conventional-changelog": "2.1.0",
@@ -50,15 +62,22 @@
     "enzyme-to-json": "3.2.2",
     "jest": "21.2.1",
     "jest-glamor-react": "3.2.1",
+    "opt-cli": "1.6.0",
     "raf": "3.4.0",
     "react": "16.1.1",
     "react-dom": "16.1.1",
     "react-test-renderer": "16.1.1",
+    "rimraf": "2.6.2",
     "semantic-release": "8.2.0",
     "ts-jest": "21.2.2",
     "tslint": "5.8.0",
     "tslint-config-airbnb": "5.4.2",
-    "typescript": "2.6.1"
+    "typescript": "2.6.1",
+    "validate-commit-msg": "2.14.0"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1 || 16",
+    "react-dom": "^15.6.1 || 16"
   },
   "config": {
     "commitizen": {

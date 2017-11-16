@@ -19,3 +19,7 @@ node_modules/
 
 # MacOS
 .DS_Store
+
+# Opt In
+.opt-in
+.opt-out
