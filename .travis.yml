@@ -15,10 +15,10 @@ cache:
 before_script:
 - yarn global add npmvet david nsp depcheck types-checker
 - greenkeeper-lockfile-update
-after_script:
-- greenkeeper-lockfile-upload
 script:
 - yarn verify
+after_script:
+- greenkeeper-lockfile-upload
 after_success:
 - npm run semantic-release
 - cat ./coverage/lcov.info | coveralls
