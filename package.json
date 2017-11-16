@@ -33,7 +33,7 @@
     "verify:tscheck": "types-checker"
   },
   "files": [
-    "lib"
+    "lib/"
   ],
   "keywords": [
     "react"
