@@ -595,9 +595,9 @@ autoprefixer@^7.1.6:
     postcss "^6.0.13"
     postcss-value-parser "^3.2.3"
 
-awesome-typescript-loader@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/awesome-typescript-loader/-/awesome-typescript-loader-3.3.0.tgz#24bed5650ca0d6e95457904d9969127ba4ff3575"
+awesome-typescript-loader@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/awesome-typescript-loader/-/awesome-typescript-loader-3.4.0.tgz#aed2c83af614d617d11e3ec368ac3befb55d002f"
   dependencies:
     colors "^1.1.2"
     enhanced-resolve "3.3.0"
