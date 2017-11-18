@@ -54,7 +54,7 @@
     "@types/storybook__addon-knobs": "3.2.1",
     "@types/storybook__react": "3.0.5",
     "all-contributors-cli": "4.8.1",
-    "awesome-typescript-loader": "3.3.0",
+    "awesome-typescript-loader": "3.4.0",
     "commitizen": "2.9.6",
     "coveralls": "3.0.0",
     "css": "2.2.1",
