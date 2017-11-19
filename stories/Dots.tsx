@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import { divStyle, loadersStyle, loaderStyle } from './styles';
+
 // import { action } from '@storybook/addon-actions';
 // import { withKnobs } from '@storybook/addon-knobs';
 
@@ -25,52 +27,13 @@ import {
   BallTrianglePath,
   BallZigZag,
   BallZigZagDeflect,
-  LineScale,
-  LineScaleParty,
-  LineScalePulseOut,
-  LineScalePulseOutRapid,
-  LineScaleRandom,
-  LineSpinFadeLoader,
-  CubeTransition,
-  Pacman,
-  SemiCircleSpin,
-  SquareSpin,
-  TriangleSkewSpin,
 } from '../src/index'
 
-const stories = storiesOf('Example', module);
-const divStyle: object = {
-  padding: 0,
-  margin: 0,
-  height: '100%',
-  background: '#ed5565',
-};
-const loadersStyle: object = {
-  width: '100%',
-  boxSizing: 'border-box',
-  display: 'flex',
-  flex: '0 1 auto',
-  flexDirection: 'row',
-  flexWrap: 'wrap',
-
-};
-const loaderStyle: object = {
-  boxSizing: 'border-box',
-  display: 'flex',
-  flex: '0 1 auto',
-  flexDirection: 'column',
-  flexGrow: '1',
-  flexShrink: '0',
-  flexBasis: '25%',
-  maxWidth: '25%',
-  height: '200px',
-  alignItems: 'center',
-  justifyContent: 'center',
-};
+const stories = storiesOf('Dots', module);
 
 // stories.addDecorator(withKnobs);
 
-stories.add('Basics', () => {
+stories.add('Dots', () => {
   return (
     <div style={divStyle}>
       <div style={loadersStyle}>
@@ -176,61 +139,6 @@ stories.add('Basics', () => {
         </div>
         <div style={loaderStyle}>
           <BallZigZagDeflect
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineScale
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineScaleParty
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineScalePulseOut
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineScalePulseOutRapid
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineScaleRandom
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <LineSpinFadeLoader
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <CubeTransition
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <Pacman
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <SemiCircleSpin
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <SquareSpin
-            loading={true}
-          />
-        </div>
-        <div style={loaderStyle}>
-          <TriangleSkewSpin
             loading={true}
           />
         </div>
