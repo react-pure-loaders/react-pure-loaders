@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`variables variables to match snapshot 1`] = `
+Object {
+  "BALL_SIZE": "15px",
+  "LINE_HEIGHT": "35px",
+  "LINE_WIDTH": "4px",
+  "MARGIN": "2px",
+  "PRIMARY_COLOR": "#fff",
+}
+`;

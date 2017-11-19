@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mixins mixins to match snapshot 1`] = `
+Object {
+  "ballGrid": [Function],
+  "balls": [Function],
+  "globalAnimation": [Function],
+  "globalBg": [Function],
+  "lines": [Function],
+}
+`;
