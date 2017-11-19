@@ -14,7 +14,7 @@
     "contributors:generate": "all-contributors generate",
     "coverage:report": "coveralls",
     "precommit": "lint-staged && opt --in pre-commit --exec \"yarn verify\"",
-    "semantic-release": "ts:build && semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "yarn ts:build && semantic-release pre && npm publish && semantic-release post",
     "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli all-contributors-cli",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage",
