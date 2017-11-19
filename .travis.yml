@@ -20,6 +20,7 @@ script:
 after_script:
 - greenkeeper-lockfile-upload
 after_success:
+- yarn ts:build
 - yarn semantic-release
 - cat ./coverage/lcov.info | coveralls
 branches:
