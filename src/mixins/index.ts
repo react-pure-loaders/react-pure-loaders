@@ -7,6 +7,10 @@ import {
   PRIMARY_COLOR,
 } from '../variables';
 
+export interface IGeneralPropTypes {
+  loading: boolean;
+}
+
 interface IGrid {
   [id: string]: object;
 }
