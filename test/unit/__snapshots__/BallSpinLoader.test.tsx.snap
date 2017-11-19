@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-1fz9ub3,
-[data-css-1fz9ub3] {
+.css-1nah2hh,
+[data-css-1nah2hh] {
   position: relative;
 }
 
-.css-1fz9ub3 > div,
-[data-css-1fz9ub3] > div {
+.css-1nah2hh > div,
+[data-css-1nah2hh] > div {
   animation-fill-mode: both;
-  background: #fff;
+  background: #ffffff;
   border-radius: 100%;
   height: 15px;
   position: absolute;
@@ -21,7 +21,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1fz9ub3=""
+    data-css-1nah2hh=""
   >
     <div />
     <div />
@@ -36,15 +36,15 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-1fz9ub3,
-[data-css-1fz9ub3] {
+.css-1nah2hh,
+[data-css-1nah2hh] {
   position: relative;
 }
 
-.css-1fz9ub3 > div,
-[data-css-1fz9ub3] > div {
+.css-1nah2hh > div,
+[data-css-1nah2hh] > div {
   animation-fill-mode: both;
-  background: #fff;
+  background: #ffffff;
   border-radius: 100%;
   height: 15px;
   position: absolute;
@@ -53,7 +53,7 @@ exports[`enzyme.render 1`] = `
 }
 
 <div
-  data-css-1fz9ub3=""
+  data-css-1nah2hh=""
 >
   <div />
   <div />
@@ -67,15 +67,15 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-1fz9ub3,
-[data-css-1fz9ub3] {
+.css-1nah2hh,
+[data-css-1nah2hh] {
   position: relative;
 }
 
-.css-1fz9ub3 > div,
-[data-css-1fz9ub3] > div {
+.css-1nah2hh > div,
+[data-css-1nah2hh] > div {
   animation-fill-mode: both;
-  background: #fff;
+  background: #ffffff;
   border-radius: 100%;
   height: 15px;
   position: absolute;
@@ -84,7 +84,7 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1fz9ub3=""
+  data-css-1nah2hh=""
 >
   <div />
   <div />

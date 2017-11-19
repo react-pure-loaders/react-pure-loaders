@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-ge1ofc,
-[data-css-ge1ofc] {
+.css-18n4smc,
+[data-css-18n4smc] {
   position: relative;
   transform: translateY(-60px / 2);
   -webkit-transform: translateY(-60px / 2);
 }
 
-.css-ge1ofc > div,
-[data-css-ge1ofc] > div {
+.css-18n4smc > div,
+[data-css-18n4smc] > div {
   border-radius: 100%;
   height: 60px;
   margin: 0px;
   width: 60px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_wxokr 1s 0s linear infinite;
   left: -30px;
@@ -29,7 +29,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-ge1ofc=""
+    data-css-18n4smc=""
   >
     <div />
     <div />
@@ -39,20 +39,20 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-ge1ofc,
-[data-css-ge1ofc] {
+.css-18n4smc,
+[data-css-18n4smc] {
   position: relative;
   transform: translateY(-60px / 2);
   -webkit-transform: translateY(-60px / 2);
 }
 
-.css-ge1ofc > div,
-[data-css-ge1ofc] > div {
+.css-18n4smc > div,
+[data-css-18n4smc] > div {
   border-radius: 100%;
   height: 60px;
   margin: 0px;
   width: 60px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_wxokr 1s 0s linear infinite;
   left: -30px;
@@ -64,7 +64,7 @@ exports[`enzyme.render 1`] = `
 }
 
 <div
-  data-css-ge1ofc=""
+  data-css-18n4smc=""
 >
   <div />
   <div />
@@ -73,20 +73,20 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-ge1ofc,
-[data-css-ge1ofc] {
+.css-18n4smc,
+[data-css-18n4smc] {
   position: relative;
   transform: translateY(-60px / 2);
   -webkit-transform: translateY(-60px / 2);
 }
 
-.css-ge1ofc > div,
-[data-css-ge1ofc] > div {
+.css-18n4smc > div,
+[data-css-18n4smc] > div {
   border-radius: 100%;
   height: 60px;
   margin: 0px;
   width: 60px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_wxokr 1s 0s linear infinite;
   left: -30px;
@@ -98,7 +98,7 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-ge1ofc=""
+  data-css-18n4smc=""
 >
   <div />
   <div />

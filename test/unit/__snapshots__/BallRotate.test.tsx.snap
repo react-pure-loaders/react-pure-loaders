@@ -1,51 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-1p1hpo,
-[data-css-1p1hpo] {
+.css-nx51am,
+[data-css-nx51am] {
   position: relative;
 }
 
-.css-1p1hpo > div,
-[data-css-1p1hpo] > div {
+.css-nx51am > div,
+[data-css-nx51am] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: relative;
   -webkit-animation-fill-mode: both;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before,
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before,
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   content: '';
   opacity: 0.8;
   position: absolute;
 }
 
-.css-1p1hpo > div:first-child,
-[data-css-1p1hpo] > div:first-child {
+.css-nx51am > div:first-child,
+[data-css-nx51am] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   left: 25px;
   top: 0px;
 }
@@ -54,7 +54,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1p1hpo=""
+    data-css-nx51am=""
   >
     <div />
   </div>
@@ -62,114 +62,114 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-1p1hpo,
-[data-css-1p1hpo] {
+.css-nx51am,
+[data-css-nx51am] {
   position: relative;
 }
 
-.css-1p1hpo > div,
-[data-css-1p1hpo] > div {
+.css-nx51am > div,
+[data-css-nx51am] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: relative;
   -webkit-animation-fill-mode: both;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before,
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before,
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   content: '';
   opacity: 0.8;
   position: absolute;
 }
 
-.css-1p1hpo > div:first-child,
-[data-css-1p1hpo] > div:first-child {
+.css-nx51am > div:first-child,
+[data-css-nx51am] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   left: 25px;
   top: 0px;
 }
 
 <div
-  data-css-1p1hpo=""
+  data-css-nx51am=""
 >
   <div />
 </div>
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-1p1hpo,
-[data-css-1p1hpo] {
+.css-nx51am,
+[data-css-nx51am] {
   position: relative;
 }
 
-.css-1p1hpo > div,
-[data-css-1p1hpo] > div {
+.css-nx51am > div,
+[data-css-nx51am] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: relative;
   -webkit-animation-fill-mode: both;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before,
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before,
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   content: '';
   opacity: 0.8;
   position: absolute;
 }
 
-.css-1p1hpo > div:first-child,
-[data-css-1p1hpo] > div:first-child {
+.css-nx51am > div:first-child,
+[data-css-nx51am] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-1p1hpo > div:before,
-[data-css-1p1hpo] > div:before {
+.css-nx51am > div:before,
+[data-css-nx51am] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-1p1hpo > div:after,
-[data-css-1p1hpo] > div:after {
+.css-nx51am > div:after,
+[data-css-nx51am] > div:after {
   left: 25px;
   top: 0px;
 }
 
 <div
-  data-css-1p1hpo=""
+  data-css-nx51am=""
 >
   <div />
 </div>

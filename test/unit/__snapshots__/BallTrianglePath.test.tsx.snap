@@ -1,38 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-319xho,
-[data-css-319xho] {
+.css-utretm,
+[data-css-utretm] {
   position: relative;
   transform: translate(-29.994001199760046px, -37.50937734433609px);
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
 }
 
-.css-319xho > div,
-[data-css-319xho] > div {
+.css-utretm > div,
+[data-css-utretm] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
   width: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   position: absolute;
   -webkit-animation-fill-mode: both;
 }
 
-.css-319xho > div:nth-of-type(1),
-[data-css-319xho] > div:nth-of-type(1) {
+.css-utretm > div:nth-of-type(1),
+[data-css-utretm] > div:nth-of-type(1) {
   top: 50px;
 }
 
-.css-319xho > div:nth-of-type(2),
-[data-css-319xho] > div:nth-of-type(2) {
+.css-utretm > div:nth-of-type(2),
+[data-css-utretm] > div:nth-of-type(2) {
   left: 25px;
 }
 
-.css-319xho > div:nth-of-type(3),
-[data-css-319xho] > div:nth-of-type(3) {
+.css-utretm > div:nth-of-type(3),
+[data-css-utretm] > div:nth-of-type(3) {
   left: 50px;
   top: 50px;
 }
@@ -41,7 +41,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-319xho=""
+    data-css-utretm=""
   >
     <div />
     <div />
@@ -51,44 +51,44 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-319xho,
-[data-css-319xho] {
+.css-utretm,
+[data-css-utretm] {
   position: relative;
   transform: translate(-29.994001199760046px, -37.50937734433609px);
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
 }
 
-.css-319xho > div,
-[data-css-319xho] > div {
+.css-utretm > div,
+[data-css-utretm] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
   width: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   position: absolute;
   -webkit-animation-fill-mode: both;
 }
 
-.css-319xho > div:nth-of-type(1),
-[data-css-319xho] > div:nth-of-type(1) {
+.css-utretm > div:nth-of-type(1),
+[data-css-utretm] > div:nth-of-type(1) {
   top: 50px;
 }
 
-.css-319xho > div:nth-of-type(2),
-[data-css-319xho] > div:nth-of-type(2) {
+.css-utretm > div:nth-of-type(2),
+[data-css-utretm] > div:nth-of-type(2) {
   left: 25px;
 }
 
-.css-319xho > div:nth-of-type(3),
-[data-css-319xho] > div:nth-of-type(3) {
+.css-utretm > div:nth-of-type(3),
+[data-css-utretm] > div:nth-of-type(3) {
   left: 50px;
   top: 50px;
 }
 
 <div
-  data-css-319xho=""
+  data-css-utretm=""
 >
   <div />
   <div />
@@ -97,44 +97,44 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-319xho,
-[data-css-319xho] {
+.css-utretm,
+[data-css-utretm] {
   position: relative;
   transform: translate(-29.994001199760046px, -37.50937734433609px);
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
 }
 
-.css-319xho > div,
-[data-css-319xho] > div {
+.css-utretm > div,
+[data-css-utretm] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
   width: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   position: absolute;
   -webkit-animation-fill-mode: both;
 }
 
-.css-319xho > div:nth-of-type(1),
-[data-css-319xho] > div:nth-of-type(1) {
+.css-utretm > div:nth-of-type(1),
+[data-css-utretm] > div:nth-of-type(1) {
   top: 50px;
 }
 
-.css-319xho > div:nth-of-type(2),
-[data-css-319xho] > div:nth-of-type(2) {
+.css-utretm > div:nth-of-type(2),
+[data-css-utretm] > div:nth-of-type(2) {
   left: 25px;
 }
 
-.css-319xho > div:nth-of-type(3),
-[data-css-319xho] > div:nth-of-type(3) {
+.css-utretm > div:nth-of-type(3),
+[data-css-utretm] > div:nth-of-type(3) {
   left: 50px;
   top: 50px;
 }
 
 <div
-  data-css-319xho=""
+  data-css-utretm=""
 >
   <div />
   <div />

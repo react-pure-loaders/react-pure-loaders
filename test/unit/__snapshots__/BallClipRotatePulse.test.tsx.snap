@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-18ue25a,
-[data-css-18ue25a] {
+.css-1hs2rov,
+[data-css-1hs2rov] {
   position: relative;
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
 }
 
-.css-18ue25a > div,
-[data-css-18ue25a] > div {
+.css-1hs2rov > div,
+[data-css-1hs2rov] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   left: 0px;
   position: absolute;
@@ -22,10 +22,10 @@ exports[`enzyme.mount 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-18ue25a > div:first-child,
-[data-css-18ue25a] > div:first-child {
+.css-1hs2rov > div:first-child,
+[data-css-1hs2rov] > div:first-child {
   animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  background: #fff;
+  background: #ffffff;
   height: 16px;
   left: -7px;
   top: 7px;
@@ -33,13 +33,13 @@ exports[`enzyme.mount 1`] = `
   -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
 }
 
-.css-18ue25a > div:last-child,
-[data-css-18ue25a] > div:last-child {
+.css-1hs2rov > div:last-child,
+[data-css-1hs2rov] > div:last-child {
   animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   animation-duration: 1s;
   background: transparent;
   border: 2px solid;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   height: 30px;
   left: -16px;
   position: absolute;
@@ -53,7 +53,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-18ue25a=""
+    data-css-1hs2rov=""
   >
     <div />
     <div />
@@ -62,20 +62,20 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-18ue25a,
-[data-css-18ue25a] {
+.css-1hs2rov,
+[data-css-1hs2rov] {
   position: relative;
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
 }
 
-.css-18ue25a > div,
-[data-css-18ue25a] > div {
+.css-1hs2rov > div,
+[data-css-1hs2rov] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   left: 0px;
   position: absolute;
@@ -83,10 +83,10 @@ exports[`enzyme.render 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-18ue25a > div:first-child,
-[data-css-18ue25a] > div:first-child {
+.css-1hs2rov > div:first-child,
+[data-css-1hs2rov] > div:first-child {
   animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  background: #fff;
+  background: #ffffff;
   height: 16px;
   left: -7px;
   top: 7px;
@@ -94,13 +94,13 @@ exports[`enzyme.render 1`] = `
   -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
 }
 
-.css-18ue25a > div:last-child,
-[data-css-18ue25a] > div:last-child {
+.css-1hs2rov > div:last-child,
+[data-css-1hs2rov] > div:last-child {
   animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   animation-duration: 1s;
   background: transparent;
   border: 2px solid;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   height: 30px;
   left: -16px;
   position: absolute;
@@ -111,7 +111,7 @@ exports[`enzyme.render 1`] = `
 }
 
 <div
-  data-css-18ue25a=""
+  data-css-1hs2rov=""
 >
   <div />
   <div />
@@ -119,20 +119,20 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-18ue25a,
-[data-css-18ue25a] {
+.css-1hs2rov,
+[data-css-1hs2rov] {
   position: relative;
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
 }
 
-.css-18ue25a > div,
-[data-css-18ue25a] > div {
+.css-1hs2rov > div,
+[data-css-1hs2rov] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   left: 0px;
   position: absolute;
@@ -140,10 +140,10 @@ exports[`enzyme.shallow 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-18ue25a > div:first-child,
-[data-css-18ue25a] > div:first-child {
+.css-1hs2rov > div:first-child,
+[data-css-1hs2rov] > div:first-child {
   animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  background: #fff;
+  background: #ffffff;
   height: 16px;
   left: -7px;
   top: 7px;
@@ -151,13 +151,13 @@ exports[`enzyme.shallow 1`] = `
   -webkit-animation: animation_1abzrf2 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
 }
 
-.css-18ue25a > div:last-child,
-[data-css-18ue25a] > div:last-child {
+.css-1hs2rov > div:last-child,
+[data-css-1hs2rov] > div:last-child {
   animation: animation_e4ewoo 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   animation-duration: 1s;
   background: transparent;
   border: 2px solid;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   height: 30px;
   left: -16px;
   position: absolute;
@@ -168,7 +168,7 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-18ue25a=""
+  data-css-1hs2rov=""
 >
   <div />
   <div />

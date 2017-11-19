@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-3obct9 > div,
-[data-css-3obct9] > div {
+.css-109bfed > div,
+[data-css-109bfed] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   display: inline-block;
   -webkit-animation-fill-mode: both;
@@ -17,7 +17,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-3obct9=""
+    data-css-109bfed=""
   >
     <div />
     <div />
@@ -27,20 +27,20 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-3obct9 > div,
-[data-css-3obct9] > div {
+.css-109bfed > div,
+[data-css-109bfed] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   display: inline-block;
   -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-3obct9=""
+  data-css-109bfed=""
 >
   <div />
   <div />
@@ -49,20 +49,20 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-3obct9 > div,
-[data-css-3obct9] > div {
+.css-109bfed > div,
+[data-css-109bfed] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   display: inline-block;
   -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-3obct9=""
+  data-css-109bfed=""
 >
   <div />
   <div />

@@ -1,4 +1,4 @@
-export const PRIMARY_COLOR = '#fff';
+export const PRIMARY_COLOR = '#ffffff';
 export const BALL_SIZE = '15px';
 export const MARGIN = '2px';
 export const LINE_HEIGHT = '35px';

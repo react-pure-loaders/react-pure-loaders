@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-1thllbp,
-[data-css-1thllbp] {
+.css-hd6mcm,
+[data-css-hd6mcm] {
   position: relative;
 }
 
-.css-1thllbp > div,
-[data-css-1thllbp] > div {
+.css-hd6mcm > div,
+[data-css-hd6mcm] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   border-bottom-color: transparent;
   border-radius: 100%;
   border-top-color: transparent;
@@ -23,11 +23,11 @@ exports[`enzyme.mount 1`] = `
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-1thllbp > div:last-child,
-[data-css-1thllbp] > div:last-child {
+.css-hd6mcm > div:last-child,
+[data-css-hd6mcm] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   display: inline-block;
   height: 15px;
   left: -10px;
@@ -41,7 +41,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1thllbp=""
+    data-css-hd6mcm=""
   >
     <div />
     <div />
@@ -50,16 +50,16 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-1thllbp,
-[data-css-1thllbp] {
+.css-hd6mcm,
+[data-css-hd6mcm] {
   position: relative;
 }
 
-.css-1thllbp > div,
-[data-css-1thllbp] > div {
+.css-hd6mcm > div,
+[data-css-hd6mcm] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   border-bottom-color: transparent;
   border-radius: 100%;
   border-top-color: transparent;
@@ -72,11 +72,11 @@ exports[`enzyme.render 1`] = `
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-1thllbp > div:last-child,
-[data-css-1thllbp] > div:last-child {
+.css-hd6mcm > div:last-child,
+[data-css-hd6mcm] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   display: inline-block;
   height: 15px;
   left: -10px;
@@ -87,7 +87,7 @@ exports[`enzyme.render 1`] = `
 }
 
 <div
-  data-css-1thllbp=""
+  data-css-hd6mcm=""
 >
   <div />
   <div />
@@ -95,16 +95,16 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-1thllbp,
-[data-css-1thllbp] {
+.css-hd6mcm,
+[data-css-hd6mcm] {
   position: relative;
 }
 
-.css-1thllbp > div,
-[data-css-1thllbp] > div {
+.css-hd6mcm > div,
+[data-css-hd6mcm] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   border-bottom-color: transparent;
   border-radius: 100%;
   border-top-color: transparent;
@@ -117,11 +117,11 @@ exports[`enzyme.shallow 1`] = `
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-1thllbp > div:last-child,
-[data-css-1thllbp] > div:last-child {
+.css-hd6mcm > div:last-child,
+[data-css-hd6mcm] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
-  border-color: #fff transparent #fff transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   display: inline-block;
   height: 15px;
   left: -10px;
@@ -132,7 +132,7 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1thllbp=""
+  data-css-hd6mcm=""
 >
   <div />
   <div />

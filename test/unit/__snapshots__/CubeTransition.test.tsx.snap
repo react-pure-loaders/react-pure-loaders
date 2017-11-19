@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-16vp06i,
-[data-css-16vp06i] {
+.css-qkdply,
+[data-css-qkdply] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-16vp06i > div,
-[data-css-16vp06i] > div {
+.css-qkdply > div,
+[data-css-qkdply] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-  background-color: #fff;
+  background-color: #ffffff;
   height: 10px;
   left: -5px;
   position: absolute;
@@ -22,8 +22,8 @@ exports[`enzyme.mount 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-16vp06i > div:last-child,
-[data-css-16vp06i] > div:last-child {
+.css-qkdply > div:last-child,
+[data-css-qkdply] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
@@ -32,7 +32,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-16vp06i=""
+    data-css-qkdply=""
   >
     <div />
     <div />
@@ -41,18 +41,18 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-16vp06i,
-[data-css-16vp06i] {
+.css-qkdply,
+[data-css-qkdply] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-16vp06i > div,
-[data-css-16vp06i] > div {
+.css-qkdply > div,
+[data-css-qkdply] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-  background-color: #fff;
+  background-color: #ffffff;
   height: 10px;
   left: -5px;
   position: absolute;
@@ -62,14 +62,14 @@ exports[`enzyme.render 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-16vp06i > div:last-child,
-[data-css-16vp06i] > div:last-child {
+.css-qkdply > div:last-child,
+[data-css-qkdply] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
 
 <div
-  data-css-16vp06i=""
+  data-css-qkdply=""
 >
   <div />
   <div />
@@ -77,18 +77,18 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-16vp06i,
-[data-css-16vp06i] {
+.css-qkdply,
+[data-css-qkdply] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-16vp06i > div,
-[data-css-16vp06i] > div {
+.css-qkdply > div,
+[data-css-qkdply] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-  background-color: #fff;
+  background-color: #ffffff;
   height: 10px;
   left: -5px;
   position: absolute;
@@ -98,14 +98,14 @@ exports[`enzyme.shallow 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-16vp06i > div:last-child,
-[data-css-16vp06i] > div:last-child {
+.css-qkdply > div:last-child,
+[data-css-qkdply] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
 
 <div
-  data-css-16vp06i=""
+  data-css-qkdply=""
 >
   <div />
   <div />

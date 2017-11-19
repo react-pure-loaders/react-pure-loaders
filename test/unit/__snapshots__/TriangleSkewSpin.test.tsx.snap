@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-emfl65 > div,
-[data-css-emfl65] > div {
+.css-4f2lz1 > div,
+[data-css-4f2lz1] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  border-bottom: 20px solid #fff;
+  border-bottom: 20px solid #ffffff;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0px;
@@ -18,7 +18,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-emfl65=""
+    data-css-4f2lz1=""
   >
     <div />
   </div>
@@ -26,11 +26,11 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-emfl65 > div,
-[data-css-emfl65] > div {
+.css-4f2lz1 > div,
+[data-css-4f2lz1] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  border-bottom: 20px solid #fff;
+  border-bottom: 20px solid #ffffff;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0px;
@@ -40,18 +40,18 @@ exports[`enzyme.render 1`] = `
 }
 
 <div
-  data-css-emfl65=""
+  data-css-4f2lz1=""
 >
   <div />
 </div>
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-emfl65 > div,
-[data-css-emfl65] > div {
+.css-4f2lz1 > div,
+[data-css-4f2lz1] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  border-bottom: 20px solid #fff;
+  border-bottom: 20px solid #ffffff;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0px;
@@ -61,7 +61,7 @@ exports[`enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-emfl65=""
+  data-css-4f2lz1=""
 >
   <div />
 </div>

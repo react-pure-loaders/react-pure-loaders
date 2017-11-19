@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`enzyme.mount 1`] = `
-.css-7rrckc,
-[data-css-7rrckc] {
+.css-msxlra,
+[data-css-msxlra] {
   left: -10px;
   position: relative;
   top: -10px;
 }
 
-.css-7rrckc > div,
-[data-css-7rrckc] > div {
+.css-msxlra > div,
+[data-css-msxlra] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: absolute;
   -webkit-animation-fill-mode: both;
@@ -24,7 +24,7 @@ exports[`enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-7rrckc=""
+    data-css-msxlra=""
   >
     <div />
     <div />
@@ -39,27 +39,27 @@ exports[`enzyme.mount 1`] = `
 `;
 
 exports[`enzyme.render 1`] = `
-.css-7rrckc,
-[data-css-7rrckc] {
+.css-msxlra,
+[data-css-msxlra] {
   left: -10px;
   position: relative;
   top: -10px;
 }
 
-.css-7rrckc > div,
-[data-css-7rrckc] > div {
+.css-msxlra > div,
+[data-css-msxlra] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: absolute;
   -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-7rrckc=""
+  data-css-msxlra=""
 >
   <div />
   <div />
@@ -73,27 +73,27 @@ exports[`enzyme.render 1`] = `
 `;
 
 exports[`enzyme.shallow 1`] = `
-.css-7rrckc,
-[data-css-7rrckc] {
+.css-msxlra,
+[data-css-msxlra] {
   left: -10px;
   position: relative;
   top: -10px;
 }
 
-.css-7rrckc > div,
-[data-css-7rrckc] > div {
+.css-msxlra > div,
+[data-css-msxlra] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   animation-fill-mode: both;
   position: absolute;
   -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-7rrckc=""
+  data-css-msxlra=""
 >
   <div />
   <div />
