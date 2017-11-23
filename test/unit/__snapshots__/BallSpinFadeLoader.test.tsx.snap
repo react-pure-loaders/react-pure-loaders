@@ -8,6 +8,70 @@ exports[`enzyme.mount 1`] = `
   top: -10px;
 }
 
+.css-msxlra> div:nth-child(1),
+[data-css-msxlra]> div:nth-child(1) {
+  animation: animation_1p1c5n7 1s -0.96s infinite linear;
+  left: 0;
+  top: 25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
+}
+
+.css-msxlra> div:nth-child(2),
+[data-css-msxlra]> div:nth-child(2) {
+  animation: animation_1p1c5n7 1s -0.84s infinite linear;
+  left: 17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
+}
+
+.css-msxlra> div:nth-child(3),
+[data-css-msxlra]> div:nth-child(3) {
+  animation: animation_1p1c5n7 1s -0.72s infinite linear;
+  left: 25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
+}
+
+.css-msxlra> div:nth-child(4),
+[data-css-msxlra]> div:nth-child(4) {
+  animation: animation_1p1c5n7 1s -0.60s infinite linear;
+  left: 17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
+}
+
+.css-msxlra> div:nth-child(5),
+[data-css-msxlra]> div:nth-child(5) {
+  animation: animation_1p1c5n7 1s -0.48s infinite linear;
+  left: 0;
+  top: -25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
+}
+
+.css-msxlra> div:nth-child(6),
+[data-css-msxlra]> div:nth-child(6) {
+  animation: animation_1p1c5n7 1s -0.36s infinite linear;
+  left: -17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
+}
+
+.css-msxlra> div:nth-child(7),
+[data-css-msxlra]> div:nth-child(7) {
+  animation: animation_1p1c5n7 1s -0.24s infinite linear;
+  left: -25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
+}
+
+.css-msxlra> div:nth-child(8),
+[data-css-msxlra]> div:nth-child(8) {
+  animation: animation_1p1c5n7 1s -0.12s infinite linear;
+  left: -17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
+}
+
 .css-msxlra > div,
 [data-css-msxlra] > div {
   border-radius: 100%;
@@ -46,6 +110,70 @@ exports[`enzyme.render 1`] = `
   top: -10px;
 }
 
+.css-msxlra> div:nth-child(1),
+[data-css-msxlra]> div:nth-child(1) {
+  animation: animation_1p1c5n7 1s -0.96s infinite linear;
+  left: 0;
+  top: 25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
+}
+
+.css-msxlra> div:nth-child(2),
+[data-css-msxlra]> div:nth-child(2) {
+  animation: animation_1p1c5n7 1s -0.84s infinite linear;
+  left: 17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
+}
+
+.css-msxlra> div:nth-child(3),
+[data-css-msxlra]> div:nth-child(3) {
+  animation: animation_1p1c5n7 1s -0.72s infinite linear;
+  left: 25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
+}
+
+.css-msxlra> div:nth-child(4),
+[data-css-msxlra]> div:nth-child(4) {
+  animation: animation_1p1c5n7 1s -0.60s infinite linear;
+  left: 17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
+}
+
+.css-msxlra> div:nth-child(5),
+[data-css-msxlra]> div:nth-child(5) {
+  animation: animation_1p1c5n7 1s -0.48s infinite linear;
+  left: 0;
+  top: -25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
+}
+
+.css-msxlra> div:nth-child(6),
+[data-css-msxlra]> div:nth-child(6) {
+  animation: animation_1p1c5n7 1s -0.36s infinite linear;
+  left: -17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
+}
+
+.css-msxlra> div:nth-child(7),
+[data-css-msxlra]> div:nth-child(7) {
+  animation: animation_1p1c5n7 1s -0.24s infinite linear;
+  left: -25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
+}
+
+.css-msxlra> div:nth-child(8),
+[data-css-msxlra]> div:nth-child(8) {
+  animation: animation_1p1c5n7 1s -0.12s infinite linear;
+  left: -17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
+}
+
 .css-msxlra > div,
 [data-css-msxlra] > div {
   border-radius: 100%;
@@ -78,6 +206,70 @@ exports[`enzyme.shallow 1`] = `
   left: -10px;
   position: relative;
   top: -10px;
+}
+
+.css-msxlra> div:nth-child(1),
+[data-css-msxlra]> div:nth-child(1) {
+  animation: animation_1p1c5n7 1s -0.96s infinite linear;
+  left: 0;
+  top: 25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
+}
+
+.css-msxlra> div:nth-child(2),
+[data-css-msxlra]> div:nth-child(2) {
+  animation: animation_1p1c5n7 1s -0.84s infinite linear;
+  left: 17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
+}
+
+.css-msxlra> div:nth-child(3),
+[data-css-msxlra]> div:nth-child(3) {
+  animation: animation_1p1c5n7 1s -0.72s infinite linear;
+  left: 25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
+}
+
+.css-msxlra> div:nth-child(4),
+[data-css-msxlra]> div:nth-child(4) {
+  animation: animation_1p1c5n7 1s -0.60s infinite linear;
+  left: 17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
+}
+
+.css-msxlra> div:nth-child(5),
+[data-css-msxlra]> div:nth-child(5) {
+  animation: animation_1p1c5n7 1s -0.48s infinite linear;
+  left: 0;
+  top: -25px;
+  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
+}
+
+.css-msxlra> div:nth-child(6),
+[data-css-msxlra]> div:nth-child(6) {
+  animation: animation_1p1c5n7 1s -0.36s infinite linear;
+  left: -17.045454545454547px;
+  top: -17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
+}
+
+.css-msxlra> div:nth-child(7),
+[data-css-msxlra]> div:nth-child(7) {
+  animation: animation_1p1c5n7 1s -0.24s infinite linear;
+  left: -25px;
+  top: 0;
+  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
+}
+
+.css-msxlra> div:nth-child(8),
+[data-css-msxlra]> div:nth-child(8) {
+  animation: animation_1p1c5n7 1s -0.12s infinite linear;
+  left: -17.045454545454547px;
+  top: 17.045454545454547px;
+  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
 }
 
 .css-msxlra > div,

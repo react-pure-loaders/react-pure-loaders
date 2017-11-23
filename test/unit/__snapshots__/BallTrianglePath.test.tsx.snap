@@ -8,6 +8,48 @@ exports[`enzyme.mount 1`] = `
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
 }
 
+.css-utretm> div:nth-child(1),
+[data-css-utretm]> div:nth-child(1) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_au0907;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_au0907;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(2),
+[data-css-utretm]> div:nth-child(2) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_99wcyi;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_99wcyi;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(3),
+[data-css-utretm]> div:nth-child(3) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_13149w0;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_13149w0;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
 .css-utretm > div,
 [data-css-utretm] > div {
   border-radius: 100%;
@@ -58,6 +100,48 @@ exports[`enzyme.render 1`] = `
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
 }
 
+.css-utretm> div:nth-child(1),
+[data-css-utretm]> div:nth-child(1) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_au0907;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_au0907;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(2),
+[data-css-utretm]> div:nth-child(2) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_99wcyi;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_99wcyi;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(3),
+[data-css-utretm]> div:nth-child(3) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_13149w0;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_13149w0;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
 .css-utretm > div,
 [data-css-utretm] > div {
   border-radius: 100%;
@@ -102,6 +186,48 @@ exports[`enzyme.shallow 1`] = `
   position: relative;
   transform: translate(-29.994001199760046px, -37.50937734433609px);
   -webkit-transform: translate(-29.994001199760046px, -37.50937734433609px);
+}
+
+.css-utretm> div:nth-child(1),
+[data-css-utretm]> div:nth-child(1) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_au0907;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_au0907;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(2),
+[data-css-utretm]> div:nth-child(2) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_99wcyi;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_99wcyi;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.css-utretm> div:nth-child(3),
+[data-css-utretm]> div:nth-child(3) {
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animation_13149w0;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: animation_13149w0;
+  -webkit-animation-timing-function: ease-in-out;
 }
 
 .css-utretm > div,
