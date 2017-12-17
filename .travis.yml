@@ -1,32 +1,59 @@
 language: node_js
 node_js:
-- '9'
-- '8'
-- '7'
-- '6'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+os:
+  - linux
+  - osx
 before_install:
-- curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
-- export PATH="$HOME/.yarn/bin:$PATH"
-- yarn global add greenkeeper-lockfile@1
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.3.2
+  - export PATH="$HOME/.yarn/bin:$PATH"
 cache:
   yarn: true
   directories:
   - "~/.npm"
-before_script:
-- yarn global add npmvet david nsp depcheck types-checker
-- greenkeeper-lockfile-update
+notifications:
+  email: false
 script:
-- yarn verify:ci
-after_script:
-- greenkeeper-lockfile-upload
-after_success:
-- yarn ts:build
-- yarn semantic-release
-- cat ./coverage/lcov.info | coveralls
+  - yarn test:ci
+jobs:
+  include:
+    - stage: NPM Vet
+      node_js: "8"
+      before_script:
+        - yarn global add npmvet
+      script: yarn verify:npmvet
+    - stage: Node Security
+      node_js: "8"
+      before_script:
+        - yarn global add nsp
+      script: yarn verify:nsp
+    - stage: TSLint
+      node_js: "8"
+      script: yarn tslint
+    - stage: Code Coverage
+      node_js: "8"
+      script: yarn test:coverage:ci
+      after_success:
+        - cat ./coverage/lcov.info | coveralls
+    - stage: Build and deploy
+      node_js: "8"
+      before_script:
+        - yarn global add greenkeeper-lockfile@1
+        - greenkeeper-lockfile-update
+      script:
+        - yarn ts:build
+      after_script:
+        - greenkeeper-lockfile-upload
+      after_success:
+        - yarn semantic-release
 branches:
   except:
-  - "/^v\\d+\\.\\d+\\.\\d+$/"
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
 env:
   global:
-  - secure: ipXtZ3ZM0DexMLT6Z3Rir8Jd2By9yR1kVZK7EMZyj9jczRRTKKYoCZ9kgestFTevBBXK/o1tvaexq4fbpmwTYmzWsVorRRBvMTm53OPW3CpObafSPD1qyPWI74tJIVGAs5P/KYtWRMPHkFwGapkHdt6ZnQ1jufBEavlmTUtbLzxrLBab1cm5ylTeWfBjwREyU/WPyn+aRW4vUrVGUjeW/LVCfrzGZUlVZqFC2WEdh1lDEovWaO9Mrik/IJvFeJQD3N00oG61tEHr11KnrLUexoiimVs3JSwCUbsYBNEnjViBN4W62h07mG5RVKvOkIE+VG2Kr51LVhHlfHOjb3qGWzyCxb7eE+LcClUnfNu4XAgqW++3/vXVMP9+4kPjfrq37Ajgjj8XKeNPju+GzluYsuUuhaOjI0O6z1yxFJf15IN+/hyPOdy+pmB2l+GrwaknbG0aHPav8ifKV+K4rvIi54PnJxyk23395RrTBbg8OgCMHs2fu/9ekkMmi4oSmfefgNGJLD53oTYugzZ+n/ee6pbmKOvM6XntTKZk81S8BjbtuaP9wb5qm3sGxv+BRrgnDHP3s2Xno5bu/GhVFj0AQO6tsAgwmyfuUk8HWk5zDjAwXFM/J0o9Ki6dRFTHcen8Y7Qpn6plVmkQFodJbSh/foiexOIDAUKK9Z03l5IaQKQ=
-  - secure: MQIbhgRuvwA0gqKs7G8ZFA2S65aQ4oYIYIjIXTf2LJDhZFwP18xCgEs0lTHvWKXYfGnQfR9Xws2x+y5umaPqlBuJ7CJ7rsv+AcUQoak/P69CtUD2va2IcOXOBAb13zlCtNHxVM2sj8NvkCBoAxKo7A4HY8Nv4gAihS3fiekqFWv5yBHQOf1k2Jt7FOuSNm0n/a1z1L4c8Pe/n9rgQhH8KP4CUAOwZrkXZ50AmUZ8I9W4BBSrCcVVW5B430FfJYmCxNJ4QoryXpDy/r7/aZg7H0dox4Y9pjgYfUz1aEDpjFsoXjU1lCh/u2ms36Z73UJFuqN91cJkOlCU0QbWzL0kQPu2J6OyFghV/o+v1EsuhlxslJz9NvmaJxeB+UjucSlPAvjH0bjMBZcux1+j/FG7ieaPjS/w2RRHpyM+GUkF++egrezqkDnueBPUmDWPC3q6wf7DaP5StrhuYoJqVmxhrmt/BWLPMWmkXmbX/28DU6sMCVk0d73M5eJcuW1vRkKy9A1u/oWBDrplj2eNaV2bw5k0Qs3YZnGKnPK5n3O2iNp+woUwl9nXY+aGdoiTPuqfgXoZJwReom2umQvZ0eXoZpy6nSVmF+RhH5ZKCB5lb3xXXGSRSD4FoIt1nTcIj87dy1Bmj34Jifco16WEZM/sg0xJmUJS7KQmevOKeZmxBLY=
+    - BUILD_LEADER_ID=13
+    - secure: ipXtZ3ZM0DexMLT6Z3Rir8Jd2By9yR1kVZK7EMZyj9jczRRTKKYoCZ9kgestFTevBBXK/o1tvaexq4fbpmwTYmzWsVorRRBvMTm53OPW3CpObafSPD1qyPWI74tJIVGAs5P/KYtWRMPHkFwGapkHdt6ZnQ1jufBEavlmTUtbLzxrLBab1cm5ylTeWfBjwREyU/WPyn+aRW4vUrVGUjeW/LVCfrzGZUlVZqFC2WEdh1lDEovWaO9Mrik/IJvFeJQD3N00oG61tEHr11KnrLUexoiimVs3JSwCUbsYBNEnjViBN4W62h07mG5RVKvOkIE+VG2Kr51LVhHlfHOjb3qGWzyCxb7eE+LcClUnfNu4XAgqW++3/vXVMP9+4kPjfrq37Ajgjj8XKeNPju+GzluYsuUuhaOjI0O6z1yxFJf15IN+/hyPOdy+pmB2l+GrwaknbG0aHPav8ifKV+K4rvIi54PnJxyk23395RrTBbg8OgCMHs2fu/9ekkMmi4oSmfefgNGJLD53oTYugzZ+n/ee6pbmKOvM6XntTKZk81S8BjbtuaP9wb5qm3sGxv+BRrgnDHP3s2Xno5bu/GhVFj0AQO6tsAgwmyfuUk8HWk5zDjAwXFM/J0o9Ki6dRFTHcen8Y7Qpn6plVmkQFodJbSh/foiexOIDAUKK9Z03l5IaQKQ=
+    - secure: MQIbhgRuvwA0gqKs7G8ZFA2S65aQ4oYIYIjIXTf2LJDhZFwP18xCgEs0lTHvWKXYfGnQfR9Xws2x+y5umaPqlBuJ7CJ7rsv+AcUQoak/P69CtUD2va2IcOXOBAb13zlCtNHxVM2sj8NvkCBoAxKo7A4HY8Nv4gAihS3fiekqFWv5yBHQOf1k2Jt7FOuSNm0n/a1z1L4c8Pe/n9rgQhH8KP4CUAOwZrkXZ50AmUZ8I9W4BBSrCcVVW5B430FfJYmCxNJ4QoryXpDy/r7/aZg7H0dox4Y9pjgYfUz1aEDpjFsoXjU1lCh/u2ms36Z73UJFuqN91cJkOlCU0QbWzL0kQPu2J6OyFghV/o+v1EsuhlxslJz9NvmaJxeB+UjucSlPAvjH0bjMBZcux1+j/FG7ieaPjS/w2RRHpyM+GUkF++egrezqkDnueBPUmDWPC3q6wf7DaP5StrhuYoJqVmxhrmt/BWLPMWmkXmbX/28DU6sMCVk0d73M5eJcuW1vRkKy9A1u/oWBDrplj2eNaV2bw5k0Qs3YZnGKnPK5n3O2iNp+woUwl9nXY+aGdoiTPuqfgXoZJwReom2umQvZ0eXoZpy6nSVmF+RhH5ZKCB5lb3xXXGSRSD4FoIt1nTcIj87dy1Bmj34Jifco16WEZM/sg0xJmUJS7KQmevOKeZmxBLY=
