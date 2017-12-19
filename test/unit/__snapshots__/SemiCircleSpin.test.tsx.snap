@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<SemiCircleSpin> <SemiCircleSpin> Mount: enzyme.mount 1`] = `
 .css-buupqx,
 [data-css-buupqx] {
   height: 35px;
@@ -36,7 +36,7 @@ exports[`enzyme.mount 1`] = `
 </SemiCircleSpin>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<SemiCircleSpin> <SemiCircleSpin> Render: enzyme.render 1`] = `
 .css-buupqx,
 [data-css-buupqx] {
   height: 35px;
@@ -68,7 +68,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<SemiCircleSpin> <SemiCircleSpin> Shallow: enzyme.shallow 1`] = `
 .css-buupqx,
 [data-css-buupqx] {
   height: 35px;
