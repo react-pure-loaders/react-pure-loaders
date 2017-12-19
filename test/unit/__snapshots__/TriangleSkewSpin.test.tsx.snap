@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<TriangleSkewSpin> <TriangleSkewSpin> Mount: enzyme.mount 1`] = `
 .css-4f2lz1 > div,
 [data-css-4f2lz1] > div {
   animation-fill-mode: both;
@@ -25,7 +25,7 @@ exports[`enzyme.mount 1`] = `
 </TriangleSkewSpin>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<TriangleSkewSpin> <TriangleSkewSpin> Render: enzyme.render 1`] = `
 .css-4f2lz1 > div,
 [data-css-4f2lz1] > div {
   animation-fill-mode: both;
@@ -46,7 +46,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<TriangleSkewSpin> <TriangleSkewSpin> Shallow: enzyme.shallow 1`] = `
 .css-4f2lz1 > div,
 [data-css-4f2lz1] > div {
   animation-fill-mode: both;
