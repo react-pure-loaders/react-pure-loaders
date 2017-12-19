@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallClipRotatePulse> mount to match snapshot: enzyme.mount 1`] = `
 .css-1hs2rov,
 [data-css-1hs2rov] {
   position: relative;
@@ -61,7 +61,7 @@ exports[`enzyme.mount 1`] = `
 </BallClipRotatePulse>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallClipRotatePulse> render to match snapshot: enzyme.render 1`] = `
 .css-1hs2rov,
 [data-css-1hs2rov] {
   position: relative;
@@ -118,7 +118,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallClipRotatePulse> shallow to match snapshot: enzyme.shallow 1`] = `
 .css-1hs2rov,
 [data-css-1hs2rov] {
   position: relative;
