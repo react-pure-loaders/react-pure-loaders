@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
 .css-nx51am,
 [data-css-nx51am] {
   position: relative;
@@ -61,7 +61,7 @@ exports[`enzyme.mount 1`] = `
 </BallRotate>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallRotate> <BallRotate> Render: enzyme.render 1`] = `
 .css-nx51am,
 [data-css-nx51am] {
   position: relative;
@@ -118,7 +118,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallRotate> <BallRotate> Shallow: enzyme.shallow 1`] = `
 .css-nx51am,
 [data-css-nx51am] {
   position: relative;
