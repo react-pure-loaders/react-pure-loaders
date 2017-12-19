@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
 .css-1q13ncp,
 [data-css-1q13ncp] {
   position: relative;
@@ -47,7 +47,7 @@ exports[`enzyme.mount 1`] = `
 </BallZigZagDeflect>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallZigZagDeflect> <BallZigZagDeflect> Render: enzyme.render 1`] = `
 .css-1q13ncp,
 [data-css-1q13ncp] {
   position: relative;
@@ -90,7 +90,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallZigZagDeflect> <BallZigZagDeflect> Shallow: enzyme.shallow 1`] = `
 .css-1q13ncp,
 [data-css-1q13ncp] {
   position: relative;
