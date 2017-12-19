@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallPulseRound> <BallPulseRound> Mount: enzyme.mount 1`] = `
 .css-1lgrkv4 > div,
 [data-css-1lgrkv4] > div {
   border-radius: 100%;
@@ -25,7 +25,7 @@ exports[`enzyme.mount 1`] = `
 </BallPulseRound>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallPulseRound> <BallPulseRound> Render: enzyme.render 1`] = `
 .css-1lgrkv4 > div,
 [data-css-1lgrkv4] > div {
   border-radius: 100%;
@@ -46,7 +46,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallPulseRound> <BallPulseRound> Shallow: enzyme.shallow 1`] = `
 .css-1lgrkv4 > div,
 [data-css-1lgrkv4] > div {
   border-radius: 100%;
