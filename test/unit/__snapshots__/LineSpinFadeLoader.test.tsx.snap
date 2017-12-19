@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
 .css-11jr1oo,
 [data-css-11jr1oo] {
   position: relative;
@@ -96,7 +96,7 @@ exports[`enzyme.mount 1`] = `
 </Pacman>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
 .css-11jr1oo,
 [data-css-11jr1oo] {
   position: relative;
@@ -188,7 +188,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<Pacman> <Pacman> Shallow: enzyme.shallow 1`] = `
 .css-11jr1oo,
 [data-css-11jr1oo] {
   position: relative;
