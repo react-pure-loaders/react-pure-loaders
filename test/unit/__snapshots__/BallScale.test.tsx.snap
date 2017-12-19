@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallScale> <BallScale> Mount: enzyme.mount 1`] = `
 .css-1xhpmu3 > div,
 [data-css-1xhpmu3] > div {
   border-radius: 100%;
@@ -26,7 +26,7 @@ exports[`enzyme.mount 1`] = `
 </BallScale>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallScale> <BallScale> Render: enzyme.render 1`] = `
 .css-1xhpmu3 > div,
 [data-css-1xhpmu3] > div {
   border-radius: 100%;
@@ -48,7 +48,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallScale> <BallScale> Shallow: enzyme.shallow 1`] = `
 .css-1xhpmu3 > div,
 [data-css-1xhpmu3] > div {
   border-radius: 100%;
