@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallPulse> <BallPulse> Mount: enzyme.mount 1`] = `
 .css-4xz5wq> div:nth-child(1),
 [data-css-4xz5wq]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
@@ -44,7 +44,7 @@ exports[`enzyme.mount 1`] = `
 </BallPulse>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallPulse> <BallPulse> Render: enzyme.render 1`] = `
 .css-4xz5wq> div:nth-child(1),
 [data-css-4xz5wq]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
@@ -84,7 +84,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallPulse> <BallPulse> Shallow: enzyme.shallow 1`] = `
 .css-4xz5wq> div:nth-child(1),
 [data-css-4xz5wq]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
