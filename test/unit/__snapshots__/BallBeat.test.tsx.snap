@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`enzyme.mount 1`] = `
+exports[`<BallBeat> mount to match snapshot: enzyme.mount 1`] = `
 .css-17rbjo5 > div,
 [data-css-17rbjo5] > div {
   border-radius: 100%;
@@ -34,7 +34,7 @@ exports[`enzyme.mount 1`] = `
 </BallBeat>
 `;
 
-exports[`enzyme.render 1`] = `
+exports[`<BallBeat> render to match snapshot: enzyme.render 1`] = `
 .css-17rbjo5 > div,
 [data-css-17rbjo5] > div {
   border-radius: 100%;
@@ -64,7 +64,7 @@ exports[`enzyme.render 1`] = `
 </div>
 `;
 
-exports[`enzyme.shallow 1`] = `
+exports[`<BallBeat> shallow to match snapshot: enzyme.shallow 1`] = `
 .css-17rbjo5 > div,
 [data-css-17rbjo5] > div {
   border-radius: 100%;
