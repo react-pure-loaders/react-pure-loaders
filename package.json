@@ -63,7 +63,7 @@
     "enzyme": "3.2.0",
     "enzyme-adapter-react-16": "1.1.1",
     "enzyme-to-json": "3.3.0",
-    "jest": "22.0.1",
+    "jest": "22.0.3",
     "jest-glamor-react": "3.2.2",
     "lint-staged": "6.0.0",
     "opt-cli": "1.6.0",
