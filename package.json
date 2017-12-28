@@ -47,7 +47,7 @@
     "glamor": "2.20.40"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "3.3.1",
+    "@storybook/addon-actions": "3.3.2",
     "@storybook/addon-knobs": "3.3.1",
     "@storybook/react": "3.3.1",
     "@types/node": "8.5.2",
