@@ -279,9 +279,9 @@
   version "8.0.53"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
 
-"@types/node@8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.2.tgz#83b8103fa9a2c2e83d78f701a9aa7c9539739aa5"
+"@types/node@8.5.3":
+  version "8.5.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.3.tgz#5cf2fa867d4b663d14a60eaa345f81678c21c41c"
 
 "@types/react@*", "@types/react@^16.0.18":
   version "16.0.23"
@@ -297,9 +297,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/storybook__react@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-3.0.5.tgz#aea4d67146a59de9cf5bacfe8bd24f7abd6128a6"
+"@types/storybook__react@3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-3.0.6.tgz#f4c0e59dc2051772e31764237919d579dc4b596f"
   dependencies:
     "@types/react" "*"
     "@types/webpack-env" "*"
