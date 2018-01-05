@@ -279,9 +279,9 @@
   version "8.0.53"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
 
-"@types/node@8.5.3":
-  version "8.5.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.3.tgz#5cf2fa867d4b663d14a60eaa345f81678c21c41c"
+"@types/node@8.5.7":
+  version "8.5.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.7.tgz#9c498c35af354dcfbca3790fb2e81129e93cf0e2"
 
 "@types/react@*", "@types/react@^16.0.18":
   version "16.0.23"
