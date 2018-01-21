@@ -4933,9 +4933,9 @@ jest-get-type@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-22.1.0.tgz#4e90af298ed6181edc85d2da500dbd2753e0d5a9"
 
-jest-glamor-react@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/jest-glamor-react/-/jest-glamor-react-3.2.2.tgz#aa3f12c6f6efc2eb6895e510ccfe871b5f7dfab5"
+jest-glamor-react@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/jest-glamor-react/-/jest-glamor-react-3.3.0.tgz#86be9bf699a4e20fa4f6e29d8f93d6c3b8f58cd5"
   dependencies:
     chalk "^1.1.3"
     css "^2.2.1"
