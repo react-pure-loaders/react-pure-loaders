@@ -3,7 +3,7 @@ version: 2
 docker_defaults: &docker_defaults
   docker:
     - image: circleci/node:8
-  working_directory: ~/project/status-board
+  working_directory: ~/project/react-pure-loaders
 
 attach_workspace: &attach_workspace
   attach_workspace:
@@ -25,7 +25,7 @@ install_steps: &install_steps
           sudo npm install -g greenkeeper-lockfile@1
     - run:
         name: Install Dependencies
-        command: yarn install --frozen-lockfile
+        command: yarn install
     - run:
         name: Updating Lockfiles
         command: |
@@ -42,7 +42,7 @@ install_steps: &install_steps
     - persist_to_workspace:
         root: ~/project
         paths:
-          - status-board
+          - react-pure-loaders
 
 test_steps: &test_steps
   steps:
@@ -51,7 +51,7 @@ test_steps: &test_steps
         key: node-modules-{{ .Branch }}-{{ checksum "yarn.lock" }}
     - run:
         name: Install Local Packages
-        command: yarn install --ignore-engines --frozen-lockfile
+        command: yarn install --ignore-engines
     - run:
         name: Test Suite
         command: yarn test:ci
@@ -95,13 +95,13 @@ jobs:
           path: reports/tslint
 
   test-node-6:
-    working_directory: ~/status-board
+    working_directory: ~/react-pure-loaders
     docker:
       - image: circleci/node:6
     <<: *test_steps
 
   test-node-7:
-    working_directory: ~/status-board
+    working_directory: ~/react-pure-loaders
     docker:
       - image: circleci/node:7
     <<: *test_steps
@@ -111,7 +111,7 @@ jobs:
     <<: *test_steps
 
   test-node-9:
-    working_directory: ~/status-board
+    working_directory: ~/react-pure-loaders
     docker:
       - image: circleci/node:9
     <<: *test_steps
@@ -151,7 +151,7 @@ jobs:
       - persist_to_workspace:
           root: ~/project
           paths:
-            - status-board
+            - react-pure-loaders
 
   semantic-release:
     <<: *docker_defaults
