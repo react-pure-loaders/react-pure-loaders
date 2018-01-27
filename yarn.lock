@@ -7785,9 +7785,9 @@ schema-utils@^0.4.2:
     ajv "^5.0.0"
     ajv-keywords "^2.1.0"
 
-semantic-release@12.4.0:
-  version "12.4.0"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-12.4.0.tgz#8540a62ffc61cf1e2e1e5c1a049c7d8bc4ae7db9"
+semantic-release@12.4.1:
+  version "12.4.1"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-12.4.1.tgz#4faeee44fe7fbebbc7af8cc9e3522eb7877a0260"
   dependencies:
     "@semantic-release/commit-analyzer" "^5.0.0"
     "@semantic-release/error" "^2.1.0"
