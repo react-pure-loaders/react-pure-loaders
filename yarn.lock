@@ -281,9 +281,9 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-3.0.1.tgz#e76b6cc3e6221d6578962a2ae59c3c33b6762453"
 
-"@types/storybook__addon-knobs@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-3.2.1.tgz#d16f1e8d0bd4c52d0a3736ab93a5782493e82cf5"
+"@types/storybook__addon-knobs@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-3.2.2.tgz#74713ca4b8dcf10418cdaa8cd44ec11542f1373b"
   dependencies:
     "@types/react" "*"
 
