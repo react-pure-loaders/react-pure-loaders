@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "3.3.11",
-    "@storybook/addon-knobs": "3.3.11",
+    "@storybook/addon-knobs": "3.3.12",
     "@storybook/react": "3.3.11",
     "@types/node": "9.4.0",
     "@types/storybook__addon-actions": "3.0.1",
