@@ -77,7 +77,7 @@
     "semantic-release": "12.4.1",
     "ts-jest": "22.0.3",
     "tslint": "5.9.1",
-    "tslint-config-airbnb": "5.5.0",
+    "tslint-config-airbnb": "5.6.0",
     "typescript": "2.7.1",
     "validate-commit-msg": "2.14.0"
   },
