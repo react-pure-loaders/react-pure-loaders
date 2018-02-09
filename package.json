@@ -51,7 +51,7 @@
     "@storybook/addon-actions": "3.3.12",
     "@storybook/addon-knobs": "3.3.12",
     "@storybook/react": "3.3.12",
-    "@types/node": "9.4.2",
+    "@types/node": "9.4.4",
     "@types/storybook__addon-actions": "3.0.1",
     "@types/storybook__addon-knobs": "3.2.2",
     "@types/storybook__react": "3.0.6",
