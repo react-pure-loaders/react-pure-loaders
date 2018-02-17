@@ -67,7 +67,7 @@
     "enzyme-to-json": "3.3.1",
     "jest": "22.2.2",
     "jest-glamor-react": "3.3.0",
-    "lint-staged": "6.1.0",
+    "lint-staged": "6.1.1",
     "opt-cli": "1.6.0",
     "raf": "3.4.0",
     "react": "16.2.0",
