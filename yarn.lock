@@ -79,9 +79,9 @@
     react-inspector "^2.2.2"
     uuid "^3.1.0"
 
-"@storybook/addon-knobs@3.3.13":
-  version "3.3.13"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.3.13.tgz#21e1bf22dfb83a62c74223f6e01620225dbff219"
+"@storybook/addon-knobs@3.3.14":
+  version "3.3.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.3.14.tgz#129b8273006906236882de7c4a8daba416bc9c48"
   dependencies:
     babel-runtime "^6.26.0"
     deep-equal "^1.0.1"
