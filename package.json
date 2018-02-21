@@ -50,7 +50,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "3.3.13",
     "@storybook/addon-knobs": "3.3.13",
-    "@storybook/react": "3.3.13",
+    "@storybook/react": "3.3.14",
     "@types/node": "9.4.6",
     "@types/storybook__addon-actions": "3.0.2",
     "@types/storybook__addon-knobs": "3.2.3",
