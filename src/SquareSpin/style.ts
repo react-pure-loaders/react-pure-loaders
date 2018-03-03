@@ -17,14 +17,14 @@ const squareSpin = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
   {
     ' > div': {
       animation: `${squareSpin} 3s 0s cubic-bezier(.09,.57,.49,.9) infinite`,
-      background: PRIMARY_COLOR,
+      background: color ? color : PRIMARY_COLOR,
       height: '50px',
       width: '50px',
     },

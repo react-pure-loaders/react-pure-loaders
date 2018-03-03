@@ -14,7 +14,7 @@ const rotate = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
@@ -23,7 +23,7 @@ export default css(
 
     ' > div': {
       animation: `${rotate} 1s 0s ease-in-out infinite`,
-      border: `2px solid ${PRIMARY_COLOR}`,
+      border: `2px solid ${color ? color : PRIMARY_COLOR}`,
       borderBottomColor: 'transparent',
       borderRadius: '100%',
       borderTopColor: 'transparent',
@@ -36,7 +36,7 @@ export default css(
       '&:last-child': {
         animationDirection: 'reverse',
         animationDuration: '0.5s',
-        borderColor: `${PRIMARY_COLOR} transparent ${PRIMARY_COLOR} transparent`,
+        borderColor: `${color ? color : PRIMARY_COLOR} transparent ${color ? color : PRIMARY_COLOR} transparent`,
         display: 'inline-block',
         height: '15px',
         left: '-10px',

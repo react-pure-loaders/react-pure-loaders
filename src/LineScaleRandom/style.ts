@@ -35,10 +35,10 @@ function lineScale() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   lineScale(),
   {
-    ' > div': lines(),
+    ' > div': lines(color),
   },
   {
     ' > div': globalAnimation(),

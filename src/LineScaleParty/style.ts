@@ -1,5 +1,6 @@
 import { css, keyframes } from 'glamor';
 import { balls, globalAnimation } from '../mixins';
+import { PRIMARY_COLOR } from '../variables';
 
 const ballBeat = keyframes(
   {
@@ -14,9 +15,9 @@ const ballBeat = keyframes(
   },
 );
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),
@@ -28,7 +29,7 @@ export default css(
       },
 
       animation: `${ballBeat} 0.7s 0s infinite linear`,
-      backgroundColor: 'green',
+      backgroundColor: color ? color : PRIMARY_COLOR,
       display: 'inline-block',
     },
   },

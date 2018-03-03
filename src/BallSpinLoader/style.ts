@@ -77,7 +77,7 @@ function ballSpinLoader() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballSpinLoader(),
   {
     ' > div': globalAnimation(),
@@ -86,7 +86,7 @@ export default css(
     position: 'relative',
 
     ' > div': {
-      background: PRIMARY_COLOR,
+      background: color ? color : PRIMARY_COLOR,
       borderRadius: '100%',
       height: '15px',
       position: 'absolute',

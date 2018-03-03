@@ -20,7 +20,7 @@ const ballBeat = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
@@ -30,7 +30,7 @@ export default css(
 
     ' > div': {
       animation: `${ballBeat} 1.6s 0s infinite ease-in-out`,
-      backgroundColor: PRIMARY_COLOR,
+      backgroundColor: color ? color : PRIMARY_COLOR,
       height: size,
       left: '-5px',
       position: 'absolute',

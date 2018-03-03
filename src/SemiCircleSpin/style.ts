@@ -17,7 +17,7 @@ const spinRotate = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
@@ -30,7 +30,7 @@ export default css(
     ' > div': {
       animation: `${spinRotate} 0.6s 0s infinite linear`,
       // tslint:disable-next-line: max-line-length
-      backgroundImage: `linear-gradient(transparent 0%, transparent ${(100 - pos)}%, ${PRIMARY_COLOR} ${pos}%, ${PRIMARY_COLOR} 100%)`,
+      backgroundImage: `linear-gradient(transparent 0%, transparent ${(100 - pos)}%, ${color ? color : PRIMARY_COLOR} ${pos}%, ${color ? color : PRIMARY_COLOR} 100%)`,
       borderRadius: '100%',
       borderWidth: '0px',
       height: '100%',

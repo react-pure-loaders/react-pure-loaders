@@ -6,11 +6,11 @@ import style from './style';
 export class Pacman extends React.PureComponent<IGeneralPropTypes, {}> {
 
   public render() {
-    const { loading } = this.props;
+    const { color, loading } = this.props;
 
     if (loading) {
       return (
-        <div {...css(style)}>
+        <div {...css(style(color))}>
           <div/>
           <div/>
           <div/>

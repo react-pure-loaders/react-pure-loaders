@@ -35,10 +35,10 @@ export function ballScale() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballScale(),
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),

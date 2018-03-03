@@ -44,13 +44,13 @@ const pacmanBalls = keyframes(
   },
 );
 
-function pacmanDesign() {
+function pacmanDesign(color?: string) {
   return {
-    borderBottom: `${size} solid ${PRIMARY_COLOR}`,
-    borderLeft: `${size} solid ${PRIMARY_COLOR}`,
+    borderBottom: `${size} solid ${color ? color : PRIMARY_COLOR}`,
+    borderLeft: `${size} solid ${color ? color : PRIMARY_COLOR}`,
     borderRadius: size,
     borderRight: `${size} solid transparent`,
-    borderTop: `${size} solid ${PRIMARY_COLOR}`,
+    borderTop: `${size} solid ${color ? color : PRIMARY_COLOR}`,
     height: '0px',
     width: '0px',
   };
@@ -69,13 +69,13 @@ function ballPlacement() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballPlacement(),
   {
     position: 'relative',
 
     ' > div:first-of-type': css(
-      pacmanDesign(),
+      pacmanDesign(color),
       {
         animation: `${rotatePacmanHalfUp} 0.5s 0s infinite`,
         left: '-30px',
@@ -84,7 +84,7 @@ export default css(
     ),
 
     ' > div:nth-child(2)': css(
-      pacmanDesign(),
+      pacmanDesign(color),
       {
         animation: `${rotatePacmanHalfDown} 0.5s 0s infinite`,
         left: '-30px',
@@ -94,7 +94,7 @@ export default css(
     ),
 
     ' > div:nth-child(3), > div:nth-child(4), > div:nth-child(5), > div:nth-child(6)': css(
-      balls(),
+      balls(color),
       {
         height: '10px',
         left: '70px',

@@ -13,9 +13,9 @@ const lineScalePulseOutRapid = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': lines(),
+    ' > div': lines(color),
   },
   {
     ' > div': globalAnimation(),

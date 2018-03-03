@@ -16,14 +16,14 @@ const ballScaleRipple = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
   {
     ' > div': {
       animation: `${ballScaleRipple} 1s 0s infinite cubic-bezier(.21,.53,.56,.8)`,
-      border: `2px solid ${PRIMARY_COLOR}`,
+      border: `2px solid ${color ? color : PRIMARY_COLOR}`,
       borderRadius: '100%',
       height: '50px',
       width: '50px',

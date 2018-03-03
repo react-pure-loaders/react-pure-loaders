@@ -61,10 +61,10 @@ function ballTrianglePath() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballTrianglePath(),
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),
@@ -74,7 +74,7 @@ export default css(
     transform: `translate(-${parseInt(amount, 10) / 1.667}px, -${parseInt(amount, 10) / 1.333}px)`,
 
     ' > div': {
-      border: `1px solid ${PRIMARY_COLOR}`,
+      border: `1px solid ${color ? color : PRIMARY_COLOR}`,
       borderRadius: '100%',
       height: '10px',
       position: 'absolute',

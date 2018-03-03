@@ -12,9 +12,9 @@ const ballBeat = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),

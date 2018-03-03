@@ -33,10 +33,10 @@ export function ballPulse() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballPulse(),
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),

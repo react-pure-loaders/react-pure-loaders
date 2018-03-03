@@ -6,12 +6,11 @@ import style from './style';
 export class BallGridPulse extends React.PureComponent<IGeneralPropTypes, {}> {
 
   public render() {
-    const { loading } = this.props;
+    const { color, loading } = this.props;
 
     if (loading) {
-      const className = css(style);
       return (
-        <div className={`${className}`}>
+        <div {...css(style(color))}>
           <div/>
           <div/>
           <div/>

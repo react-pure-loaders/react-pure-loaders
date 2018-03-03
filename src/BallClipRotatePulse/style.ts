@@ -23,9 +23,9 @@ const scale = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),
@@ -42,7 +42,7 @@ export default css(
 
       '&:first-child': {
         animation: `${scale} 1s 0s cubic-bezier(.09,.57,.49,.9) infinite`,
-        background: PRIMARY_COLOR,
+        background: color ? color : PRIMARY_COLOR,
         height: '16px',
         left: '-7px',
         top: '7px',
@@ -54,7 +54,7 @@ export default css(
         animationDuration: '1s',
         background: 'transparent',
         border: '2px solid',
-        borderColor: `${PRIMARY_COLOR} transparent ${PRIMARY_COLOR} transparent`,
+        borderColor: `${color ? color : PRIMARY_COLOR} transparent ${color ? color : PRIMARY_COLOR} transparent`,
         height: '30px',
         left: '-16px',
         position: 'absolute',

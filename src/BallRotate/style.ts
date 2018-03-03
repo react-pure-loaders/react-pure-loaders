@@ -13,13 +13,13 @@ const rotate = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': {
-      '&:before, &:after': balls(),
+      '&:before, &:after': balls(color),
     },
   },
   {

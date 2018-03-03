@@ -14,9 +14,9 @@ const rotate = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),
@@ -25,7 +25,7 @@ export default css(
     ' > div': {
       animation: `${rotate} 0.75s 0s linear infinite`,
       background: 'transparent !important',
-      border: `2px solid ${PRIMARY_COLOR}`,
+      border: `2px solid ${color ? color : PRIMARY_COLOR}`,
       borderBottomColor: 'transparent',
       display: 'inline-block',
       height: '26px',

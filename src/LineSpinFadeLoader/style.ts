@@ -84,10 +84,10 @@ function lineSpinFadeLoader() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   lineSpinFadeLoader(),
   {
-    ' > div': lines(),
+    ' > div': lines(color),
   },
   {
     ' > div': globalAnimation(),

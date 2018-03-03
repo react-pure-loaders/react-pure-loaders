@@ -18,14 +18,14 @@ const triangleSkewSpin = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   {
     ' > div': globalAnimation(),
   },
   {
     ' > div': {
       animation: `${triangleSkewSpin} 3s 0s cubic-bezier(.09,.57,.49,.9) infinite`,
-      borderBottom: `${size} solid ${PRIMARY_COLOR}`,
+      borderBottom: `${size} solid ${color ? color : PRIMARY_COLOR}`,
       borderLeft: `${size} solid transparent`,
       borderRight: `${size} solid transparent`,
       height: '0',

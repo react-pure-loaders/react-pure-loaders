@@ -35,7 +35,7 @@ function ballScaleRipple() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballScaleRipple(),
   {
     ' > div': globalAnimation(),
@@ -46,7 +46,7 @@ export default css(
 
     ' > div': {
       animation: `${ballScaleRippleMultiple} 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8)`,
-      border: `2px solid ${PRIMARY_COLOR}`,
+      border: `2px solid ${color ? color : PRIMARY_COLOR}`,
       borderRadius: '100%',
       height: size,
       left: '-26px',

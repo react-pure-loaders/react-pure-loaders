@@ -16,10 +16,10 @@ const ballGridPulse = keyframes({
   },
 });
 
-export default css(
+export default (color?: string) => css(
   ballGrid(),
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),

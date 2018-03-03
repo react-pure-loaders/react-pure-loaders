@@ -1,8 +1,7 @@
-import * as React from 'react';
+import { color, withKnobs } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 import { divStyle, loadersStyle, loaderStyle } from './styles';
-// import { action } from '@storybook/addon-actions';
-// import { withKnobs } from '@storybook/addon-knobs';
 
 import {
   LineScale,
@@ -11,43 +10,51 @@ import {
   LineScalePulseOutRapid,
   LineScaleRandom,
   LineSpinFadeLoader,
-} from '../src/index'
+} from '../src/index';
 
 const stories = storiesOf('Lines', module);
 
-// stories.addDecorator(withKnobs);
+stories.addDecorator(withKnobs);
 
 stories.add('Lines', () => {
+  const selectedColor = color('Color', '#ffffff');
+
   return (
     <div style={divStyle}>
       <div style={loadersStyle}>
         <div style={loaderStyle}>
           <LineScale
+            color={selectedColor}
             loading={true}
           />
         </div>
         <div style={loaderStyle}>
           <LineScaleParty
+            color={selectedColor}
             loading={true}
           />
         </div>
         <div style={loaderStyle}>
           <LineScalePulseOut
+            color={selectedColor}
             loading={true}
           />
         </div>
         <div style={loaderStyle}>
           <LineScalePulseOutRapid
+            color={selectedColor}
             loading={true}
           />
         </div>
         <div style={loaderStyle}>
           <LineScaleRandom
+            color={selectedColor}
             loading={true}
           />
         </div>
         <div style={loaderStyle}>
           <LineSpinFadeLoader
+            color={selectedColor}
             loading={true}
           />
         </div>

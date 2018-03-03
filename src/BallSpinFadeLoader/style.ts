@@ -81,10 +81,10 @@ function ballSpinFadeLoader() {
   return grid;
 }
 
-export default css(
+export default (color?: string) => css(
   ballSpinFadeLoader(),
   {
-    ' > div': balls(),
+    ' > div': balls(color),
   },
   {
     ' > div': globalAnimation(),

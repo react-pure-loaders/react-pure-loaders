@@ -8,16 +8,17 @@ import {
 } from '../variables';
 
 export interface IGeneralPropTypes {
-  loading: boolean;
+  color?: string;
+  loading?: boolean;
 }
 
 interface IGrid {
   [id: string]: object;
 }
 
-export function globalBg() {
+export function globalBg(color?: string) {
   return {
-    backgroundColor: PRIMARY_COLOR,
+    backgroundColor: color ? color : PRIMARY_COLOR,
   };
 }
 
@@ -27,7 +28,7 @@ export function globalAnimation() {
   };
 }
 
-export function balls() {
+export function balls(color?: string) {
   return css(
     {
       borderRadius: '100%',
@@ -35,7 +36,7 @@ export function balls() {
       margin: MARGIN,
       width: BALL_SIZE,
     },
-    globalBg(),
+    globalBg(color),
   );
 }
 
@@ -55,7 +56,7 @@ export function ballGrid() {
   return grid;
 }
 
-export function lines() {
+export function lines(color?: string) {
   return css(
     {
       borderRadius: '2px',
@@ -63,6 +64,6 @@ export function lines() {
       margin: MARGIN,
       width: LINE_WIDTH,
     },
-    globalBg(),
+    globalBg(color),
   );
 }

@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallScaleRandom> <BallScaleRandom> Mount: enzyme.mount 1`] = `
-.css-26l3h8 > div,
-[data-css-26l3h8] > div {
+.css-32mlnk > div,
+[data-css-32mlnk] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: green;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_1twcfwm 0.7s 0s infinite linear;
   display: inline-block;
@@ -15,8 +15,8 @@ exports[`<BallScaleRandom> <BallScaleRandom> Mount: enzyme.mount 1`] = `
   -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
 }
 
-.css-26l3h8 > div:nth-child(2n-1),
-[data-css-26l3h8] > div:nth-child(2n-1) {
+.css-32mlnk > div:nth-child(2n-1),
+[data-css-32mlnk] > div:nth-child(2n-1) {
   animation-delay: -0.35s;
   -webkit-animation-delay: -0.35s;
 }
@@ -25,7 +25,7 @@ exports[`<BallScaleRandom> <BallScaleRandom> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-26l3h8=""
+    data-css-32mlnk=""
   >
     <div />
     <div />
@@ -35,13 +35,13 @@ exports[`<BallScaleRandom> <BallScaleRandom> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallScaleRandom> <BallScaleRandom> Render: enzyme.render 1`] = `
-.css-26l3h8 > div,
-[data-css-26l3h8] > div {
+.css-32mlnk > div,
+[data-css-32mlnk] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: green;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_1twcfwm 0.7s 0s infinite linear;
   display: inline-block;
@@ -49,14 +49,14 @@ exports[`<BallScaleRandom> <BallScaleRandom> Render: enzyme.render 1`] = `
   -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
 }
 
-.css-26l3h8 > div:nth-child(2n-1),
-[data-css-26l3h8] > div:nth-child(2n-1) {
+.css-32mlnk > div:nth-child(2n-1),
+[data-css-32mlnk] > div:nth-child(2n-1) {
   animation-delay: -0.35s;
   -webkit-animation-delay: -0.35s;
 }
 
 <div
-  data-css-26l3h8=""
+  data-css-32mlnk=""
 >
   <div />
   <div />
@@ -65,13 +65,13 @@ exports[`<BallScaleRandom> <BallScaleRandom> Render: enzyme.render 1`] = `
 `;
 
 exports[`<BallScaleRandom> <BallScaleRandom> Shallow: enzyme.shallow 1`] = `
-.css-26l3h8 > div,
-[data-css-26l3h8] > div {
+.css-32mlnk > div,
+[data-css-32mlnk] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
-  background-color: green;
+  background-color: #ffffff;
   animation-fill-mode: both;
   animation: animation_1twcfwm 0.7s 0s infinite linear;
   display: inline-block;
@@ -79,14 +79,14 @@ exports[`<BallScaleRandom> <BallScaleRandom> Shallow: enzyme.shallow 1`] = `
   -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
 }
 
-.css-26l3h8 > div:nth-child(2n-1),
-[data-css-26l3h8] > div:nth-child(2n-1) {
+.css-32mlnk > div:nth-child(2n-1),
+[data-css-32mlnk] > div:nth-child(2n-1) {
   animation-delay: -0.35s;
   -webkit-animation-delay: -0.35s;
 }
 
 <div
-  data-css-26l3h8=""
+  data-css-32mlnk=""
 >
   <div />
   <div />
