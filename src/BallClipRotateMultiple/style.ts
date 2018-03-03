@@ -36,6 +36,7 @@ export default (color?: string) => css(
       '&:last-child': {
         animationDirection: 'reverse',
         animationDuration: '0.5s',
+        // tslint:disable-next-line: max-line-length
         borderColor: `${color ? color : PRIMARY_COLOR} transparent ${color ? color : PRIMARY_COLOR} transparent`,
         display: 'inline-block',
         height: '15px',
