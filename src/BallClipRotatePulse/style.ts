@@ -54,6 +54,7 @@ export default (color?: string) => css(
         animationDuration: '1s',
         background: 'transparent',
         border: '2px solid',
+        // tslint:disable-next-line: max-line-length
         borderColor: `${color ? color : PRIMARY_COLOR} transparent ${color ? color : PRIMARY_COLOR} transparent`,
         height: '30px',
         left: '-16px',
