@@ -28,6 +28,7 @@
 
 React PureComponent loading animations
 
+<!-- STORY -->
 
 ## Installation
 
