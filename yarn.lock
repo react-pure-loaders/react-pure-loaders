@@ -268,9 +268,17 @@
     react-treebeard "^2.1.0"
     redux "^3.7.2"
 
+"@types/chance@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/chance/-/chance-1.0.0.tgz#f9afc0fea03a24025dfd40396d62e9e152211c8e"
+
 "@types/cheerio@*":
   version "0.22.7"
   resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.7.tgz#4a92eafedfb2b9f4437d3a4410006d81114c66ce"
+
+"@types/css@0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@types/css/-/css-0.0.31.tgz#235cf80e4991a9d769fd640b4b8644b0a4139895"
 
 "@types/enzyme@3.1.9":
   version "3.1.9"
@@ -2057,6 +2065,10 @@ chalk@^2.3.1:
     ansi-styles "^3.2.0"
     escape-string-regexp "^1.0.5"
     supports-color "^5.2.0"
+
+chance@1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/chance/-/chance-1.0.13.tgz#666bec2db42b3084456a3e4f4c28a82db5ccb7e6"
 
 chardet@^0.4.0:
   version "0.4.2"
