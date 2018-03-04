@@ -35,7 +35,7 @@ describe('<BallBeat>', () => {
   });
 
   test('BallBeat should have given color', () => {
-    const color = chance.color();
+    const color = chance.color({format: 'hex'});
     const ui = (<BallBeat color={color} loading={true}/>);
     const className = getClassName(ui);
 
