@@ -63,7 +63,7 @@
     "@types/jest": "22.1.4",
     "@types/node": "9.4.6",
     "all-contributors-cli": "4.11.0",
-    "awesome-typescript-loader": "3.5.0",
+    "awesome-typescript-loader": "4.0.0",
     "babel-core": "6.26.0",
     "chance": "1.0.13",
     "codecov": "3.0.0",
