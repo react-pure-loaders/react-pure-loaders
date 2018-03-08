@@ -60,7 +60,7 @@
     "@types/chance": "1.0.0",
     "@types/css": "0.0.31",
     "@types/enzyme": "3.1.9",
-    "@types/jest": "22.1.4",
+    "@types/jest": "22.2.0",
     "@types/node": "9.4.6",
     "all-contributors-cli": "4.11.0",
     "awesome-typescript-loader": "4.0.0",
