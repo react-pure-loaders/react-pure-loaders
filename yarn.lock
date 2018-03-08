@@ -108,9 +108,9 @@
     global "^4.3.2"
     prop-types "^15.6.0"
 
-"@storybook/addon-centered@3.3.14":
-  version "3.3.14"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.3.14.tgz#5eef29940d1146a66c71f00308318603644a4e86"
+"@storybook/addon-centered@3.3.15":
+  version "3.3.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.3.15.tgz#7e5fb907ccb049fcb6540d71e43efd4b286e29f4"
   dependencies:
     global "^4.3.2"
 
