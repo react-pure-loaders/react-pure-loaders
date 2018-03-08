@@ -1,19 +1,11 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
 import addonBackgrounds from '@storybook/addon-backgrounds';
 import centered from '@storybook/addon-centered';
 import { withInfo } from '@storybook/addon-info';
-import { withReadme, withDocs }  from 'storybook-readme';
-import {
-  array,
-  boolean,
-  color,
-  number,
-  object,
-  select,
-  withKnobs,
-} from '@storybook/addon-knobs';
-import { setAddon, storiesOf } from '@storybook/react';
-import * as React from 'react';
-
+import { color, withKnobs } from '@storybook/addon-knobs';
+import { withDocs } from 'storybook-readme';
+import ReadmeMd from '../README.md';
 import {
   BallBeat,
   BallClipRotate,
@@ -49,7 +41,6 @@ import {
   TriangleSkewSpin,
 } from '../src/index';
 
-import ReadmeMd from '../README.md';
 
 const selectedColor = color('Color', '#ffffff');
 const backgrounds = addonBackgrounds([
