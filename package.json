@@ -61,7 +61,7 @@
     "@types/css": "0.0.31",
     "@types/enzyme": "3.1.9",
     "@types/jest": "22.2.0",
-    "@types/node": "9.4.6",
+    "@types/node": "9.4.7",
     "all-contributors-cli": "4.11.0",
     "awesome-typescript-loader": "4.0.0",
     "babel-core": "6.26.0",
