@@ -40,16 +40,131 @@ import {
   SquareSpin,
   TriangleSkewSpin,
 } from '../src/index';
-
+import { backgroundColors } from './background-colors'
 
 const selectedColor = color('Color', '#ffffff');
-const backgrounds = addonBackgrounds([
-  { name: 'twitter', value: '#00aced', default: true },
-  { name: 'facebook', value: '#3b5998' },
-]);
+const backgrounds = addonBackgrounds(backgroundColors);
+
+const demoColor = '#000000';
+
+const style = {
+  display: '-webkit-flex',
+  display: 'flex',
+  WebkitFlex: '0 1 auto',
+  flex: '0 1 auto',
+  WebkitFlexDirection: 'column',
+  flexDirection: 'column',
+  WebkitFlexGrow: 1,
+  flexGrow: 1,
+  WebkitFlexShrink: 0,
+  flexShrink: 0,
+  WebkitFlexBasis: '25%',
+  flexBasis: '25%',
+  maxWidth: '25%',
+  height: '150px',
+  WebkitAlignItems: 'center',
+  alignItems: 'center',
+  WebkitJustifyContent: 'center',
+  justifyContent: 'center'
+};
 
 storiesOf('Content', module)
-  .add('Default', withDocs(ReadmeMd, () => (<div>Hello</div>)));
+  .add('Default', withDocs(ReadmeMd, () => (<div style={{
+    boxSizing: 'border-box',
+    display: '-webkit-flex',
+    display: 'flex',
+    WebkitFlex: '0 1 auto',
+    flex: '0 1 auto',
+    WebkitFlexDirection: 'row',
+    flexDirection: 'row',
+    WebkitFlexWrap: 'wrap',
+    flexWrap: 'wrap'
+  }}>
+    <div style={style}>
+      <BallBeat color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallClipRotate color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallClipRotateMultiple color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallClipRotatePulse color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallGridPulse color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallPulse color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallPulseRise color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallPulseSync color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallRotate color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallScale color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallScaleMultiple color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallScaleRandom color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallScaleRipple color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallScaleRippleMultiple color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallSpinFadeLoader color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallTrianglePath color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallZigZag color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <BallZigZagDeflect color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <CubeTransition color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineScale color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineScaleParty color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineScalePulseOut color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineScalePulseOutRapid color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineScaleRandom color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <LineSpinFadeLoader color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <SemiCircleSpin color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <SquareSpin color={demoColor} loading={true}/>
+    </div>
+    <div style={style}>
+      <TriangleSkewSpin color={demoColor} loading={true}/>
+    </div>
+  </div>)));
 
 storiesOf('Ball', module)
   .addDecorator(withKnobs)

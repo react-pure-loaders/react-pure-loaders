@@ -30,16 +30,95 @@ React PureComponent loading animations
 
 <!-- STORY -->
 
+## Demo
+
+[Demo Page](https://jameswlane.github.io/react-pure-loaders)
+
 ## Installation
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's `dependencies`:
-
+Install with `yarn`:
+```bash
+yarn add react-pure-loaders
 ```
-npm install --save-dev react-pure-loaders
+
+Install with `npm`:
+```bash
+npm install react-pure-loaders --save
 ```
 
 ## Usage
+Each loader has their own default properties. You can overwrite the defaults by passing props into the loaders.
+Each loader accepts a `loading` prop as a boolean. The loader will not render anything if `loading` is `false`.
+
+### Example
+
+```js
+import React from 'react';
+import { BallBeat } from 'react-pure-loaders';
+
+class AwesomeComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    }
+  }
+  render() {
+    return (
+      <div>
+        <BallBeat
+          color={'#123abc'}
+          loading={this.state.loading}
+        />
+      </div>
+    )
+  }
+}
+```
+
+## Available Loaders, PropTypes, and Default Values
+
+Common default props for all loaders:
+
+```js
+loading: true
+color: '#000000'
+```
+
+Loader                  | size:int | height:int | width:int | radius:int | margin:str
+-----------------------:|:--------:|:----------:|:---------:|:----------:|:---------:
+BallBeat                |          |            |           |            |
+BallClipRotate          |          |            |           |            |
+BallClipRotateMultiple  |          |            |           |            |
+BallClipRotatePulse     |          |            |           |            |
+BallGridBeat            |          |            |           |            |
+BallGridPulse           |          |            |           |            |
+BallPulse               |          |            |           |            |
+BallPulseRise           |          |            |           |            |
+BallPulseRound          |          |            |           |            |
+BallPulseSync           |          |            |           |            |
+BallRotate              |          |            |           |            |
+BallScale               |          |            |           |            |
+BallScaleMultiple       |          |            |           |            |
+BallScaleRandom         |          |            |           |            |
+BallScaleRipple         |          |            |           |            |
+BallScaleRippleMultiple |          |            |           |            |
+BallSpinFadeLoader      |          |            |           |            |
+BallSpinLoader          |          |            |           |            |
+BallTrianglePath        |          |            |           |            |
+BallZigZag              |          |            |           |            |
+BallZigZagDeflect       |          |            |           |            |
+LineScale               |          |            |           |            |
+LineScaleParty          |          |            |           |            |
+LineScalePulseOut       |          |            |           |            |
+LineScalePulseOutRapid  |          |            |           |            |
+LineScaleRandom         |          |            |           |            |
+LineSpinFadeLoader      |          |            |           |            |
+CubeTransition          |          |            |           |            |
+Pacman                  |          |            |           |            |
+SemiCircleSpin          |          |            |           |            |
+SquareSpin              |          |            |           |            |
+TriangleSkewSpin        |          |            |           |            |
 
 ## Contributors
 
