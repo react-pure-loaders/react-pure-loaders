@@ -18,7 +18,7 @@
     "setup": "npm i -g @storybook/cli npmvet david nsp depcheck types-checker commitizen semantic-release-cli all-contributors-cli",
     "storybook": "start-storybook -p 9001",
     "build-storybook": "build-storybook",
-    "gh-pages": "npm run build-storybook -- -o _gh-pages && gh-pages -d _gh-pages && rm -rf _gh-pages",
+    "gh-pages": "npm run build-storybook && gh-pages -d storybook-static && rm -rf storybook-static",
     "test": "jest --coverage",
     "test:ci": "jest --maxWorkers=4",
     "test:coverage:ci": "jest --coverage --maxWorkers=4",
