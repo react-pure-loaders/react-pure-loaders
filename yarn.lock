@@ -8438,9 +8438,9 @@ stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
 
-storybook-readme@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-3.2.1.tgz#caa3a67692e8c0c01811c0c65de9238dec8e8051"
+storybook-readme@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-3.3.0.tgz#605940345051d31d80759b022f358cf19b0b4491"
   dependencies:
     babel-plugin-transform-es2015-modules-commonjs "^6.26.0"
     lodash "^4.17.4"
