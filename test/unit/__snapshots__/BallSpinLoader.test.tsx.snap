@@ -1,77 +1,77 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallSpinLoader> <BallSpinLoader> Mount: enzyme.mount 1`] = `
-.css-1nah2hh,
-[data-css-1nah2hh] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-1nah2hh> div:nth-child(1),
-[data-css-1nah2hh]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_1xrw6op 2s 0.9 infinite linear;
   left: 0;
   top: 45px;
   -webkit-animation: animation_1xrw6op 2s 0.9 infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(2),
-[data-css-1nah2hh]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1xrw6op 2s 1.8s infinite linear;
   left: 30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 1.8s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(3),
-[data-css-1nah2hh]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1xrw6op 2s 2.7s infinite linear;
   left: 45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 2.7s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(4),
-[data-css-1nah2hh]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1xrw6op 2s 3.6s infinite linear;
   left: 30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 3.6s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(5),
-[data-css-1nah2hh]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1xrw6op 2s 4.5s infinite linear;
   left: 0;
   top: -45px;
   -webkit-animation: animation_1xrw6op 2s 4.5s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(6),
-[data-css-1nah2hh]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_1xrw6op 2s 5.4s infinite linear;
   left: -30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 5.4s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(7),
-[data-css-1nah2hh]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_1xrw6op 2s 6.3s infinite linear;
   left: -45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 6.3s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(8),
-[data-css-1nah2hh]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_1xrw6op 2s 7.2s infinite linear;
   left: -30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 7.2s infinite linear;
 }
 
-.css-1nah2hh > div,
-[data-css-1nah2hh] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   background: #ffffff;
   border-radius: 100%;
@@ -85,7 +85,7 @@ exports[`<BallSpinLoader> <BallSpinLoader> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1nah2hh=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -100,77 +100,77 @@ exports[`<BallSpinLoader> <BallSpinLoader> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallSpinLoader> <BallSpinLoader> Render: enzyme.render 1`] = `
-.css-1nah2hh,
-[data-css-1nah2hh] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-1nah2hh> div:nth-child(1),
-[data-css-1nah2hh]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_1xrw6op 2s 0.9 infinite linear;
   left: 0;
   top: 45px;
   -webkit-animation: animation_1xrw6op 2s 0.9 infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(2),
-[data-css-1nah2hh]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1xrw6op 2s 1.8s infinite linear;
   left: 30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 1.8s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(3),
-[data-css-1nah2hh]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1xrw6op 2s 2.7s infinite linear;
   left: 45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 2.7s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(4),
-[data-css-1nah2hh]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1xrw6op 2s 3.6s infinite linear;
   left: 30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 3.6s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(5),
-[data-css-1nah2hh]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1xrw6op 2s 4.5s infinite linear;
   left: 0;
   top: -45px;
   -webkit-animation: animation_1xrw6op 2s 4.5s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(6),
-[data-css-1nah2hh]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_1xrw6op 2s 5.4s infinite linear;
   left: -30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 5.4s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(7),
-[data-css-1nah2hh]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_1xrw6op 2s 6.3s infinite linear;
   left: -45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 6.3s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(8),
-[data-css-1nah2hh]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_1xrw6op 2s 7.2s infinite linear;
   left: -30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 7.2s infinite linear;
 }
 
-.css-1nah2hh > div,
-[data-css-1nah2hh] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   background: #ffffff;
   border-radius: 100%;
@@ -181,7 +181,7 @@ exports[`<BallSpinLoader> <BallSpinLoader> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-1nah2hh=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -195,77 +195,77 @@ exports[`<BallSpinLoader> <BallSpinLoader> Render: enzyme.render 1`] = `
 `;
 
 exports[`<BallSpinLoader> <BallSpinLoader> Shallow: enzyme.shallow 1`] = `
-.css-1nah2hh,
-[data-css-1nah2hh] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-1nah2hh> div:nth-child(1),
-[data-css-1nah2hh]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_1xrw6op 2s 0.9 infinite linear;
   left: 0;
   top: 45px;
   -webkit-animation: animation_1xrw6op 2s 0.9 infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(2),
-[data-css-1nah2hh]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1xrw6op 2s 1.8s infinite linear;
   left: 30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 1.8s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(3),
-[data-css-1nah2hh]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1xrw6op 2s 2.7s infinite linear;
   left: 45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 2.7s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(4),
-[data-css-1nah2hh]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1xrw6op 2s 3.6s infinite linear;
   left: 30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 3.6s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(5),
-[data-css-1nah2hh]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1xrw6op 2s 4.5s infinite linear;
   left: 0;
   top: -45px;
   -webkit-animation: animation_1xrw6op 2s 4.5s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(6),
-[data-css-1nah2hh]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_1xrw6op 2s 5.4s infinite linear;
   left: -30.68181818181818px;
   top: -30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 5.4s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(7),
-[data-css-1nah2hh]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_1xrw6op 2s 6.3s infinite linear;
   left: -45px;
   top: 0;
   -webkit-animation: animation_1xrw6op 2s 6.3s infinite linear;
 }
 
-.css-1nah2hh> div:nth-child(8),
-[data-css-1nah2hh]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_1xrw6op 2s 7.2s infinite linear;
   left: -30.68181818181818px;
   top: 30.68181818181818px;
   -webkit-animation: animation_1xrw6op 2s 7.2s infinite linear;
 }
 
-.css-1nah2hh > div,
-[data-css-1nah2hh] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   background: #ffffff;
   border-radius: 100%;
@@ -276,7 +276,7 @@ exports[`<BallSpinLoader> <BallSpinLoader> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1nah2hh=""
+  data-css-0=""
 >
   <div />
   <div />

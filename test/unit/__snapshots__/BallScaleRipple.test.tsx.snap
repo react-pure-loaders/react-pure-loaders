@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallScaleRipple> <BallScaleRipple> Mount: enzyme.mount 1`] = `
-.css-tdaxql > div,
-[data-css-tdaxql] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
   border: 2px solid #ffffff;
@@ -17,7 +17,7 @@ exports[`<BallScaleRipple> <BallScaleRipple> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-tdaxql=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -25,8 +25,8 @@ exports[`<BallScaleRipple> <BallScaleRipple> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallScaleRipple> <BallScaleRipple> Render: enzyme.render 1`] = `
-.css-tdaxql > div,
-[data-css-tdaxql] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
   border: 2px solid #ffffff;
@@ -38,15 +38,15 @@ exports[`<BallScaleRipple> <BallScaleRipple> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-tdaxql=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<BallScaleRipple> <BallScaleRipple> Shallow: enzyme.shallow 1`] = `
-.css-tdaxql > div,
-[data-css-tdaxql] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1po4xu4 1s 0s infinite cubic-bezier(.21,.53,.56,.8);
   border: 2px solid #ffffff;
@@ -58,7 +58,7 @@ exports[`<BallScaleRipple> <BallScaleRipple> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-tdaxql=""
+  data-css-0=""
 >
   <div />
 </div>

@@ -1,62 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LineScale> <LineScale> Mount: enzyme.mount 1`] = `
-.css-2qkyp5> div:nth-child(1),
-[data-css-2qkyp5]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(2),
-[data-css-2qkyp5]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(3),
-[data-css-2qkyp5]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(4),
-[data-css-2qkyp5]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(5),
-[data-css-2qkyp5]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(6),
-[data-css-2qkyp5]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(7),
-[data-css-2qkyp5]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(8),
-[data-css-2qkyp5]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(9),
-[data-css-2qkyp5]> div:nth-child(9) {
+.css-0> div:nth-child(9),
+[data-css-0]> div:nth-child(9) {
   animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5 > div,
-[data-css-2qkyp5] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -71,7 +71,7 @@ exports[`<LineScale> <LineScale> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-2qkyp5=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -83,62 +83,62 @@ exports[`<LineScale> <LineScale> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<LineScale> <LineScale> Render: enzyme.render 1`] = `
-.css-2qkyp5> div:nth-child(1),
-[data-css-2qkyp5]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(2),
-[data-css-2qkyp5]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(3),
-[data-css-2qkyp5]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(4),
-[data-css-2qkyp5]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(5),
-[data-css-2qkyp5]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(6),
-[data-css-2qkyp5]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(7),
-[data-css-2qkyp5]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(8),
-[data-css-2qkyp5]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(9),
-[data-css-2qkyp5]> div:nth-child(9) {
+.css-0> div:nth-child(9),
+[data-css-0]> div:nth-child(9) {
   animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5 > div,
-[data-css-2qkyp5] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -150,7 +150,7 @@ exports[`<LineScale> <LineScale> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-2qkyp5=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -161,62 +161,62 @@ exports[`<LineScale> <LineScale> Render: enzyme.render 1`] = `
 `;
 
 exports[`<LineScale> <LineScale> Shallow: enzyme.shallow 1`] = `
-.css-2qkyp5> div:nth-child(1),
-[data-css-2qkyp5]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(2),
-[data-css-2qkyp5]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(3),
-[data-css-2qkyp5]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(4),
-[data-css-2qkyp5]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(5),
-[data-css-2qkyp5]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(6),
-[data-css-2qkyp5]> div:nth-child(6) {
+.css-0> div:nth-child(6),
+[data-css-0]> div:nth-child(6) {
   animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(7),
-[data-css-2qkyp5]> div:nth-child(7) {
+.css-0> div:nth-child(7),
+[data-css-0]> div:nth-child(7) {
   animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(8),
-[data-css-2qkyp5]> div:nth-child(8) {
+.css-0> div:nth-child(8),
+[data-css-0]> div:nth-child(8) {
   animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5> div:nth-child(9),
-[data-css-2qkyp5]> div:nth-child(9) {
+.css-0> div:nth-child(9),
+[data-css-0]> div:nth-child(9) {
   animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_19oh8vm 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-2qkyp5 > div,
-[data-css-2qkyp5] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -228,7 +228,7 @@ exports[`<LineScale> <LineScale> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-2qkyp5=""
+  data-css-0=""
 >
   <div />
   <div />

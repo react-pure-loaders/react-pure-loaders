@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SemiCircleSpin> <SemiCircleSpin> Mount: enzyme.mount 1`] = `
-.css-buupqx,
-[data-css-buupqx] {
+.css-0,
+[data-css-0] {
   height: 35px;
   overflow: hidden;
   position: relative;
   width: 35px;
 }
 
-.css-buupqx > div,
-[data-css-buupqx] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1wm2cz3 0.6s 0s infinite linear;
   background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
@@ -29,7 +29,7 @@ exports[`<SemiCircleSpin> <SemiCircleSpin> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-buupqx=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -37,16 +37,16 @@ exports[`<SemiCircleSpin> <SemiCircleSpin> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<SemiCircleSpin> <SemiCircleSpin> Render: enzyme.render 1`] = `
-.css-buupqx,
-[data-css-buupqx] {
+.css-0,
+[data-css-0] {
   height: 35px;
   overflow: hidden;
   position: relative;
   width: 35px;
 }
 
-.css-buupqx > div,
-[data-css-buupqx] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1wm2cz3 0.6s 0s infinite linear;
   background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
@@ -62,23 +62,23 @@ exports[`<SemiCircleSpin> <SemiCircleSpin> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-buupqx=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<SemiCircleSpin> <SemiCircleSpin> Shallow: enzyme.shallow 1`] = `
-.css-buupqx,
-[data-css-buupqx] {
+.css-0,
+[data-css-0] {
   height: 35px;
   overflow: hidden;
   position: relative;
   width: 35px;
 }
 
-.css-buupqx > div,
-[data-css-buupqx] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1wm2cz3 0.6s 0s infinite linear;
   background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
@@ -94,7 +94,7 @@ exports[`<SemiCircleSpin> <SemiCircleSpin> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-buupqx=""
+  data-css-0=""
 >
   <div />
 </div>

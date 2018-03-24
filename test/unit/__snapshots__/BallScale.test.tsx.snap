@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallScale> <BallScale> Mount: enzyme.mount 1`] = `
-.css-1xhpmu3 > div,
-[data-css-1xhpmu3] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 60px;
   margin: 2px;
@@ -19,7 +19,7 @@ exports[`<BallScale> <BallScale> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1xhpmu3=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -27,8 +27,8 @@ exports[`<BallScale> <BallScale> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallScale> <BallScale> Render: enzyme.render 1`] = `
-.css-1xhpmu3 > div,
-[data-css-1xhpmu3] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 60px;
   margin: 2px;
@@ -42,15 +42,15 @@ exports[`<BallScale> <BallScale> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-1xhpmu3=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<BallScale> <BallScale> Shallow: enzyme.shallow 1`] = `
-.css-1xhpmu3 > div,
-[data-css-1xhpmu3] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 60px;
   margin: 2px;
@@ -64,7 +64,7 @@ exports[`<BallScale> <BallScale> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1xhpmu3=""
+  data-css-0=""
 >
   <div />
 </div>

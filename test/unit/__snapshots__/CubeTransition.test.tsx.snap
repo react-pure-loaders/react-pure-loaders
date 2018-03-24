@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CubeTransition> <CubeTransition> Mount: enzyme.mount 1`] = `
-.css-qkdply,
-[data-css-qkdply] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-qkdply > div,
-[data-css-qkdply] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
   background-color: #ffffff;
@@ -22,8 +22,8 @@ exports[`<CubeTransition> <CubeTransition> Mount: enzyme.mount 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-qkdply > div:last-child,
-[data-css-qkdply] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
@@ -32,7 +32,7 @@ exports[`<CubeTransition> <CubeTransition> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-qkdply=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -41,15 +41,15 @@ exports[`<CubeTransition> <CubeTransition> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<CubeTransition> <CubeTransition> Render: enzyme.render 1`] = `
-.css-qkdply,
-[data-css-qkdply] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-qkdply > div,
-[data-css-qkdply] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
   background-color: #ffffff;
@@ -62,14 +62,14 @@ exports[`<CubeTransition> <CubeTransition> Render: enzyme.render 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-qkdply > div:last-child,
-[data-css-qkdply] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
 
 <div
-  data-css-qkdply=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -77,15 +77,15 @@ exports[`<CubeTransition> <CubeTransition> Render: enzyme.render 1`] = `
 `;
 
 exports[`<CubeTransition> <CubeTransition> Shallow: enzyme.shallow 1`] = `
-.css-qkdply,
-[data-css-qkdply] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-25, -25);
   -webkit-transform: translate(-25, -25);
 }
 
-.css-qkdply > div,
-[data-css-qkdply] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
   background-color: #ffffff;
@@ -98,14 +98,14 @@ exports[`<CubeTransition> <CubeTransition> Shallow: enzyme.shallow 1`] = `
   -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-qkdply > div:last-child,
-[data-css-qkdply] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
 }
 
 <div
-  data-css-qkdply=""
+  data-css-0=""
 >
   <div />
   <div />

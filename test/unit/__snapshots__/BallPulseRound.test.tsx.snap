@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallPulseRound> <BallPulseRound> Mount: enzyme.mount 1`] = `
-.css-1lgrkv4 > div,
-[data-css-1lgrkv4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -18,7 +18,7 @@ exports[`<BallPulseRound> <BallPulseRound> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1lgrkv4=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -26,8 +26,8 @@ exports[`<BallPulseRound> <BallPulseRound> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallPulseRound> <BallPulseRound> Render: enzyme.render 1`] = `
-.css-1lgrkv4 > div,
-[data-css-1lgrkv4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -40,15 +40,15 @@ exports[`<BallPulseRound> <BallPulseRound> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-1lgrkv4=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<BallPulseRound> <BallPulseRound> Shallow: enzyme.shallow 1`] = `
-.css-1lgrkv4 > div,
-[data-css-1lgrkv4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -61,7 +61,7 @@ exports[`<BallPulseRound> <BallPulseRound> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1lgrkv4=""
+  data-css-0=""
 >
   <div />
 </div>

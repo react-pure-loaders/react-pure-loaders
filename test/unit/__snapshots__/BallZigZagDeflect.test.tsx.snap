@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
-.css-1q13ncp,
-[data-css-1q13ncp] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-15px, -15px);
   -webkit-transform: translate(-15px, -15px);
 }
 
-.css-1q13ncp > div,
-[data-css-1q13ncp] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -23,14 +23,14 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-1q13ncp > div:first-child,
-[data-css-1q13ncp] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_vvdr81 1.5s 0s infinite linear;
   -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
 }
 
-.css-1q13ncp > div:last-child,
-[data-css-1q13ncp] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation: animation_135dxz0 1.5s 0s infinite linear;
   -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
 }
@@ -39,7 +39,7 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1q13ncp=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -48,15 +48,15 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallZigZagDeflect> <BallZigZagDeflect> Render: enzyme.render 1`] = `
-.css-1q13ncp,
-[data-css-1q13ncp] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-15px, -15px);
   -webkit-transform: translate(-15px, -15px);
 }
 
-.css-1q13ncp > div,
-[data-css-1q13ncp] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -70,20 +70,20 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Render: enzyme.render 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-1q13ncp > div:first-child,
-[data-css-1q13ncp] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_vvdr81 1.5s 0s infinite linear;
   -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
 }
 
-.css-1q13ncp > div:last-child,
-[data-css-1q13ncp] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation: animation_135dxz0 1.5s 0s infinite linear;
   -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
 }
 
 <div
-  data-css-1q13ncp=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -91,15 +91,15 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Render: enzyme.render 1`] = `
 `;
 
 exports[`<BallZigZagDeflect> <BallZigZagDeflect> Shallow: enzyme.shallow 1`] = `
-.css-1q13ncp,
-[data-css-1q13ncp] {
+.css-0,
+[data-css-0] {
   position: relative;
   transform: translate(-15px, -15px);
   -webkit-transform: translate(-15px, -15px);
 }
 
-.css-1q13ncp > div,
-[data-css-1q13ncp] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -113,20 +113,20 @@ exports[`<BallZigZagDeflect> <BallZigZagDeflect> Shallow: enzyme.shallow 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-1q13ncp > div:first-child,
-[data-css-1q13ncp] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_vvdr81 1.5s 0s infinite linear;
   -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
 }
 
-.css-1q13ncp > div:last-child,
-[data-css-1q13ncp] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation: animation_135dxz0 1.5s 0s infinite linear;
   -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
 }
 
 <div
-  data-css-1q13ncp=""
+  data-css-0=""
 >
   <div />
   <div />

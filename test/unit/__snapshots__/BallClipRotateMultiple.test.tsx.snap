@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
-.css-hd6mcm,
-[data-css-hd6mcm] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-hd6mcm > div,
-[data-css-hd6mcm] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
   border: 2px solid #ffffff;
@@ -23,8 +23,8 @@ exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-hd6mcm > div:last-child,
-[data-css-hd6mcm] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
   border-color: #ffffff transparent #ffffff transparent;
@@ -41,7 +41,7 @@ exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-hd6mcm=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -50,13 +50,13 @@ exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
 `;
 
 exports[`<BallClipRotateMultiple> render to match snapshot: enzyme.render 1`] = `
-.css-hd6mcm,
-[data-css-hd6mcm] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-hd6mcm > div,
-[data-css-hd6mcm] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
   border: 2px solid #ffffff;
@@ -72,8 +72,8 @@ exports[`<BallClipRotateMultiple> render to match snapshot: enzyme.render 1`] = 
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-hd6mcm > div:last-child,
-[data-css-hd6mcm] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
   border-color: #ffffff transparent #ffffff transparent;
@@ -87,7 +87,7 @@ exports[`<BallClipRotateMultiple> render to match snapshot: enzyme.render 1`] = 
 }
 
 <div
-  data-css-hd6mcm=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -95,13 +95,13 @@ exports[`<BallClipRotateMultiple> render to match snapshot: enzyme.render 1`] = 
 `;
 
 exports[`<BallClipRotateMultiple> shallow to match snapshot: enzyme.shallow 1`] = `
-.css-hd6mcm,
-[data-css-hd6mcm] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-hd6mcm > div,
-[data-css-hd6mcm] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_e4ewoo 1s 0s ease-in-out infinite;
   border: 2px solid #ffffff;
@@ -117,8 +117,8 @@ exports[`<BallClipRotateMultiple> shallow to match snapshot: enzyme.shallow 1`] 
   -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-hd6mcm > div:last-child,
-[data-css-hd6mcm] > div:last-child {
+.css-0 > div:last-child,
+[data-css-0] > div:last-child {
   animation-direction: reverse;
   animation-duration: 0.5s;
   border-color: #ffffff transparent #ffffff transparent;
@@ -132,7 +132,7 @@ exports[`<BallClipRotateMultiple> shallow to match snapshot: enzyme.shallow 1`] 
 }
 
 <div
-  data-css-hd6mcm=""
+  data-css-0=""
 >
   <div />
   <div />

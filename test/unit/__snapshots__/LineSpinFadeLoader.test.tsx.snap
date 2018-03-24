@@ -1,37 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
-.css-11jr1oo,
-[data-css-11jr1oo] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-11jr1oo> div:nth-child(2),
-[data-css-11jr1oo]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1w5vsxu 1s -0.99s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.99s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(3),
-[data-css-11jr1oo]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1w5vsxu 1s -0.66s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.66s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(4),
-[data-css-11jr1oo]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1w5vsxu 1s -0.33s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.33s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(5),
-[data-css-11jr1oo]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1w5vsxu 1s 0.00s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s 0.00s infinite linear;
 }
 
-.css-11jr1oo > div:first-of-type,
-[data-css-11jr1oo] > div:first-of-type {
+.css-0 > div:first-of-type,
+[data-css-0] > div:first-of-type {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -45,8 +45,8 @@ exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
   -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(2),
-[data-css-11jr1oo] > div:nth-child(2) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2) {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -61,14 +61,14 @@ exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
   -webkit-animation: animation_mvibk4 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(3),
-[data-css-11jr1oo] > div:nth-child(3),
-.css-11jr1oo > div:nth-child(4),
-[data-css-11jr1oo] > div:nth-child(4),
-.css-11jr1oo > div:nth-child(5),
-[data-css-11jr1oo] > div:nth-child(5),
-.css-11jr1oo > div:nth-child(6),
-[data-css-11jr1oo] > div:nth-child(6) {
+.css-0 > div:nth-child(3),
+[data-css-0] > div:nth-child(3),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5),
+.css-0 > div:nth-child(6),
+[data-css-0] > div:nth-child(6) {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -85,7 +85,7 @@ exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-11jr1oo=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -97,37 +97,37 @@ exports[`<Pacman> <Pacman> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
-.css-11jr1oo,
-[data-css-11jr1oo] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-11jr1oo> div:nth-child(2),
-[data-css-11jr1oo]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1w5vsxu 1s -0.99s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.99s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(3),
-[data-css-11jr1oo]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1w5vsxu 1s -0.66s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.66s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(4),
-[data-css-11jr1oo]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1w5vsxu 1s -0.33s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.33s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(5),
-[data-css-11jr1oo]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1w5vsxu 1s 0.00s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s 0.00s infinite linear;
 }
 
-.css-11jr1oo > div:first-of-type,
-[data-css-11jr1oo] > div:first-of-type {
+.css-0 > div:first-of-type,
+[data-css-0] > div:first-of-type {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -141,8 +141,8 @@ exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
   -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(2),
-[data-css-11jr1oo] > div:nth-child(2) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2) {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -157,14 +157,14 @@ exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
   -webkit-animation: animation_mvibk4 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(3),
-[data-css-11jr1oo] > div:nth-child(3),
-.css-11jr1oo > div:nth-child(4),
-[data-css-11jr1oo] > div:nth-child(4),
-.css-11jr1oo > div:nth-child(5),
-[data-css-11jr1oo] > div:nth-child(5),
-.css-11jr1oo > div:nth-child(6),
-[data-css-11jr1oo] > div:nth-child(6) {
+.css-0 > div:nth-child(3),
+[data-css-0] > div:nth-child(3),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5),
+.css-0 > div:nth-child(6),
+[data-css-0] > div:nth-child(6) {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -178,7 +178,7 @@ exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-11jr1oo=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -189,37 +189,37 @@ exports[`<Pacman> <Pacman> Render: enzyme.render 1`] = `
 `;
 
 exports[`<Pacman> <Pacman> Shallow: enzyme.shallow 1`] = `
-.css-11jr1oo,
-[data-css-11jr1oo] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-11jr1oo> div:nth-child(2),
-[data-css-11jr1oo]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_1w5vsxu 1s -0.99s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.99s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(3),
-[data-css-11jr1oo]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_1w5vsxu 1s -0.66s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.66s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(4),
-[data-css-11jr1oo]> div:nth-child(4) {
+.css-0> div:nth-child(4),
+[data-css-0]> div:nth-child(4) {
   animation: animation_1w5vsxu 1s -0.33s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s -0.33s infinite linear;
 }
 
-.css-11jr1oo> div:nth-child(5),
-[data-css-11jr1oo]> div:nth-child(5) {
+.css-0> div:nth-child(5),
+[data-css-0]> div:nth-child(5) {
   animation: animation_1w5vsxu 1s 0.00s infinite linear;
   -webkit-animation: animation_1w5vsxu 1s 0.00s infinite linear;
 }
 
-.css-11jr1oo > div:first-of-type,
-[data-css-11jr1oo] > div:first-of-type {
+.css-0 > div:first-of-type,
+[data-css-0] > div:first-of-type {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -233,8 +233,8 @@ exports[`<Pacman> <Pacman> Shallow: enzyme.shallow 1`] = `
   -webkit-animation: animation_1dfnslg 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(2),
-[data-css-11jr1oo] > div:nth-child(2) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2) {
   border-bottom: 25px solid #ffffff;
   border-left: 25px solid #ffffff;
   border-radius: 25px;
@@ -249,14 +249,14 @@ exports[`<Pacman> <Pacman> Shallow: enzyme.shallow 1`] = `
   -webkit-animation: animation_mvibk4 0.5s 0s infinite;
 }
 
-.css-11jr1oo > div:nth-child(3),
-[data-css-11jr1oo] > div:nth-child(3),
-.css-11jr1oo > div:nth-child(4),
-[data-css-11jr1oo] > div:nth-child(4),
-.css-11jr1oo > div:nth-child(5),
-[data-css-11jr1oo] > div:nth-child(5),
-.css-11jr1oo > div:nth-child(6),
-[data-css-11jr1oo] > div:nth-child(6) {
+.css-0 > div:nth-child(3),
+[data-css-0] > div:nth-child(3),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5),
+.css-0 > div:nth-child(6),
+[data-css-0] > div:nth-child(6) {
   border-radius: 100%;
   height: 10px;
   margin: 2px;
@@ -270,7 +270,7 @@ exports[`<Pacman> <Pacman> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-11jr1oo=""
+  data-css-0=""
 >
   <div />
   <div />

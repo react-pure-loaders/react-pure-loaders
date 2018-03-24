@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SquareSpin> <SquareSpin> Mount: enzyme.mount 1`] = `
-.css-1ke7zl2 > div,
-[data-css-1ke7zl2] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   background: #ffffff;
@@ -16,7 +16,7 @@ exports[`<SquareSpin> <SquareSpin> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1ke7zl2=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -24,8 +24,8 @@ exports[`<SquareSpin> <SquareSpin> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<SquareSpin> <SquareSpin> Render: enzyme.render 1`] = `
-.css-1ke7zl2 > div,
-[data-css-1ke7zl2] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   background: #ffffff;
@@ -36,15 +36,15 @@ exports[`<SquareSpin> <SquareSpin> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-1ke7zl2=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<SquareSpin> <SquareSpin> Shallow: enzyme.shallow 1`] = `
-.css-1ke7zl2 > div,
-[data-css-1ke7zl2] > div {
+.css-0 > div,
+[data-css-0] > div {
   animation-fill-mode: both;
   animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   background: #ffffff;
@@ -55,7 +55,7 @@ exports[`<SquareSpin> <SquareSpin> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-1ke7zl2=""
+  data-css-0=""
 >
   <div />
 </div>

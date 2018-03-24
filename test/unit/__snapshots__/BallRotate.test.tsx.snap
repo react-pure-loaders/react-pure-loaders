@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
-.css-nx51am,
-[data-css-nx51am] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-nx51am > div,
-[data-css-nx51am] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -18,10 +18,10 @@ exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before,
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:before,
+[data-css-0] > div:before,
+.css-0 > div:after,
+[data-css-0] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -32,20 +32,20 @@ exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
   position: absolute;
 }
 
-.css-nx51am > div:first-child,
-[data-css-nx51am] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before {
+.css-0 > div:before,
+[data-css-0] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:after,
+[data-css-0] > div:after {
   left: 25px;
   top: 0px;
 }
@@ -54,7 +54,7 @@ exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-nx51am=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -62,13 +62,13 @@ exports[`<BallRotate> <BallRotate> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallRotate> <BallRotate> Render: enzyme.render 1`] = `
-.css-nx51am,
-[data-css-nx51am] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-nx51am > div,
-[data-css-nx51am] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -79,10 +79,10 @@ exports[`<BallRotate> <BallRotate> Render: enzyme.render 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before,
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:before,
+[data-css-0] > div:before,
+.css-0 > div:after,
+[data-css-0] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -93,39 +93,39 @@ exports[`<BallRotate> <BallRotate> Render: enzyme.render 1`] = `
   position: absolute;
 }
 
-.css-nx51am > div:first-child,
-[data-css-nx51am] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before {
+.css-0 > div:before,
+[data-css-0] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:after,
+[data-css-0] > div:after {
   left: 25px;
   top: 0px;
 }
 
 <div
-  data-css-nx51am=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<BallRotate> <BallRotate> Shallow: enzyme.shallow 1`] = `
-.css-nx51am,
-[data-css-nx51am] {
+.css-0,
+[data-css-0] {
   position: relative;
 }
 
-.css-nx51am > div,
-[data-css-nx51am] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -136,10 +136,10 @@ exports[`<BallRotate> <BallRotate> Shallow: enzyme.shallow 1`] = `
   -webkit-animation-fill-mode: both;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before,
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:before,
+[data-css-0] > div:before,
+.css-0 > div:after,
+[data-css-0] > div:after {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -150,26 +150,26 @@ exports[`<BallRotate> <BallRotate> Shallow: enzyme.shallow 1`] = `
   position: absolute;
 }
 
-.css-nx51am > div:first-child,
-[data-css-nx51am] > div:first-child {
+.css-0 > div:first-child,
+[data-css-0] > div:first-child {
   animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
   -webkit-animation: animation_10898qo 1s 0s cubic-bezier(.7,-.13,.22,.86) infinite;
 }
 
-.css-nx51am > div:before,
-[data-css-nx51am] > div:before {
+.css-0 > div:before,
+[data-css-0] > div:before {
   left: -28px;
   top: 0px;
 }
 
-.css-nx51am > div:after,
-[data-css-nx51am] > div:after {
+.css-0 > div:after,
+[data-css-0] > div:after {
   left: 25px;
   top: 0px;
 }
 
 <div
-  data-css-nx51am=""
+  data-css-0=""
 >
   <div />
 </div>

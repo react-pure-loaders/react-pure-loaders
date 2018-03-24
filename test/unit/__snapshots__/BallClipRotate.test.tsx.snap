@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallClipRotate> mount to match snapshot: enzyme.mount 1`] = `
-.css-14h0k3q > div,
-[data-css-14h0k3q] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 26px;
   margin: 2px;
@@ -22,7 +22,7 @@ exports[`<BallClipRotate> mount to match snapshot: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-14h0k3q=""
+    data-css-0=""
   >
     <div />
   </div>
@@ -30,8 +30,8 @@ exports[`<BallClipRotate> mount to match snapshot: enzyme.mount 1`] = `
 `;
 
 exports[`<BallClipRotate> render to match snapshot: enzyme.render 1`] = `
-.css-14h0k3q > div,
-[data-css-14h0k3q] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 26px;
   margin: 2px;
@@ -48,15 +48,15 @@ exports[`<BallClipRotate> render to match snapshot: enzyme.render 1`] = `
 }
 
 <div
-  data-css-14h0k3q=""
+  data-css-0=""
 >
   <div />
 </div>
 `;
 
 exports[`<BallClipRotate> shallow to match snapshot: enzyme.shallow 1`] = `
-.css-14h0k3q > div,
-[data-css-14h0k3q] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 26px;
   margin: 2px;
@@ -73,7 +73,7 @@ exports[`<BallClipRotate> shallow to match snapshot: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-14h0k3q=""
+  data-css-0=""
 >
   <div />
 </div>

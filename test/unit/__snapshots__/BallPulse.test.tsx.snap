@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallPulse> <BallPulse> Mount: enzyme.mount 1`] = `
-.css-4xz5wq> div:nth-child(1),
-[data-css-4xz5wq]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(2),
-[data-css-4xz5wq]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(3),
-[data-css-4xz5wq]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq > div,
-[data-css-4xz5wq] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -35,7 +35,7 @@ exports[`<BallPulse> <BallPulse> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-4xz5wq=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -45,26 +45,26 @@ exports[`<BallPulse> <BallPulse> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallPulse> <BallPulse> Render: enzyme.render 1`] = `
-.css-4xz5wq> div:nth-child(1),
-[data-css-4xz5wq]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(2),
-[data-css-4xz5wq]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(3),
-[data-css-4xz5wq]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq > div,
-[data-css-4xz5wq] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -76,7 +76,7 @@ exports[`<BallPulse> <BallPulse> Render: enzyme.render 1`] = `
 }
 
 <div
-  data-css-4xz5wq=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -85,26 +85,26 @@ exports[`<BallPulse> <BallPulse> Render: enzyme.render 1`] = `
 `;
 
 exports[`<BallPulse> <BallPulse> Shallow: enzyme.shallow 1`] = `
-.css-4xz5wq> div:nth-child(1),
-[data-css-4xz5wq]> div:nth-child(1) {
+.css-0> div:nth-child(1),
+[data-css-0]> div:nth-child(1) {
   animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.24s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(2),
-[data-css-4xz5wq]> div:nth-child(2) {
+.css-0> div:nth-child(2),
+[data-css-0]> div:nth-child(2) {
   animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s -0.12s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq> div:nth-child(3),
-[data-css-4xz5wq]> div:nth-child(3) {
+.css-0> div:nth-child(3),
+[data-css-0]> div:nth-child(3) {
   animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   -webkit-animation: animation_52v9b3 0.75s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.css-4xz5wq > div,
-[data-css-4xz5wq] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -116,7 +116,7 @@ exports[`<BallPulse> <BallPulse> Shallow: enzyme.shallow 1`] = `
 }
 
 <div
-  data-css-4xz5wq=""
+  data-css-0=""
 >
   <div />
   <div />

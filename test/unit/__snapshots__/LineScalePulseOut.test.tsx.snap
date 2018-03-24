@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LineScalePulseOut> <LineScalePulseOut> Mount: enzyme.mount 1`] = `
-.css-1yug6oi > div,
-[data-css-1yug6oi] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -15,18 +15,18 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Mount: enzyme.mount 1`] = `
   -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
 }
 
-.css-1yug6oi > div:nth-child(2),
-[data-css-1yug6oi] > div:nth-child(2),
-.css-1yug6oi > div:nth-child(4),
-[data-css-1yug6oi] > div:nth-child(4) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4) {
   animation-delay: -0.40s !important;
   -webkit-animation-delay: -0.40s !important;
 }
 
-.css-1yug6oi > div:nth-child(1),
-[data-css-1yug6oi] > div:nth-child(1),
-.css-1yug6oi > div:nth-child(5),
-[data-css-1yug6oi] > div:nth-child(5) {
+.css-0 > div:nth-child(1),
+[data-css-0] > div:nth-child(1),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5) {
   animation-delay: -0.20s !important;
   -webkit-animation-delay: -0.20s !important;
 }
@@ -35,7 +35,7 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1yug6oi=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -47,8 +47,8 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<LineScalePulseOut> <LineScalePulseOut> Render: enzyme.render 1`] = `
-.css-1yug6oi > div,
-[data-css-1yug6oi] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -61,24 +61,24 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Render: enzyme.render 1`] = `
   -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
 }
 
-.css-1yug6oi > div:nth-child(2),
-[data-css-1yug6oi] > div:nth-child(2),
-.css-1yug6oi > div:nth-child(4),
-[data-css-1yug6oi] > div:nth-child(4) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4) {
   animation-delay: -0.40s !important;
   -webkit-animation-delay: -0.40s !important;
 }
 
-.css-1yug6oi > div:nth-child(1),
-[data-css-1yug6oi] > div:nth-child(1),
-.css-1yug6oi > div:nth-child(5),
-[data-css-1yug6oi] > div:nth-child(5) {
+.css-0 > div:nth-child(1),
+[data-css-0] > div:nth-child(1),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5) {
   animation-delay: -0.20s !important;
   -webkit-animation-delay: -0.20s !important;
 }
 
 <div
-  data-css-1yug6oi=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -89,8 +89,8 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Render: enzyme.render 1`] = `
 `;
 
 exports[`<LineScalePulseOut> <LineScalePulseOut> Shallow: enzyme.shallow 1`] = `
-.css-1yug6oi > div,
-[data-css-1yug6oi] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -103,24 +103,24 @@ exports[`<LineScalePulseOut> <LineScalePulseOut> Shallow: enzyme.shallow 1`] = `
   -webkit-animation: animation_19oh8vm 0.9s -0.60s infinite cubic-bezier(.85,.25,.37,.85);
 }
 
-.css-1yug6oi > div:nth-child(2),
-[data-css-1yug6oi] > div:nth-child(2),
-.css-1yug6oi > div:nth-child(4),
-[data-css-1yug6oi] > div:nth-child(4) {
+.css-0 > div:nth-child(2),
+[data-css-0] > div:nth-child(2),
+.css-0 > div:nth-child(4),
+[data-css-0] > div:nth-child(4) {
   animation-delay: -0.40s !important;
   -webkit-animation-delay: -0.40s !important;
 }
 
-.css-1yug6oi > div:nth-child(1),
-[data-css-1yug6oi] > div:nth-child(1),
-.css-1yug6oi > div:nth-child(5),
-[data-css-1yug6oi] > div:nth-child(5) {
+.css-0 > div:nth-child(1),
+[data-css-0] > div:nth-child(1),
+.css-0 > div:nth-child(5),
+[data-css-0] > div:nth-child(5) {
   animation-delay: -0.20s !important;
   -webkit-animation-delay: -0.20s !important;
 }
 
 <div
-  data-css-1yug6oi=""
+  data-css-0=""
 >
   <div />
   <div />

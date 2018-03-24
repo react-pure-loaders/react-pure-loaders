@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallPulseRise> <BallPulseRise> Mount: enzyme.mount 1`] = `
-.css-1hfgyw4 > div,
-[data-css-1hfgyw4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -21,14 +21,14 @@ exports[`<BallPulseRise> <BallPulseRise> Mount: enzyme.mount 1`] = `
   -webkit-animation-timing-function: cubic-bezier(.15,.46,.9,.6);
 }
 
-.css-1hfgyw4 > div:nth-child(2n),
-[data-css-1hfgyw4] > div:nth-child(2n) {
+.css-0 > div:nth-child(2n),
+[data-css-0] > div:nth-child(2n) {
   animation-name: animation_1grmen5;
   -webkit-animation-name: animation_1grmen5;
 }
 
-.css-1hfgyw4 > div:nth-child(2n-1),
-[data-css-1hfgyw4] > div:nth-child(2n-1) {
+.css-0 > div:nth-child(2n-1),
+[data-css-0] > div:nth-child(2n-1) {
   animation-name: animation_l72o7p;
   -webkit-animation-name: animation_l72o7p;
 }
@@ -37,7 +37,7 @@ exports[`<BallPulseRise> <BallPulseRise> Mount: enzyme.mount 1`] = `
   loading={true}
 >
   <div
-    data-css-1hfgyw4=""
+    data-css-0=""
   >
     <div />
     <div />
@@ -49,8 +49,8 @@ exports[`<BallPulseRise> <BallPulseRise> Mount: enzyme.mount 1`] = `
 `;
 
 exports[`<BallPulseRise> <BallPulseRise> Render: enzyme.render 1`] = `
-.css-1hfgyw4 > div,
-[data-css-1hfgyw4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -69,20 +69,20 @@ exports[`<BallPulseRise> <BallPulseRise> Render: enzyme.render 1`] = `
   -webkit-animation-timing-function: cubic-bezier(.15,.46,.9,.6);
 }
 
-.css-1hfgyw4 > div:nth-child(2n),
-[data-css-1hfgyw4] > div:nth-child(2n) {
+.css-0 > div:nth-child(2n),
+[data-css-0] > div:nth-child(2n) {
   animation-name: animation_1grmen5;
   -webkit-animation-name: animation_1grmen5;
 }
 
-.css-1hfgyw4 > div:nth-child(2n-1),
-[data-css-1hfgyw4] > div:nth-child(2n-1) {
+.css-0 > div:nth-child(2n-1),
+[data-css-0] > div:nth-child(2n-1) {
   animation-name: animation_l72o7p;
   -webkit-animation-name: animation_l72o7p;
 }
 
 <div
-  data-css-1hfgyw4=""
+  data-css-0=""
 >
   <div />
   <div />
@@ -93,8 +93,8 @@ exports[`<BallPulseRise> <BallPulseRise> Render: enzyme.render 1`] = `
 `;
 
 exports[`<BallPulseRise> <BallPulseRise> Shallow: enzyme.shallow 1`] = `
-.css-1hfgyw4 > div,
-[data-css-1hfgyw4] > div {
+.css-0 > div,
+[data-css-0] > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
@@ -113,20 +113,20 @@ exports[`<BallPulseRise> <BallPulseRise> Shallow: enzyme.shallow 1`] = `
   -webkit-animation-timing-function: cubic-bezier(.15,.46,.9,.6);
 }
 
-.css-1hfgyw4 > div:nth-child(2n),
-[data-css-1hfgyw4] > div:nth-child(2n) {
+.css-0 > div:nth-child(2n),
+[data-css-0] > div:nth-child(2n) {
   animation-name: animation_1grmen5;
   -webkit-animation-name: animation_1grmen5;
 }
 
-.css-1hfgyw4 > div:nth-child(2n-1),
-[data-css-1hfgyw4] > div:nth-child(2n-1) {
+.css-0 > div:nth-child(2n-1),
+[data-css-0] > div:nth-child(2n-1) {
   animation-name: animation_l72o7p;
   -webkit-animation-name: animation_l72o7p;
 }
 
 <div
-  data-css-1hfgyw4=""
+  data-css-0=""
 >
   <div />
   <div />
