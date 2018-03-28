@@ -462,13 +462,22 @@ ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.1.0, ajv@^6.1.1:
+ajv@^6.1.0:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.1.tgz#28a6abc493a2abe0fb4c8507acaedb43fa550671"
   dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
+
+ajv@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.4.0.tgz#d3aff78e9277549771daf0164cff48482b754fc6"
+  dependencies:
+    fast-deep-equal "^1.0.0"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.3.0"
+    uri-js "^3.0.2"
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
@@ -7561,16 +7570,16 @@ react-datetime@^2.11.1:
     prop-types "^15.5.7"
     react-onclickoutside "^6.5.0"
 
-react-docgen-typescript-loader@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-2.0.2.tgz#26632d7b899453e5999b12cc20d4fb4e44dc017e"
+react-docgen-typescript-loader@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-2.0.3.tgz#dae883be9091170b0dfff97ba96d6567ef27ccb6"
   dependencies:
-    ajv "^6.1.1"
-    react-docgen-typescript "^1.2.3"
+    ajv "^6.4.0"
+    react-docgen-typescript "^1.2.6"
 
-react-docgen-typescript@^1.2.3:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.2.5.tgz#e7d9f436e6544548bb269bd9a2e680279b93d99c"
+react-docgen-typescript@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.2.6.tgz#d1140c58ee9bfff5481320b9ebd1d0659ecf9913"
 
 react-docgen@^2.15.0:
   version "2.20.0"
@@ -9228,6 +9237,12 @@ unset-value@^1.0.0:
 upper-case@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
+
+uri-js@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-3.0.2.tgz#f90b858507f81dea4dcfbb3c4c3dbfa2b557faaa"
+  dependencies:
+    punycode "^2.1.0"
 
 urix@^0.1.0, urix@~0.1.0:
   version "0.1.0"
