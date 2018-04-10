@@ -53,7 +53,7 @@
     "@storybook/addon-backgrounds": "3.4.0",
     "@storybook/addon-centered": "3.4.0",
     "@storybook/addon-info": "3.4.0",
-    "@storybook/addon-knobs": "3.4.0",
+    "@storybook/addon-knobs": "3.4.1",
     "@storybook/addon-options": "3.4.0",
     "@storybook/addons": "3.4.0",
     "@storybook/react": "3.4.0",
