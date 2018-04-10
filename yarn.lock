@@ -162,9 +162,9 @@
     global "^4.3.2"
     prop-types "^15.6.1"
 
-"@storybook/addon-options@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.4.0.tgz#e3da0f103a6bf89be7bf5b528795a971a7316a38"
+"@storybook/addon-options@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-options/-/addon-options-3.4.1.tgz#309f46c298b110442824b066e73df6dee17fc8b9"
   dependencies:
     babel-runtime "^6.26.0"
 
