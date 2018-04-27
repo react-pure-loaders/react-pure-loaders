@@ -105,9 +105,9 @@
     react-inspector "^2.2.2"
     uuid "^3.2.1"
 
-"@storybook/addon-backgrounds@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-3.4.2.tgz#44c034c1295d8ffe74363cff569917802e80758a"
+"@storybook/addon-backgrounds@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-3.4.3.tgz#fb4cc36eb0462298109b483943345dda5515ad35"
   dependencies:
     babel-runtime "^6.26.0"
     global "^4.3.2"
