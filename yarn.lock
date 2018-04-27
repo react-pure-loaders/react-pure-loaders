@@ -113,9 +113,9 @@
     global "^4.3.2"
     prop-types "^15.6.1"
 
-"@storybook/addon-centered@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.4.2.tgz#5d0bd9e14b5394daa957b59a163b21601a53b0a4"
+"@storybook/addon-centered@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.4.3.tgz#5b9f593acaf24cf8eb25592aa53b97d4a42786ef"
   dependencies:
     babel-runtime "^6.26.0"
     global "^4.3.2"
