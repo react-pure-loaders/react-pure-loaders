@@ -120,12 +120,12 @@
     babel-runtime "^6.26.0"
     global "^4.3.2"
 
-"@storybook/addon-info@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-3.4.2.tgz#0a101b86de80e76fe3b756e2dcdd296c94cc1914"
+"@storybook/addon-info@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-3.4.3.tgz#c47d4ffef43e3662d3b0d54f400716ff9907dcfd"
   dependencies:
-    "@storybook/client-logger" "3.4.2"
-    "@storybook/components" "3.4.2"
+    "@storybook/client-logger" "3.4.3"
+    "@storybook/components" "3.4.3"
     babel-runtime "^6.26.0"
     glamor "^2.20.40"
     glamorous "^4.12.1"
@@ -188,9 +188,21 @@
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-3.4.2.tgz#33a7b5c924e2960f9c129a934fc905ed1b271017"
 
+"@storybook/client-logger@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-3.4.3.tgz#72ea30e23e05a4dc13b3b1970665e40407368ffe"
+
 "@storybook/components@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.4.2.tgz#1124cf22a54e36aa07c291608c652746919cf375"
+  dependencies:
+    glamor "^2.20.40"
+    glamorous "^4.12.1"
+    prop-types "^15.6.1"
+
+"@storybook/components@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.4.3.tgz#d21a9eb63c61529cfbb802d96ceaa67fb7fd50b0"
   dependencies:
     glamor "^2.20.40"
     glamorous "^4.12.1"
