@@ -54,7 +54,7 @@
     "@storybook/addon-centered": "3.4.5",
     "@storybook/addon-info": "3.4.5",
     "@storybook/addon-knobs": "3.4.5",
-    "@storybook/addon-options": "3.4.5",
+    "@storybook/addon-options": "3.4.6",
     "@storybook/addons": "3.4.5",
     "@storybook/react": "3.4.5",
     "@types/chance": "1.0.0",
