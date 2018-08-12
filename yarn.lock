@@ -7969,9 +7969,9 @@ react-dev-utils@^5.0.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-docgen-typescript-loader@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-2.1.1.tgz#8ba68dcc0d913c1fe82b2dfb8a837b02a23df74e"
+react-docgen-typescript-loader@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-2.2.0.tgz#20d1f9e60e6209013036e28e8acd4eee5bb4c3dd"
   dependencies:
     ajv "^6.5.0"
     react-docgen-typescript "^1.6.0"
