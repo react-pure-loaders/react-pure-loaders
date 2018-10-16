@@ -141,10 +141,10 @@
     global "^4.3.2"
     prop-types "^15.6.1"
 
-"@storybook/addon-centered@3.4.10":
-  version "3.4.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.4.10.tgz#40e6093362fcc450432c8ace5454d92c74c588a9"
-  integrity sha512-HNyx3aohzpZnzkNSLHM4baylxF2Qp/sdNBJLmkgYZVsOLvrTHR6cHuJDLVWUILun5pcY+c3n/ujhR9q6roEEqw==
+"@storybook/addon-centered@3.4.11":
+  version "3.4.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.4.11.tgz#6bb7abacfea60cee1238b0656148faa6b29b64fb"
+  integrity sha512-4e83kh6MzNrE3Cg15kOPyLly4yGc6Y4sAhLGNVnAC+SS8wrq5QX7eDw4Pl7+FGnqhtpQ3Irx+hAAxr+33q73UQ==
   dependencies:
     babel-runtime "^6.26.0"
     global "^4.3.2"
