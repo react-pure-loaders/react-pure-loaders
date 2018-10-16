@@ -462,10 +462,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.8.tgz#92509422653f10e9c0ac18d87e0610b39f9821c7"
   integrity sha512-8KmlRxwbKZfjUHFIt3q8TF5S2B+/E5BaAoo/3mgc5h6FJzqxXkCK/VMetO+IRDtwtU6HUvovHMBn+XRj7SV9Qg==
 
-"@types/node@10.7.0":
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.7.0.tgz#d384b2c8625414ab2aa18fdf989c288d6a7a8202"
-  integrity sha512-dmYIvoQEZWnyQfgrwPCoxztv/93NYQGEiOoQhuI56rJahv9de6Q2apZl3bufV46YJ0OAXdaktIuw4RIRl4DTeA==
+"@types/node@10.12.0":
+  version "10.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
+  integrity sha512-3TUHC3jsBAB7qVRGxT6lWyYo2v96BMmD2PTcl47H25Lu7UXtFH/2qqmKiVrnel6Ne//0TFYf6uvNX+HW2FRkLQ==
 
 "@types/react@*":
   version "16.0.34"
