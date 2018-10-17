@@ -83,7 +83,7 @@
     "react": "16.5.2",
     "react-docgen-typescript-loader": "2.2.0",
     "react-dom": "16.4.2",
-    "react-test-renderer": "16.4.2",
+    "react-test-renderer": "16.5.2",
     "rimraf": "2.6.2",
     "semantic-release": "15.9.17",
     "storybook-readme": "4.0.0",
