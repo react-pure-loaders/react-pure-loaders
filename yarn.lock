@@ -11653,10 +11653,10 @@ stealthy-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-storybook-readme@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-4.0.1.tgz#e7dcf5908c77d2094057729850442f5daf4ffcf9"
-  integrity sha512-iDS0xBZo/9AWdrfV4IzgJF1/E+QZulHTp6F8SSpv9xv+O1IqLOiRQLwGHgNCMvrOBaTRNYwif+n1sNd1TVJYvQ==
+storybook-readme@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/storybook-readme/-/storybook-readme-4.0.2.tgz#35304e7dad1157ecb8dc9b678400db812337202c"
+  integrity sha512-Kms7I7IVpxlRHMr67hL8fFdLVfD6H0XYWoDa3xp99wR1Y1zAwt2TXz0lFX/WEF807w65SpluVqH1uK8rjuVMAg==
   dependencies:
     html-loader "^0.5.5"
     lodash "^4.17.4"
