@@ -78,7 +78,7 @@
     "gh-pages": "2.0.1",
     "jest": "23.6.0",
     "jest-glamor-react": "4.3.1",
-    "lint-staged": "7.3.0",
+    "lint-staged": "8.0.0",
     "opt-cli": "1.6.0",
     "raf": "3.4.0",
     "react": "16.6.0",
