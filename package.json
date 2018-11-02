@@ -80,7 +80,7 @@
     "jest-glamor-react": "4.3.1",
     "lint-staged": "7.3.0",
     "opt-cli": "1.6.0",
-    "raf": "3.4.0",
+    "raf": "3.4.1",
     "react": "16.6.0",
     "react-docgen-typescript-loader": "3.0.0",
     "react-dom": "16.6.0",
