@@ -59,7 +59,7 @@
     "@storybook/react": "3.4.11",
     "@types/chance": "1.0.1",
     "@types/css": "0.0.31",
-    "@types/enzyme": "3.1.14",
+    "@types/enzyme": "3.1.15",
     "@types/enzyme-adapter-react-16": "1.0.3",
     "@types/jest": "23.3.7",
     "@types/node": "10.12.0",
