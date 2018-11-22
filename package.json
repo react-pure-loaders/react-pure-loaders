@@ -89,7 +89,7 @@
     "semantic-release": "15.10.5",
     "storybook-readme": "4.0.2",
     "svg-url-loader": "2.3.2",
-    "ts-jest": "23.10.4",
+    "ts-jest": "23.10.5",
     "tslint": "5.11.0",
     "tslint-config-airbnb": "5.11.0",
     "typescript": "3.1.3",
