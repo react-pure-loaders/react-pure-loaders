@@ -50,7 +50,7 @@
     "glamor": "2.20.40"
   },
   "devDependencies": {
-    "@storybook/addon-backgrounds": "4.0.12",
+    "@storybook/addon-backgrounds": "4.1.0",
     "@storybook/addon-centered": "4.1.0",
     "@storybook/addon-info": "4.1.0",
     "@storybook/addon-knobs": "4.1.0",
