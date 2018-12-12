@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@storybook/addon-backgrounds": "4.0.12",
-    "@storybook/addon-centered": "4.0.12",
+    "@storybook/addon-centered": "4.1.0",
     "@storybook/addon-info": "4.0.12",
     "@storybook/addon-knobs": "4.0.12",
     "@storybook/addon-options": "4.0.12",
