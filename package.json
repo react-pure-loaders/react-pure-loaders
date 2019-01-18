@@ -63,7 +63,7 @@
     "@types/enzyme-adapter-react-16": "1.0.3",
     "@types/jest": "23.3.10",
     "@types/node": "10.12.12",
-    "all-contributors-cli": "5.4.1",
+    "all-contributors-cli": "5.10.1",
     "awesome-typescript-loader": "5.2.1",
     "babel-core": "6.26.3",
     "chance": "1.0.18",
