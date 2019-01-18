@@ -86,7 +86,7 @@
     "react-dom": "16.7.0",
     "react-test-renderer": "16.7.0",
     "rimraf": "2.6.2",
-    "semantic-release": "15.12.4",
+    "semantic-release": "15.13.3",
     "storybook-readme": "4.0.2",
     "svg-url-loader": "2.3.2",
     "ts-jest": "23.10.5",
