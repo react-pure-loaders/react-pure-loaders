@@ -85,7 +85,7 @@
     "react-docgen-typescript-loader": "3.0.0",
     "react-dom": "16.7.0",
     "react-test-renderer": "16.7.0",
-    "rimraf": "2.6.2",
+    "rimraf": "2.6.3",
     "semantic-release": "15.12.4",
     "storybook-readme": "4.0.2",
     "svg-url-loader": "2.3.2",
