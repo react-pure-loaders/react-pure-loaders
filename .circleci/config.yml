@@ -104,6 +104,7 @@ jobs:
     <<: *test_steps
 
   test-node-10:
+    docker:
       - image: circleci/node:8
     <<: *test_steps
 

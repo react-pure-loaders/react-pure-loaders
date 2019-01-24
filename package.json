@@ -32,6 +32,7 @@
     "tslint:fix": "tslint --config tslint.json --project tsconfig.json --fix \"src/**/*.ts\"",
     "verify": "npm run verify:npmvet && npm run verify:david && npm run audit:fix && npm run verify:tscheck && npm run tslint && npm run test",
     "verify:ci": "npm run verify:npmvet && npm run audit:fix && npm run tslint && npm run test:ci",
+    "verify:circleci": "circleci config validate -c .circleci/config.yml",
     "verify:check": "depcheck",
     "verify:david": "david",
     "verify:npmvet": "npmvet --renderer ci --strict",
