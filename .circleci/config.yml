@@ -104,7 +104,7 @@ jobs:
     <<: *test_steps
 
   test-node-10:
-    - image: circleci/node:8
+      - image: circleci/node:8
     <<: *test_steps
 
   test-node-11:
