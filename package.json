@@ -63,7 +63,7 @@
     "@types/css": "0.0.31",
     "@types/enzyme": "3.1.16",
     "@types/enzyme-adapter-react-16": "1.0.3",
-    "@types/jest": "23.3.13",
+    "@types/jest": "24.0.0",
     "@types/node": "10.12.18",
     "all-contributors-cli": "5.11.0",
     "awesome-typescript-loader": "5.2.1",
