@@ -2067,10 +2067,10 @@ align-text@^0.1.1, align-text@^0.1.3:
     longest "^1.0.1"
     repeat-string "^1.5.2"
 
-all-contributors-cli@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.0.0.tgz#e875abc5e123451658525d53e7b37673f27521a6"
-  integrity sha512-/a4oPFuGAgs5wZ39YnyVwu/69/WXzEiRDWnuFACFKHLmXwxmrhCK5D0+k49rPqOi9BukE7tRVIwHuGm7BljzRQ==
+all-contributors-cli@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.1.0.tgz#b5e0113864f975ebf6ea643bc8142601cf8fca3b"
+  integrity sha512-loydHCtTtSOFlMY2qvbfmRDkXJ0K617yaqi6C9ePbIquIljHNoM117dQFNfoGC7XJO3AErWQc6bgmqxJoj+o/Q==
   dependencies:
     "@babel/runtime" "^7.2.0"
     async "^2.0.0-rc.1"
