@@ -84,7 +84,7 @@
     "opt-cli": "1.6.0",
     "raf": "3.4.1",
     "react": "16.8.6",
-    "react-docgen-typescript-loader": "3.0.1",
+    "react-docgen-typescript-loader": "3.1.0",
     "react-dom": "16.8.6",
     "react-test-renderer": "16.8.6",
     "rimraf": "2.6.3",
