@@ -59,7 +59,7 @@
     "@storybook/addon-options": "5.0.6",
     "@storybook/addons": "5.0.6",
     "@storybook/react": "5.0.6",
-    "@types/chance": "1.0.1",
+    "@types/chance": "1.0.2",
     "@types/css": "0.0.31",
     "@types/enzyme": "3.9.0",
     "@types/enzyme-adapter-react-16": "1.0.5",
