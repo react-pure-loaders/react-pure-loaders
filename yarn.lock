@@ -2132,10 +2132,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/chance@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/chance/-/chance-1.0.1.tgz#c10703020369602c40dd9428cc6e1437027116df"
-  integrity sha512-jtV6Bv/j+xk4gcXeLlESwNc/m/I/dIZA0xrt29g0uKcjyPob8iisj/5z0ARE+Ldfx4MxjNFNECG0z++J7zJgqg==
+"@types/chance@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/chance/-/chance-1.0.2.tgz#e6a766b5ca4103860bf7e0d689a04731918b4fb8"
+  integrity sha512-3SHPmCuwejJBdC+eZH7/dhI3Id5DJjbDqoySEb/JwlMZwBCh+/fSq6WiFsJzfUbLlJgYtAlKlRAmccpDcWnpyQ==
 
 "@types/cheerio@*":
   version "0.22.7"
