@@ -92,7 +92,7 @@
     "storybook-readme": "4.0.5",
     "svg-url-loader": "2.3.2",
     "ts-jest": "24.0.2",
-    "tslint": "5.15.0",
+    "tslint": "5.16.0",
     "tslint-config-airbnb": "5.11.1",
     "typescript": "3.4.3",
     "validate-commit-msg": "2.14.0"
