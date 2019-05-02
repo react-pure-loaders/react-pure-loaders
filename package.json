@@ -89,7 +89,7 @@
     "react-test-renderer": "16.8.6",
     "rimraf": "2.6.3",
     "semantic-release": "15.13.3",
-    "storybook-readme": "4.0.5",
+    "storybook-readme": "5.0.3",
     "svg-url-loader": "2.3.2",
     "ts-jest": "24.0.2",
     "tslint": "5.16.0",
