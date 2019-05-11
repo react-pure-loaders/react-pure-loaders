@@ -27,10 +27,8 @@
     "audit:fix": "npm audit fix",
     "clean": "rimraf build coverage",
     "commit": "git-cz",
-    "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "precommit": "lint-staged && opt --in pre-commit --exec \"npm run verify\"",
     "semantic-release": "semantic-release",
     "storybook": "start-storybook -p 9001",
     "build-storybook": "build-storybook",
@@ -168,12 +166,15 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "husky": {
-    "hooks": {}
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "opt --in commit-msg --exec \"validate-commit-msg\"",
+      "pre-commit": "lint-staged && opt --in pre-commit --exec \"npm run verify\""
     }
   }
 }
