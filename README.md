@@ -28,11 +28,9 @@
 
 React PureComponent loading animations
 
-<!-- STORY -->
-
 ## Demo
 
-[Demo Page](https://jameswlane.github.io/react-pure-loaders)
+[Demo Page](https://react-pure-loaders.jameswlane.now.sh/)
 
 ## Installation
 
