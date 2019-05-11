@@ -1,45 +1,47 @@
-import * as Chance from 'chance';
-import { shallow } from 'enzyme';
-import * as React from 'react';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-import { BallBeat } from '../../src';
-import { getClassName, getCssValueByProperty } from '../utilities';
+import BallBeat from '../../src/BallBeat';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
 
 const chance = new Chance();
 
 describe('<BallBeat>', () => {
-  test('BallBeat should match snapshot', () => {
-    const ui = (<BallBeat loading={true}/>);
+    afterEach(cleanup);
 
-    expect(shallow(ui)).toMatchSnapshot();
-  });
+    test('BallBeat should match snapshot', () => {
+        const { container } = render(<BallBeat loading={true}/>);
 
-  test('BallBeat should have three children', () => {
-    const ui = (<BallBeat loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(shallow(ui).children()).toHaveLength(3);
-  });
+    test('BallBeat should have default color', () => {
+        const { container } = render(<BallBeat loading={true}/>);
 
-  test('BallBeat should have no children', () => {
-    const ui = (<BallBeat loading={false}/>);
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
 
-    expect(shallow(ui).children()).toHaveLength(0);
-  });
+    test('BallBeat should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallBeat color={color} loading={true}/>);
 
-  test('BallBeat should have default color', () => {
-    const ui = (<BallBeat loading={true}/>);
-    const className = getClassName(ui);
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
 
-    const currentDisplayValue = getCssValueByProperty(className,'> div','background-color');
-    expect(currentDisplayValue).toEqual('#ffffff');
-  });
+    test('BallBeat should have no children', () => {
+        const { container } = render(<BallBeat loading={false}/>);
 
-  test('BallBeat should have given color', () => {
-    const color = chance.color({format: 'hex'});
-    const ui = (<BallBeat color={color} loading={true}/>);
-    const className = getClassName(ui);
+        expect(container.firstChild).toBeNull();
+    });
 
-    const currentDisplayValue = getCssValueByProperty(className,'> div','background-color');
-    expect(currentDisplayValue).toEqual(color);
-  });
+    test('BallBeat should have three children', () => {
+        const { container } = render(<BallBeat loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(4);
+    });
 });

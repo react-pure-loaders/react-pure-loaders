@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallScaleRipple } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallScaleRipple from '../../src/BallScaleRipple';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallScaleRipple>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallScaleRipple> Shallow', () => {
-    const ui = (<BallScaleRipple loading={true}/>);
+    test('BallScaleRipple should match snapshot', () => {
+        const { container } = render(<BallScaleRipple loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallScaleRipple> Mount', () => {
-    const ui = (<BallScaleRipple loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallScaleRipple> Render', () => {
-    const ui = (<BallScaleRipple loading={true}/>);
+    test('BallScaleRipple should have default color', () => {
+        const { container } = render(<BallScaleRipple loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('border', `2px solid ${PRIMARY_COLOR}`, { target: '> div' });
+    });
+
+    test('BallScaleRipple should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallScaleRipple color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('border', `2px solid ${color}`, { target: '> div' });
+    });
+
+    test('BallScaleRipple should have no children', () => {
+        const { container } = render(<BallScaleRipple loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallScaleRipple should have three children', () => {
+        const { container } = render(<BallScaleRipple loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(2);
+    });
 });

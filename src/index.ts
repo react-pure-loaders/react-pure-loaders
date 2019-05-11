@@ -1,43 +1,43 @@
 /**
  * Dots
  */
-export { BallBeat } from './BallBeat';
-export { BallClipRotate } from './BallClipRotate';
-export { BallClipRotateMultiple } from './BallClipRotateMultiple';
-export { BallClipRotatePulse } from './BallClipRotatePulse';
-export { BallGridBeat } from './BallGridBeat';
-export { BallGridPulse } from './BallGridPulse';
-export { BallPulse } from './BallPulse';
-export { BallPulseRise } from './BallPulseRise';
-export { BallPulseRound } from './BallPulseRound';
-export { BallPulseSync } from './BallPulseSync';
-export { BallRotate } from './BallRotate';
-export { BallScale } from './BallScale';
-export { BallScaleMultiple } from './BallScaleMultiple';
-export { BallScaleRandom } from './BallScaleRandom';
-export { BallScaleRipple } from './BallScaleRipple';
-export { BallScaleRippleMultiple } from './BallScaleRippleMultiple';
-export { BallSpinFadeLoader } from './BallSpinFadeLoader';
-export { BallSpinLoader } from './BallSpinLoader';
-export { BallTrianglePath } from './BallTrianglePath';
-export { BallZigZag } from './BallZigZag';
-export { BallZigZagDeflect } from './BallZigZagDeflect';
+export * from './BallBeat';
+export * from './BallClipRotate';
+export * from './BallClipRotateMultiple';
+export * from './BallClipRotatePulse';
+export * from './BallGridBeat';
+export * from './BallGridPulse';
+export * from './BallPulse';
+export * from './BallPulseRise';
+export * from './BallPulseRound';
+export * from './BallPulseSync';
+export * from './BallRotate';
+export * from './BallScale';
+export * from './BallScaleMultiple';
+export * from './BallScaleRandom';
+export * from './BallScaleRipple';
+export * from './BallScaleRippleMultiple';
+export * from './BallSpinFadeLoader';
+export * from './BallSpinLoader';
+export * from './BallTrianglePath';
+export * from './BallZigZag';
+export * from './BallZigZagDeflect';
 
 /**
  * Lines
  */
-export { LineScale } from './LineScale';
-export { LineScaleParty } from './LineScaleParty';
-export { LineScalePulseOut } from './LineScalePulseOut';
-export { LineScalePulseOutRapid } from './LineScalePulseOutRapid';
-export { LineScaleRandom } from './LineScaleRandom';
-export { LineSpinFadeLoader } from './LineSpinFadeLoader';
+export * from './LineScale';
+export * from './LineScaleParty';
+export * from './LineScalePulseOut';
+export * from './LineScalePulseOutRapid';
+export * from './LineScaleRandom';
+export * from './LineSpinFadeLoader';
 
 /**
  * Misc
  */
-export { CubeTransition } from './CubeTransition';
-export { Pacman } from './Pacman';
-export { SemiCircleSpin } from './SemiCircleSpin';
-export { SquareSpin } from './SquareSpin';
-export { TriangleSkewSpin } from './TriangleSkewSpin';
+export * from './CubeTransition';
+export * from './Pacman';
+export * from './SemiCircleSpin';
+export * from './SquareSpin';
+export * from './TriangleSkewSpin';

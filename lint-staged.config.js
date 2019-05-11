@@ -1,6 +1,10 @@
 module.exports = {
   "*.ts": [
-    // "yarn tslint",
+    "npm run eslint:fix",
+    "git add"
+  ],
+  "*.tsx": [
+    "npm run eslint:fix",
     "git add"
   ]
 };

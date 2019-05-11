@@ -1,23 +1,18 @@
-import { css } from 'glamor';
-import * as React from 'react';
-import { IGeneralPropTypes } from '../mixins';
+/** @jsx jsx */
+import { jsx } from '@emotion/core';
 import style from './style';
+import { BaseProps } from '../types';
 
-export class BallTrianglePath extends React.PureComponent<IGeneralPropTypes, {}> {
-
-  public render() {
-    const { color, loading } = this.props;
-
+export default function BallTrianglePath({ color, loading }: BaseProps) {
     if (loading) {
-      return (
-        <div {...css(style(color))}>
-          <div/>
-          <div/>
-          <div/>
-        </div>
-      );
+        return (
+            <div css={style(color)}>
+                <div/>
+                <div/>
+                <div/>
+            </div>
+        );
     }
 
     return null;
-  }
 }

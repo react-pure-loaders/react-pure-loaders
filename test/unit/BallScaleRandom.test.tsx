@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallScaleRandom } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallScaleRandom from '../../src/BallScaleRandom';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallScaleRandom>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallScaleRandom> Shallow', () => {
-    const ui = (<BallScaleRandom loading={true}/>);
+    test('BallScaleRandom should match snapshot', () => {
+        const { container } = render(<BallScaleRandom loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallScaleRandom> Mount', () => {
-    const ui = (<BallScaleRandom loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallScaleRandom> Render', () => {
-    const ui = (<BallScaleRandom loading={true}/>);
+    test('BallScaleRandom should have default color', () => {
+        const { container } = render(<BallScaleRandom loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallScaleRandom should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallScaleRandom color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallScaleRandom should have no children', () => {
+        const { container } = render(<BallScaleRandom loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallScaleRandom should have three children', () => {
+        const { container } = render(<BallScaleRandom loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(4);
+    });
 });

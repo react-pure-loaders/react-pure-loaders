@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallPulse } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallPulse from '../../src/BallPulse';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallPulse>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallPulse> Shallow', () => {
-    const ui = (<BallPulse loading={true}/>);
+    test('BallPulse should match snapshot', () => {
+        const { container } = render(<BallPulse loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallPulse> Mount', () => {
-    const ui = (<BallPulse loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallPulse> Render', () => {
-    const ui = (<BallPulse loading={true}/>);
+    test('BallPulse should have default color', () => {
+        const { container } = render(<BallPulse loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallPulse should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallPulse color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallPulse should have no children', () => {
+        const { container } = render(<BallPulse loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallPulse should have three children', () => {
+        const { container } = render(<BallPulse loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(4);
+    });
 });

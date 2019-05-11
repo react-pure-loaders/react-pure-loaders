@@ -20,19 +20,8 @@ install_steps: &install_steps
           - node-modules-{{ .Branch }}-
           - node-modules-
     - run:
-        name: Install Greenkeeper Packages
-        command: |
-          sudo npm install -g greenkeeper-lockfile@1
-    - run:
         name: Install Dependencies
         command: npm install
-    - run:
-        name: Updating Lockfiles
-        command: |
-          greenkeeper-lockfile-update
-          greenkeeper-lockfile-upload
-          greenkeeper-shrinkwrap-update
-          greenkeeper-shrinkwrap-upload
     - save_cache:
         name: Save node_modules cache
         key: node-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
@@ -53,7 +42,7 @@ test_steps: &test_steps
         command: npm install
     - run:
         name: Test Suite
-        command: npm run test:ci
+        command: npm run test
 
 jobs:
   install:
@@ -78,24 +67,13 @@ jobs:
           name: NPM Audit Fix
           command: npm audit fix
 
-  tslint:
+  eslint:
     <<: *docker_defaults
     steps:
       - *attach_workspace
       - run:
-          name: Create TSLint report directory
-          command: mkdir reports &&  mkdir reports/tslint
-      - run:
-          name: TSLint
-          command: npm run tslint
-      - store_artifacts:
-          path: reports/tslint
-
-  test-node-6:
-    working_directory: ~/react-pure-loaders
-    docker:
-      - image: circleci/node:6
-    <<: *test_steps
+          name: ESLint
+          command: npm run eslint
 
   test-node-8:
     working_directory: ~/react-pure-loaders
@@ -114,30 +92,21 @@ jobs:
       - image: circleci/node:11
     <<: *test_steps
 
+  test-node-12:
+    working_directory: ~/react-pure-loaders
+    docker:
+      - image: circleci/node:12
+    <<: *test_steps
+
   coverage:
     <<: *docker_defaults
     steps:
       - *attach_workspace
       - run:
-          name: Setup Code Climate test-reporter
-          command: |
-            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-            chmod +x ./cc-test-reporter
-      - run:
           name: Coverage
-          environment:
-            JEST_JUNIT_OUTPUT: reports/jest/jest-test-results.xml
           command: |
-            ./cc-test-reporter before-build
-            npm run test:coverage:ci
-            ./cc-test-reporter after-build --exit-code $?
+            npm run test:coverage
             npm run test:coverage:codecov
-      - store_artifacts:
-          path: coverage
-      - store_artifacts:
-          path: reports/jest
-      - store_test_results:
-          path: reports
 
   build-typescript:
     <<: *docker_defaults
@@ -145,7 +114,7 @@ jobs:
       - *attach_workspace
       - run:
           name: Build JavaScript
-          command: npm run ts:build
+          command: npm run build
       - persist_to_workspace:
           root: ~/project
           paths:
@@ -173,27 +142,27 @@ workflows:
       - audit:
           requires:
             - npmvet
-      - tslint:
+      - eslint:
           requires:
             - audit
-      - test-node-6:
-          requires:
-            - tslint
       - test-node-8:
           requires:
-            - tslint
+            - eslint
       - test-node-10:
           requires:
-            - tslint
+            - eslint
       - test-node-11:
           requires:
-            - tslint
+            - eslint
+      - test-node-12:
+          requires:
+            - eslint
       - coverage:
           requires:
-            - test-node-6
             - test-node-8
             - test-node-10
             - test-node-11
+            - test-node-12
       - build-typescript:
           requires:
             - coverage

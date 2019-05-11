@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallBeat } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import Pacman from '../../src/Pacman';
+import { PRIMARY_COLOR } from '../../src/variables';
 
-describe('Style test', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+expect.extend(matchers);
 
-  test('<BallBeat> Shallow', () => {
-    const ui = (<BallBeat loading={true}/>);
+const chance = new Chance();
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallBeat> Mount', () => {
-    const ui = (<BallBeat loading={true}/>);
+describe('<Pacman>', () => {
+    afterEach(cleanup);
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallBeat> Render', () => {
-    const ui = (<BallBeat loading={true}/>);
+    test('Pacman should match snapshot', () => {
+        const { container } = render(<Pacman loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('Pacman should have default color', () => {
+        const { container } = render(<Pacman loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('Pacman should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<Pacman color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('Pacman should have no children', () => {
+        const { container } = render(<Pacman loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('Pacman should have three children', () => {
+        const { container } = render(<Pacman loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(6);
+    });
 });

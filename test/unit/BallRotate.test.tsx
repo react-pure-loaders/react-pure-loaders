@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallRotate } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallRotate from '../../src/BallRotate';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallRotate>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallRotate> Shallow', () => {
-    const ui = (<BallRotate loading={true}/>);
+    test('BallRotate should match snapshot', () => {
+        const { container } = render(<BallRotate loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallRotate> Mount', () => {
-    const ui = (<BallRotate loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallRotate> Render', () => {
-    const ui = (<BallRotate loading={true}/>);
+    test('BallRotate should have default color', () => {
+        const { container } = render(<BallRotate loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallRotate should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallRotate color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallRotate should have no children', () => {
+        const { container } = render(<BallRotate loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallRotate should have three children', () => {
+        const { container } = render(<BallRotate loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(2);
+    });
 });

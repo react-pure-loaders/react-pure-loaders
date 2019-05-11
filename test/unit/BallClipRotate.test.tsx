@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallClipRotate } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallClipRotate from '../../src/BallClipRotate';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallClipRotate>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('shallow to match snapshot', () => {
-    const ui = (<BallClipRotate loading={true}/>);
+    test('BallClipRotate should match snapshot', () => {
+        const { container } = render(<BallClipRotate loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('mount to match snapshot', () => {
-    const ui = (<BallClipRotate loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('render to match snapshot', () => {
-    const ui = (<BallClipRotate loading={true}/>);
+    test('BallClipRotate should have default color', () => {
+        const { container } = render(<BallClipRotate loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR);
+    });
+
+    test('BallClipRotate should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallClipRotate color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color);
+    });
+
+    test('BallClipRotate should have no children', () => {
+        const { container } = render(<BallClipRotate loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallClipRotate should have three children', () => {
+        const { container } = render(<BallClipRotate loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(2);
+    });
 });

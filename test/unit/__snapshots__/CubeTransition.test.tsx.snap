@@ -1,111 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CubeTransition> <CubeTransition> Mount: enzyme.mount 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-25, -25);
-  -webkit-transform: translate(-25, -25);
+exports[`<CubeTransition> CubeTransition should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+
+  25% {
+    -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
+    -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
+    transform: translateX(50px) scale(0.5) rotate(-90deg);
+  }
+
+  50% {
+    -webkit-transform: translate(50px,50px) rotate(-180deg);
+    -ms-transform: translate(50px,50px) rotate(-180deg);
+    transform: translate(50px,50px) rotate(-180deg);
+  }
+
+  75% {
+    -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
+    -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
+    transform: translateY(50px) scale(0.5) rotate(-270deg);
+  }
 }
 
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 {
+  position: relative;
+  -webkit-transform: translate(-25,-25);
+  -ms-transform: translate(-25,-25);
+  transform: translate(-25,-25);
+}
+
+.emotion-0 > div {
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
+  -webkit-animation: animation-0 1.6s 0s infinite ease-in-out;
+  animation: animation-0 1.6s 0s infinite ease-in-out;
   background-color: #ffffff;
   height: 10px;
   left: -5px;
   position: absolute;
   top: -5px;
   width: 10px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
 }
 
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation-delay: -0.8s;
+.emotion-0 > div:last-child {
   -webkit-animation-delay: -0.8s;
-}
-
-<CubeTransition
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-  </div>
-</CubeTransition>
-`;
-
-exports[`<CubeTransition> <CubeTransition> Render: enzyme.render 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-25, -25);
-  -webkit-transform: translate(-25, -25);
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-  background-color: #ffffff;
-  height: 10px;
-  left: -5px;
-  position: absolute;
-  top: -5px;
-  width: 10px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
   animation-delay: -0.8s;
-  -webkit-animation-delay: -0.8s;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<CubeTransition> <CubeTransition> Shallow: enzyme.shallow 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-25, -25);
-  -webkit-transform: translate(-25, -25);
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-  background-color: #ffffff;
-  height: 10px;
-  left: -5px;
-  position: absolute;
-  top: -5px;
-  width: 10px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1l238n9 1.6s 0s infinite ease-in-out;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation-delay: -0.8s;
-  -webkit-animation-delay: -0.8s;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

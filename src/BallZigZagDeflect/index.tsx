@@ -1,22 +1,17 @@
-import { css } from 'glamor';
-import * as React from 'react';
-import { IGeneralPropTypes } from '../mixins';
+/** @jsx jsx */
+import { jsx } from '@emotion/core';
 import style from './style';
+import { BaseProps } from '../types';
 
-export class BallZigZagDeflect extends React.PureComponent<IGeneralPropTypes, {}> {
-
-  public render() {
-    const { color, loading } = this.props;
-
+export default function BallZigZagDeflect({ color, loading }: BaseProps) {
     if (loading) {
-      return (
-        <div {...css(style(color))}>
-          <div/>
-          <div/>
-        </div>
-      );
+        return (
+            <div css={style(color)}>
+                <div/>
+                <div/>
+            </div>
+        );
     }
 
     return null;
-  }
 }

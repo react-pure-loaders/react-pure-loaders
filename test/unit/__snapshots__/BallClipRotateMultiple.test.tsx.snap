@@ -1,15 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
-.css-0,
-[data-css-0] {
+exports[`<BallClipRotateMultiple> BallClipRotateMultiple should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    -ms-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg) scale(0.6);
+    -ms-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6);
+  }
+}
+
+.emotion-0 {
   position: relative;
 }
 
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 > div {
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
+  -webkit-animation: animation-0 1s 0s ease-in-out infinite;
+  animation: animation-0 1s 0s ease-in-out infinite;
   border: 2px solid #ffffff;
   border-bottom-color: transparent;
   border-radius: 100%;
@@ -19,13 +39,12 @@ exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
   position: absolute;
   top: -20px;
   width: 35px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
 }
 
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
+.emotion-0 > div:last-child {
+  -webkit-animation-direction: reverse;
   animation-direction: reverse;
+  -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
   border-color: #ffffff transparent #ffffff transparent;
   display: inline-block;
@@ -33,106 +52,10 @@ exports[`<BallClipRotateMultiple> mount to match snapshot: enzyme.mount 1`] = `
   left: -10px;
   top: -10px;
   width: 15px;
-  -webkit-animation-direction: reverse;
-  -webkit-animation-duration: 0.5s;
-}
-
-<BallClipRotateMultiple
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-  </div>
-</BallClipRotateMultiple>
-`;
-
-exports[`<BallClipRotateMultiple> render to match snapshot: enzyme.render 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-  border: 2px solid #ffffff;
-  border-bottom-color: transparent;
-  border-radius: 100%;
-  border-top-color: transparent;
-  height: 35px;
-  left: -20px;
-  position: absolute;
-  top: -20px;
-  width: 35px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation-direction: reverse;
-  animation-duration: 0.5s;
-  border-color: #ffffff transparent #ffffff transparent;
-  display: inline-block;
-  height: 15px;
-  left: -10px;
-  top: -10px;
-  width: 15px;
-  -webkit-animation-direction: reverse;
-  -webkit-animation-duration: 0.5s;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<BallClipRotateMultiple> shallow to match snapshot: enzyme.shallow 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-  border: 2px solid #ffffff;
-  border-bottom-color: transparent;
-  border-radius: 100%;
-  border-top-color: transparent;
-  height: 35px;
-  left: -20px;
-  position: absolute;
-  top: -20px;
-  width: 35px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_e4ewoo 1s 0s ease-in-out infinite;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation-direction: reverse;
-  animation-duration: 0.5s;
-  border-color: #ffffff transparent #ffffff transparent;
-  display: inline-block;
-  height: 15px;
-  left: -10px;
-  top: -10px;
-  width: 15px;
-  -webkit-animation-direction: reverse;
-  -webkit-animation-duration: 0.5s;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

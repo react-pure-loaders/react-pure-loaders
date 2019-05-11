@@ -1,291 +1,209 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BallSpinFadeLoader> <BallSpinFadeLoader> Mount: enzyme.mount 1`] = `
-.css-0,
-[data-css-0] {
+exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+.emotion-0 {
   left: -10px;
   position: relative;
   top: -10px;
 }
 
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1p1c5n7 1s -0.96s infinite linear;
+.emotion-0 > div:nth-of-type(1) {
+  -webkit-animation: animation-0 1s -0.96s infinite linear;
+  animation: animation-0 1s -0.96s infinite linear;
   left: 0;
   top: 25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
 }
 
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1p1c5n7 1s -0.84s infinite linear;
+.emotion-0 > div:nth-of-type(2) {
+  -webkit-animation: animation-0 1s -0.84s infinite linear;
+  animation: animation-0 1s -0.84s infinite linear;
   left: 17.045454545454547px;
   top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
 }
 
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1p1c5n7 1s -0.72s infinite linear;
+.emotion-0 > div:nth-of-type(3) {
+  -webkit-animation: animation-0 1s -0.72s infinite linear;
+  animation: animation-0 1s -0.72s infinite linear;
   left: 25px;
   top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
 }
 
-.css-0> div:nth-child(4),
-[data-css-0]> div:nth-child(4) {
-  animation: animation_1p1c5n7 1s -0.60s infinite linear;
+.emotion-0 > div:nth-of-type(4) {
+  -webkit-animation: animation-0 1s -0.60s infinite linear;
+  animation: animation-0 1s -0.60s infinite linear;
   left: 17.045454545454547px;
   top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
 }
 
-.css-0> div:nth-child(5),
-[data-css-0]> div:nth-child(5) {
-  animation: animation_1p1c5n7 1s -0.48s infinite linear;
+.emotion-0 > div:nth-of-type(5) {
+  -webkit-animation: animation-0 1s -0.48s infinite linear;
+  animation: animation-0 1s -0.48s infinite linear;
   left: 0;
   top: -25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
 }
 
-.css-0> div:nth-child(6),
-[data-css-0]> div:nth-child(6) {
-  animation: animation_1p1c5n7 1s -0.36s infinite linear;
+.emotion-0 > div:nth-of-type(6) {
+  -webkit-animation: animation-0 1s -0.36s infinite linear;
+  animation: animation-0 1s -0.36s infinite linear;
   left: -17.045454545454547px;
   top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
 }
 
-.css-0> div:nth-child(7),
-[data-css-0]> div:nth-child(7) {
-  animation: animation_1p1c5n7 1s -0.24s infinite linear;
+.emotion-0 > div:nth-of-type(7) {
+  -webkit-animation: animation-0 1s -0.24s infinite linear;
+  animation: animation-0 1s -0.24s infinite linear;
   left: -25px;
   top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
 }
 
-.css-0> div:nth-child(8),
-[data-css-0]> div:nth-child(8) {
-  animation: animation_1p1c5n7 1s -0.12s infinite linear;
+.emotion-0 > div:nth-of-type(8) {
+  -webkit-animation: animation-0 1s -0.12s infinite linear;
+  animation: animation-0 1s -0.12s infinite linear;
   left: -17.045454545454547px;
   top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
 }
 
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
   background-color: #ffffff;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   position: absolute;
-  -webkit-animation-fill-mode: both;
-}
-
-<BallSpinFadeLoader
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-    <div />
-    <div />
-    <div />
-    <div />
-    <div />
-    <div />
-  </div>
-</BallSpinFadeLoader>
-`;
-
-exports[`<BallSpinFadeLoader> <BallSpinFadeLoader> Render: enzyme.render 1`] = `
-.css-0,
-[data-css-0] {
-  left: -10px;
-  position: relative;
-  top: -10px;
-}
-
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1p1c5n7 1s -0.96s infinite linear;
-  left: 0;
-  top: 25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
-}
-
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1p1c5n7 1s -0.84s infinite linear;
-  left: 17.045454545454547px;
-  top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
-}
-
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1p1c5n7 1s -0.72s infinite linear;
-  left: 25px;
-  top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
-}
-
-.css-0> div:nth-child(4),
-[data-css-0]> div:nth-child(4) {
-  animation: animation_1p1c5n7 1s -0.60s infinite linear;
-  left: 17.045454545454547px;
-  top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
-}
-
-.css-0> div:nth-child(5),
-[data-css-0]> div:nth-child(5) {
-  animation: animation_1p1c5n7 1s -0.48s infinite linear;
-  left: 0;
-  top: -25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
-}
-
-.css-0> div:nth-child(6),
-[data-css-0]> div:nth-child(6) {
-  animation: animation_1p1c5n7 1s -0.36s infinite linear;
-  left: -17.045454545454547px;
-  top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
-}
-
-.css-0> div:nth-child(7),
-[data-css-0]> div:nth-child(7) {
-  animation: animation_1p1c5n7 1s -0.24s infinite linear;
-  left: -25px;
-  top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
-}
-
-.css-0> div:nth-child(8),
-[data-css-0]> div:nth-child(8) {
-  animation: animation_1p1c5n7 1s -0.12s infinite linear;
-  left: -17.045454545454547px;
-  top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  position: absolute;
-  -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-  <div />
-  <div />
-  <div />
-  <div />
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<BallSpinFadeLoader> <BallSpinFadeLoader> Shallow: enzyme.shallow 1`] = `
-.css-0,
-[data-css-0] {
-  left: -10px;
-  position: relative;
-  top: -10px;
-}
-
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1p1c5n7 1s -0.96s infinite linear;
-  left: 0;
-  top: 25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.96s infinite linear;
-}
-
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1p1c5n7 1s -0.84s infinite linear;
-  left: 17.045454545454547px;
-  top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.84s infinite linear;
-}
-
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1p1c5n7 1s -0.72s infinite linear;
-  left: 25px;
-  top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.72s infinite linear;
-}
-
-.css-0> div:nth-child(4),
-[data-css-0]> div:nth-child(4) {
-  animation: animation_1p1c5n7 1s -0.60s infinite linear;
-  left: 17.045454545454547px;
-  top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.60s infinite linear;
-}
-
-.css-0> div:nth-child(5),
-[data-css-0]> div:nth-child(5) {
-  animation: animation_1p1c5n7 1s -0.48s infinite linear;
-  left: 0;
-  top: -25px;
-  -webkit-animation: animation_1p1c5n7 1s -0.48s infinite linear;
-}
-
-.css-0> div:nth-child(6),
-[data-css-0]> div:nth-child(6) {
-  animation: animation_1p1c5n7 1s -0.36s infinite linear;
-  left: -17.045454545454547px;
-  top: -17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.36s infinite linear;
-}
-
-.css-0> div:nth-child(7),
-[data-css-0]> div:nth-child(7) {
-  animation: animation_1p1c5n7 1s -0.24s infinite linear;
-  left: -25px;
-  top: 0;
-  -webkit-animation: animation_1p1c5n7 1s -0.24s infinite linear;
-}
-
-.css-0> div:nth-child(8),
-[data-css-0]> div:nth-child(8) {
-  animation: animation_1p1c5n7 1s -0.12s infinite linear;
-  left: -17.045454545454547px;
-  top: 17.045454545454547px;
-  -webkit-animation: animation_1p1c5n7 1s -0.12s infinite linear;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  position: absolute;
-  -webkit-animation-fill-mode: both;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

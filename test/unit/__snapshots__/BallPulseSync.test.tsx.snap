@@ -1,122 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BallPulseSync> <BallPulseSync> Mount: enzyme.mount 1`] = `
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
+exports[`<BallPulseSync> BallPulseSync should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  33% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  66% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  33% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  66% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  33% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  66% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 > div:nth-of-type(1) {
+  -webkit-animation: animation-0 0.6s -0.14s infinite ease-in-out;
+  animation: animation-0 0.6s -0.14s infinite ease-in-out;
+}
+
+.emotion-0 > div:nth-of-type(2) {
+  -webkit-animation: animation-0 0.6s -0.07s infinite ease-in-out;
+  animation: animation-0 0.6s -0.07s infinite ease-in-out;
+}
+
+.emotion-0 > div:nth-of-type(3) {
+  -webkit-animation: animation-0 0.6s 0.00s infinite ease-in-out;
+  animation: animation-0 0.6s 0.00s infinite ease-in-out;
+}
+
+.emotion-0 > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
   background-color: #ffffff;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   display: inline-block;
-  -webkit-animation-fill-mode: both;
-}
-
-<BallPulseSync
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-    <div />
-  </div>
-</BallPulseSync>
-`;
-
-exports[`<BallPulseSync> <BallPulseSync> Render: enzyme.render 1`] = `
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
-}
-
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
-}
-
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  display: inline-block;
-  -webkit-animation-fill-mode: both;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<BallPulseSync> <BallPulseSync> Shallow: enzyme.shallow 1`] = `
-.css-0> div:nth-child(1),
-[data-css-0]> div:nth-child(1) {
-  animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.14s infinite ease-in-out;
-}
-
-.css-0> div:nth-child(2),
-[data-css-0]> div:nth-child(2) {
-  animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s -0.07s infinite ease-in-out;
-}
-
-.css-0> div:nth-child(3),
-[data-css-0]> div:nth-child(3) {
-  animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
-  -webkit-animation: animation_1vfh1g0 0.6s 0.00s infinite ease-in-out;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  display: inline-block;
-  -webkit-animation-fill-mode: both;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

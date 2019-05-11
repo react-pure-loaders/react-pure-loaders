@@ -1,132 +1,115 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BallZigZagDeflect> <BallZigZagDeflect> Mount: enzyme.mount 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-15px, -15px);
-  -webkit-transform: translate(-15px, -15px);
+exports[`<BallZigZagDeflect> BallZigZagDeflect should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  17% {
+    -webkit-transform: translate(-15px,-30px);
+    -ms-transform: translate(-15px,-30px);
+    transform: translate(-15px,-30px);
+  }
+
+  34% {
+    -webkit-transform: translate(15px,-30px);
+    -ms-transform: translate(15px,-30px);
+    transform: translate(15px,-30px);
+  }
+
+  50% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  67% {
+    -webkit-transform: translate(15px,-30px);
+    -ms-transform: translate(15px,-30px);
+    transform: translate(15px,-30px);
+  }
+
+  84% {
+    -webkit-transform: translate(-15px,-30px);
+    -ms-transform: translate(-15px,-30px);
+    transform: translate(-15px,-30px);
+  }
 }
 
-.css-0 > div,
-[data-css-0] > div {
+@keyframes animation-1 {
+  100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  17% {
+    -webkit-transform: translate(15px,30px);
+    -ms-transform: translate(15px,30px);
+    transform: translate(15px,30px);
+  }
+
+  34% {
+    -webkit-transform: translate(-15px,30px);
+    -ms-transform: translate(-15px,30px);
+    transform: translate(-15px,30px);
+  }
+
+  50% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  67% {
+    -webkit-transform: translate(-15px,30px);
+    -ms-transform: translate(-15px,30px);
+    transform: translate(-15px,30px);
+  }
+
+  84% {
+    -webkit-transform: translate(15px,30px);
+    -ms-transform: translate(15px,30px);
+    transform: translate(15px,30px);
+  }
+}
+
+.emotion-0 {
+  position: relative;
+  -webkit-transform: translate(-15px,-15px);
+  -ms-transform: translate(-15px,-15px);
+  transform: translate(-15px,-15px);
+}
+
+.emotion-0 > div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;
   width: 15px;
   background-color: #ffffff;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   left: -7px;
   margin-left: 15px;
   position: absolute;
   top: 4px;
-  -webkit-animation-fill-mode: both;
 }
 
-.css-0 > div:first-child,
-[data-css-0] > div:first-child {
-  animation: animation_vvdr81 1.5s 0s infinite linear;
-  -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
+.emotion-0 > div:first-of-type {
+  -webkit-animation: animation-0 1.5s 0s infinite linear;
+  animation: animation-0 1.5s 0s infinite linear;
 }
 
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation: animation_135dxz0 1.5s 0s infinite linear;
-  -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
-}
-
-<BallZigZagDeflect
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-  </div>
-</BallZigZagDeflect>
-`;
-
-exports[`<BallZigZagDeflect> <BallZigZagDeflect> Render: enzyme.render 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-15px, -15px);
-  -webkit-transform: translate(-15px, -15px);
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  left: -7px;
-  margin-left: 15px;
-  position: absolute;
-  top: 4px;
-  -webkit-animation-fill-mode: both;
-}
-
-.css-0 > div:first-child,
-[data-css-0] > div:first-child {
-  animation: animation_vvdr81 1.5s 0s infinite linear;
-  -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation: animation_135dxz0 1.5s 0s infinite linear;
-  -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
+.emotion-0 > div:last-child {
+  -webkit-animation: animation-1 1.5s 0s infinite linear;
+  animation: animation-1 1.5s 0s infinite linear;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<BallZigZagDeflect> <BallZigZagDeflect> Shallow: enzyme.shallow 1`] = `
-.css-0,
-[data-css-0] {
-  position: relative;
-  transform: translate(-15px, -15px);
-  -webkit-transform: translate(-15px, -15px);
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  left: -7px;
-  margin-left: 15px;
-  position: absolute;
-  top: 4px;
-  -webkit-animation-fill-mode: both;
-}
-
-.css-0 > div:first-child,
-[data-css-0] > div:first-child {
-  animation: animation_vvdr81 1.5s 0s infinite linear;
-  -webkit-animation: animation_vvdr81 1.5s 0s infinite linear;
-}
-
-.css-0 > div:last-child,
-[data-css-0] > div:last-child {
-  animation: animation_135dxz0 1.5s 0s infinite linear;
-  -webkit-animation: animation_135dxz0 1.5s 0s infinite linear;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

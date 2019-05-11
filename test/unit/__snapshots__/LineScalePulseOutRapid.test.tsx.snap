@@ -1,129 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LineScalePulseOutRapid> <LineScalePulseOutRapid> Mount: enzyme.mount 1`] = `
-.css-0 > div,
-[data-css-0] > div {
+exports[`<LineScalePulseOutRapid> LineScalePulseOutRapid should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: scaley(1.0);
+    -ms-transform: scaley(1.0);
+    transform: scaley(1.0);
+  }
+
+  80% {
+    -webkit-transform: scaley(0.3);
+    -ms-transform: scaley(0.3);
+    transform: scaley(0.3);
+  }
+
+  90% {
+    -webkit-transform: scaley(1.0);
+    -ms-transform: scaley(1.0);
+    transform: scaley(1.0);
+  }
+}
+
+.emotion-0 > div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
   width: 4px;
   background-color: #ffffff;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+  -webkit-animation: animation-0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
+  animation: animation-0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
   display: inline-block;
   vertical-align: middle;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
 }
 
-.css-0 > div:nth-child(2),
-[data-css-0] > div:nth-child(2),
-.css-0 > div:nth-child(4),
-[data-css-0] > div:nth-child(4) {
-  animation-delay: -0.25s !important;
+.emotion-0 > div:nth-of-type(2),
+.emotion-0 > div:nth-of-type(4) {
   -webkit-animation-delay: -0.25s !important;
-}
-
-.css-0 > div:nth-child(1),
-[data-css-0] > div:nth-child(1),
-.css-0 > div:nth-child(5),
-[data-css-0] > div:nth-child(5) {
-  animation-delay: 0s !important;
-  -webkit-animation-delay: 0s !important;
-}
-
-<LineScalePulseOutRapid
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-    <div />
-    <div />
-    <div />
-  </div>
-</LineScalePulseOutRapid>
-`;
-
-exports[`<LineScalePulseOutRapid> <LineScalePulseOutRapid> Render: enzyme.render 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 2px;
-  height: 35px;
-  margin: 2px;
-  width: 4px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
-}
-
-.css-0 > div:nth-child(2),
-[data-css-0] > div:nth-child(2),
-.css-0 > div:nth-child(4),
-[data-css-0] > div:nth-child(4) {
   animation-delay: -0.25s !important;
-  -webkit-animation-delay: -0.25s !important;
 }
 
-.css-0 > div:nth-child(1),
-[data-css-0] > div:nth-child(1),
-.css-0 > div:nth-child(5),
-[data-css-0] > div:nth-child(5) {
-  animation-delay: 0s !important;
+.emotion-0 > div:nth-of-type(1),
+.emotion-0 > div:nth-of-type(5) {
   -webkit-animation-delay: 0s !important;
+  animation-delay: 0s !important;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-  <div />
-  <div />
-  <div />
-  <div />
-</div>
-`;
-
-exports[`<LineScalePulseOutRapid> <LineScalePulseOutRapid> Shallow: enzyme.shallow 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 2px;
-  height: 35px;
-  margin: 2px;
-  width: 4px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1aonxi0 0.9s -0.5s infinite cubic-bezier(.11,.49,.38,.78);
-}
-
-.css-0 > div:nth-child(2),
-[data-css-0] > div:nth-child(2),
-.css-0 > div:nth-child(4),
-[data-css-0] > div:nth-child(4) {
-  animation-delay: -0.25s !important;
-  -webkit-animation-delay: -0.25s !important;
-}
-
-.css-0 > div:nth-child(1),
-[data-css-0] > div:nth-child(1),
-.css-0 > div:nth-child(5),
-[data-css-0] > div:nth-child(5) {
-  animation-delay: 0s !important;
-  -webkit-animation-delay: 0s !important;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />

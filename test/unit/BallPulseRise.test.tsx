@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallPulseRise } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallPulseRise from '../../src/BallPulseRise';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallPulseRise>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallPulseRise> Shallow', () => {
-    const ui = (<BallPulseRise loading={true}/>);
+    test('BallPulseRise should match snapshot', () => {
+        const { container } = render(<BallPulseRise loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallPulseRise> Mount', () => {
-    const ui = (<BallPulseRise loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallPulseRise> Render', () => {
-    const ui = (<BallPulseRise loading={true}/>);
+    test('BallPulseRise should have default color', () => {
+        const { container } = render(<BallPulseRise loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallPulseRise should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallPulseRise color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallPulseRise should have no children', () => {
+        const { container } = render(<BallPulseRise loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallPulseRise should have three children', () => {
+        const { container } = render(<BallPulseRise loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(6);
+    });
 });

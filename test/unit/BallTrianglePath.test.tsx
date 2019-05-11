@@ -1,28 +1,48 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallTrianglePath } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallTrianglePath from '../../src/BallTrianglePath';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallTrianglePath>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallTrianglePath> Shallow', () => {
-    const ui = (<BallTrianglePath loading={true}/>);
+    test('BallTrianglePath should match snapshot', () => {
+        const { container } = render(<BallTrianglePath loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallTrianglePath> Mount', () => {
-    const ui = (<BallTrianglePath loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallTrianglePath> Render', () => {
-    const ui = (<BallTrianglePath loading={true}/>);
+    test('BallTrianglePath should have default color', () => {
+        const { container } = render(<BallTrianglePath loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallTrianglePath should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallTrianglePath color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallTrianglePath should have no children', () => {
+        const { container } = render(<BallTrianglePath loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallTrianglePath should have three children', () => {
+        const { container } = render(<BallTrianglePath loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(4);
+    });
 });

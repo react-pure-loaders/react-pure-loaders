@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallScaleMultiple } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallScaleMultiple from '../../src/BallScaleMultiple';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallScaleMultiple>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallScaleMultiple> Shallow', () => {
-    const ui = (<BallScaleMultiple loading={true}/>);
+    test('BallScaleMultiple should match snapshot', () => {
+        const { container } = render(<BallScaleMultiple loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallScaleMultiple> Mount', () => {
-    const ui = (<BallScaleMultiple loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallScaleMultiple> Render', () => {
-    const ui = (<BallScaleMultiple loading={true}/>);
+    test('BallScaleMultiple should have default color', () => {
+        const { container } = render(<BallScaleMultiple loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallScaleMultiple should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallScaleMultiple color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallScaleMultiple should have no children', () => {
+        const { container } = render(<BallScaleMultiple loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallScaleMultiple should have three children', () => {
+        const { container } = render(<BallScaleMultiple loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(4);
+    });
 });

@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { Pacman } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import LineSpinFadeLoader from '../../src/LineSpinFadeLoader';
+import { PRIMARY_COLOR } from '../../src/variables';
 
-describe('<Pacman>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+expect.extend(matchers);
 
-  test('<Pacman> Shallow', () => {
-    const ui = (<Pacman loading={true}/>);
+const chance = new Chance();
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<Pacman> Mount', () => {
-    const ui = (<Pacman loading={true}/>);
+describe('<LineSpinFadeLoader>', () => {
+    afterEach(cleanup);
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<Pacman> Render', () => {
-    const ui = (<Pacman loading={true}/>);
+    test('LineSpinFadeLoader should match snapshot', () => {
+        const { container } = render(<LineSpinFadeLoader loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('LineSpinFadeLoader should have default color', () => {
+        const { container } = render(<LineSpinFadeLoader loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('LineSpinFadeLoader should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<LineSpinFadeLoader color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('LineSpinFadeLoader should have no children', () => {
+        const { container } = render(<LineSpinFadeLoader loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('LineSpinFadeLoader should have three children', () => {
+        const { container } = render(<LineSpinFadeLoader loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(9);
+    });
 });

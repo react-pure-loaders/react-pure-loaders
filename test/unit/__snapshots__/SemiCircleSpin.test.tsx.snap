@@ -1,100 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SemiCircleSpin> <SemiCircleSpin> Mount: enzyme.mount 1`] = `
-.css-0,
-[data-css-0] {
+exports[`<SemiCircleSpin> SemiCircleSpin should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+.emotion-0 {
   height: 35px;
   overflow: hidden;
   position: relative;
   width: 35px;
 }
 
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 > div {
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation: animation_1wm2cz3 0.6s 0s infinite linear;
-  background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: -moz-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
+  -webkit-animation: animation-0 0.6s 0s infinite linear;
+  animation: animation-0 0.6s 0s infinite linear;
+  background-image: linear-gradient(transparent 0%,transparent 70%,#ffffff 30%,#ffffff 100%);
   border-radius: 100%;
   border-width: 0px;
   height: 100%;
   position: absolute;
   width: 100%;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1wm2cz3 0.6s 0s infinite linear;
-}
-
-<SemiCircleSpin
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-  </div>
-</SemiCircleSpin>
-`;
-
-exports[`<SemiCircleSpin> <SemiCircleSpin> Render: enzyme.render 1`] = `
-.css-0,
-[data-css-0] {
-  height: 35px;
-  overflow: hidden;
-  position: relative;
-  width: 35px;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_1wm2cz3 0.6s 0s infinite linear;
-  background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: -moz-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  border-radius: 100%;
-  border-width: 0px;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1wm2cz3 0.6s 0s infinite linear;
 }
 
 <div
-  data-css-0=""
->
-  <div />
-</div>
-`;
-
-exports[`<SemiCircleSpin> <SemiCircleSpin> Shallow: enzyme.shallow 1`] = `
-.css-0,
-[data-css-0] {
-  height: 35px;
-  overflow: hidden;
-  position: relative;
-  width: 35px;
-}
-
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_1wm2cz3 0.6s 0s infinite linear;
-  background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: -moz-linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  background-image: linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
-  border-radius: 100%;
-  border-width: 0px;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1wm2cz3 0.6s 0s infinite linear;
-}
-
-<div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
 </div>

@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { LineScalePulseOut } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import LineScalePulseOut from '../../src/LineScalePulseOut';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<LineScalePulseOut>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<LineScalePulseOut> Shallow', () => {
-    const ui = (<LineScalePulseOut loading={true}/>);
+    test('LineScalePulseOut should match snapshot', () => {
+        const { container } = render(<LineScalePulseOut loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<LineScalePulseOut> Mount', () => {
-    const ui = (<LineScalePulseOut loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<LineScalePulseOut> Render', () => {
-    const ui = (<LineScalePulseOut loading={true}/>);
+    test('LineScalePulseOut should have default color', () => {
+        const { container } = render(<LineScalePulseOut loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('LineScalePulseOut should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<LineScalePulseOut color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('LineScalePulseOut should have no children', () => {
+        const { container } = render(<LineScalePulseOut loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('LineScalePulseOut should have three children', () => {
+        const { container } = render(<LineScalePulseOut loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(6);
+    });
 });

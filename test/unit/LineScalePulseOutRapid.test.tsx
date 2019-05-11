@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { LineScalePulseOutRapid } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import LineScalePulseOutRapid from '../../src/LineScalePulseOutRapid';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<LineScalePulseOutRapid>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<LineScalePulseOutRapid> Shallow', () => {
-    const ui = (<LineScalePulseOutRapid loading={true}/>);
+    test('LineScalePulseOutRapid should match snapshot', () => {
+        const { container } = render(<LineScalePulseOutRapid loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<LineScalePulseOutRapid> Mount', () => {
-    const ui = (<LineScalePulseOutRapid loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<LineScalePulseOutRapid> Render', () => {
-    const ui = (<LineScalePulseOutRapid loading={true}/>);
+    test('LineScalePulseOutRapid should have default color', () => {
+        const { container } = render(<LineScalePulseOutRapid loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('LineScalePulseOutRapid should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<LineScalePulseOutRapid color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('LineScalePulseOutRapid should have no children', () => {
+        const { container } = render(<LineScalePulseOutRapid loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('LineScalePulseOutRapid should have three children', () => {
+        const { container } = render(<LineScalePulseOutRapid loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(6);
+    });
 });

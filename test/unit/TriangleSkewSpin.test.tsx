@@ -1,28 +1,59 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { TriangleSkewSpin } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import TriangleSkewSpin from '../../src/TriangleSkewSpin';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<TriangleSkewSpin>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<TriangleSkewSpin> Shallow', () => {
-    const ui = (<TriangleSkewSpin loading={true}/>);
+    test('TriangleSkewSpin should match snapshot', () => {
+        const { container } = render(<TriangleSkewSpin loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<TriangleSkewSpin> Mount', () => {
-    const ui = (<TriangleSkewSpin loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<TriangleSkewSpin> Render', () => {
-    const ui = (<TriangleSkewSpin loading={true}/>);
+    test('TriangleSkewSpin should have default color', () => {
+        const { container } = render(<TriangleSkewSpin loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule(
+            'border-bottom',
+            `20px solid ${PRIMARY_COLOR}`,
+            {
+                target: '> div',
+            },
+        );
+    });
+
+    test('TriangleSkewSpin should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<TriangleSkewSpin color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule(
+            'border-bottom',
+            `20px solid ${color}`,
+            {
+                target: '> div',
+            },
+        );
+    });
+
+    test('TriangleSkewSpin should have no children', () => {
+        const { container } = render(<TriangleSkewSpin loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('TriangleSkewSpin should have three children', () => {
+        const { container } = render(<TriangleSkewSpin loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(2);
+    });
 });

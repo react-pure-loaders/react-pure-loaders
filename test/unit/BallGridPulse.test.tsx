@@ -1,29 +1,55 @@
-import { mount, render, shallow } from 'enzyme';
-import enzymeToJson from 'enzyme-to-json'
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallGridPulse } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallGridPulse from '../../src/BallGridPulse';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
+const mathCopy = Object.create(global.Math);
 
 describe('<BallGridPulse>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    beforeEach(() => {
+        global.Math.random = () => 0.5;
+    });
 
-  test('<BallGridPulse> Shallow', () => {
-    // const ui = (<BallGridPulse loading={true}/>);
-    //
-    // expect(enzymeToJson(shallow(ui))).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallGridPulse> Mount', () => {
-    // const ui = (<BallGridPulse loading={true}/>);
-    //
-    // expect(enzymeToJson(mount(ui))).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallGridPulse> Render', () => {
-    // const ui = (<BallGridPulse loading={true}/>);
-    //
-    // expect(enzymeToJson(render(ui))).toMatchSnapshot(`enzyme.render`);
-  });
+    afterEach(() => {
+        global.Math = mathCopy;
+        cleanup();
+    });
+
+    test('BallGridPulse should match snapshot', () => {
+        const { container } = render(<BallGridPulse loading={true}/>);
+
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('BallGridPulse should have default color', () => {
+        const { container } = render(<BallGridPulse loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallGridPulse should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallGridPulse color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallGridPulse should have no children', () => {
+        const { container } = render(<BallGridPulse loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallGridPulse should have three children', () => {
+        const { container } = render(<BallGridPulse loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(10);
+    });
 });

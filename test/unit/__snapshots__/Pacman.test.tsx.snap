@@ -1,93 +1,169 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Style test <BallBeat> Mount: enzyme.mount 1`] = `
-.css-0 > div,
-[data-css-0] > div {
+exports[`<Pacman> Pacman should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translate(-100px,-6.25px);
+    -ms-transform: translate(-100px,-6.25px);
+    transform: translate(-100px,-6.25px);
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translate(-100px,-6.25px);
+    -ms-transform: translate(-100px,-6.25px);
+    transform: translate(-100px,-6.25px);
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translate(-100px,-6.25px);
+    -ms-transform: translate(-100px,-6.25px);
+    transform: translate(-100px,-6.25px);
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: translate(-100px,-6.25px);
+    -ms-transform: translate(-100px,-6.25px);
+    transform: translate(-100px,-6.25px);
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes animation-1 {
+  0% {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animation-2 {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-0 > div:nth-of-type(2) {
+  -webkit-animation: animation-0 1s -0.99s infinite linear;
+  animation: animation-0 1s -0.99s infinite linear;
+}
+
+.emotion-0 > div:nth-of-type(3) {
+  -webkit-animation: animation-0 1s -0.66s infinite linear;
+  animation: animation-0 1s -0.66s infinite linear;
+}
+
+.emotion-0 > div:nth-of-type(4) {
+  -webkit-animation: animation-0 1s -0.33s infinite linear;
+  animation: animation-0 1s -0.33s infinite linear;
+}
+
+.emotion-0 > div:nth-of-type(5) {
+  -webkit-animation: animation-0 1s 0.00s infinite linear;
+  animation: animation-0 1s 0.00s infinite linear;
+}
+
+.emotion-0 > div:first-of-type {
+  border-bottom: 25px solid #ffffff;
+  border-left: 25px solid #ffffff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  height: 0px;
+  width: 0px;
+  -webkit-animation: animation-1 0.5s 0s infinite;
+  animation: animation-1 0.5s 0s infinite;
+  left: -30px;
+  position: relative;
+}
+
+.emotion-0 > div:nth-of-type(2) {
+  border-bottom: 25px solid #ffffff;
+  border-left: 25px solid #ffffff;
+  border-radius: 25px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  height: 0px;
+  width: 0px;
+  -webkit-animation: animation-2 0.5s 0s infinite;
+  animation: animation-2 0.5s 0s infinite;
+  left: -30px;
+  margin-top: -50px;
+  position: relative;
+}
+
+.emotion-0 > div:nth-of-type(3),
+.emotion-0 > div:nth-of-type(4),
+.emotion-0 > div:nth-of-type(5),
+.emotion-0 > div:nth-of-type(6) {
   border-radius: 100%;
-  height: 15px;
+  height: 10px;
   margin: 2px;
-  width: 15px;
+  width: 10px;
   background-color: #ffffff;
-  animation-fill-mode: both;
-  animation: animation_1twcfwm 0.7s 0s infinite linear;
-  display: inline-block;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
-}
-
-.css-0 > div:nth-child(2n-1),
-[data-css-0] > div:nth-child(2n-1) {
-  animation-delay: -0.35s !important;
-  -webkit-animation-delay: -0.35s !important;
-}
-
-<BallBeat
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-    <div />
-    <div />
-  </div>
-</BallBeat>
-`;
-
-exports[`Style test <BallBeat> Render: enzyme.render 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  animation: animation_1twcfwm 0.7s 0s infinite linear;
-  display: inline-block;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
-}
-
-.css-0 > div:nth-child(2n-1),
-[data-css-0] > div:nth-child(2n-1) {
-  animation-delay: -0.35s !important;
-  -webkit-animation-delay: -0.35s !important;
+  left: 70px;
+  position: absolute;
+  top: 25px;
+  -webkit-transform: translate(0,-6.25px);
+  -ms-transform: translate(0,-6.25px);
+  transform: translate(0,-6.25px);
 }
 
 <div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
   <div />
-  <div />
-</div>
-`;
-
-exports[`Style test <BallBeat> Shallow: enzyme.shallow 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  border-radius: 100%;
-  height: 15px;
-  margin: 2px;
-  width: 15px;
-  background-color: #ffffff;
-  animation-fill-mode: both;
-  animation: animation_1twcfwm 0.7s 0s infinite linear;
-  display: inline-block;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_1twcfwm 0.7s 0s infinite linear;
-}
-
-.css-0 > div:nth-child(2n-1),
-[data-css-0] > div:nth-child(2n-1) {
-  animation-delay: -0.35s !important;
-  -webkit-animation-delay: -0.35s !important;
-}
-
-<div
-  data-css-0=""
->
   <div />
   <div />
   <div />

@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallZigZagDeflect } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallZigZagDeflect from '../../src/BallZigZagDeflect';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallZigZagDeflect>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallZigZagDeflect> Shallow', () => {
-    const ui = (<BallZigZagDeflect loading={true}/>);
+    test('BallZigZagDeflect should match snapshot', () => {
+        const { container } = render(<BallZigZagDeflect loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallZigZagDeflect> Mount', () => {
-    const ui = (<BallZigZagDeflect loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallZigZagDeflect> Render', () => {
-    const ui = (<BallZigZagDeflect loading={true}/>);
+    test('BallZigZagDeflect should have default color', () => {
+        const { container } = render(<BallZigZagDeflect loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallZigZagDeflect should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallZigZagDeflect color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallZigZagDeflect should have no children', () => {
+        const { container } = render(<BallZigZagDeflect loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallZigZagDeflect should have three children', () => {
+        const { container } = render(<BallZigZagDeflect loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(3);
+    });
 });

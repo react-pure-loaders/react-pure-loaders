@@ -9,7 +9,7 @@ yarn-error.log*
 coverage
 
 # Compiled source
-lib
+build
 
 # Dependency directories
 node_modules/

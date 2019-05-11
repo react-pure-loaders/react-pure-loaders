@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallSpinFadeLoader } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallSpinFadeLoader from '../../src/BallSpinFadeLoader';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<BallSpinFadeLoader>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<BallSpinFadeLoader> Shallow', () => {
-    const ui = (<BallSpinFadeLoader loading={true}/>);
+    test('BallSpinFadeLoader should match snapshot', () => {
+        const { container } = render(<BallSpinFadeLoader loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallSpinFadeLoader> Mount', () => {
-    const ui = (<BallSpinFadeLoader loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallSpinFadeLoader> Render', () => {
-    const ui = (<BallSpinFadeLoader loading={true}/>);
+    test('BallSpinFadeLoader should have default color', () => {
+        const { container } = render(<BallSpinFadeLoader loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallSpinFadeLoader should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallSpinFadeLoader color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallSpinFadeLoader should have no children', () => {
+        const { container } = render(<BallSpinFadeLoader loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallSpinFadeLoader should have three children', () => {
+        const { container } = render(<BallSpinFadeLoader loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(9);
+    });
 });

@@ -1,28 +1,59 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { SemiCircleSpin } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import SemiCircleSpin from '../../src/SemiCircleSpin';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<SemiCircleSpin>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<SemiCircleSpin> Shallow', () => {
-    const ui = (<SemiCircleSpin loading={true}/>);
+    test('SemiCircleSpin should match snapshot', () => {
+        const { container } = render(<SemiCircleSpin loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<SemiCircleSpin> Mount', () => {
-    const ui = (<SemiCircleSpin loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<SemiCircleSpin> Render', () => {
-    const ui = (<SemiCircleSpin loading={true}/>);
+    test('SemiCircleSpin should have default color', () => {
+        const { container } = render(<SemiCircleSpin loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule(
+            'background-image',
+            `linear-gradient(transparent 0%,transparent 70%,${PRIMARY_COLOR} 30%,${PRIMARY_COLOR} 100%)`,
+            {
+                target: '> div',
+            },
+        );
+    });
+
+    test('SemiCircleSpin should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<SemiCircleSpin color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule(
+            'background-image',
+            `linear-gradient(transparent 0%,transparent 70%,${color} 30%,${color} 100%)`,
+            {
+                target: '> div',
+            },
+        );
+    });
+
+    test('SemiCircleSpin should have no children', () => {
+        const { container } = render(<SemiCircleSpin loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('SemiCircleSpin should have three children', () => {
+        const { container } = render(<SemiCircleSpin loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(2);
+    });
 });

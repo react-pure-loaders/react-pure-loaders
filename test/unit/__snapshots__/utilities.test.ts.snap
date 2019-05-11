@@ -2,6 +2,6 @@
 
 exports[`utilities utilities to match snapshot 1`] = `
 Object {
-  "delay": [Function],
+  "default": [Function],
 }
 `;

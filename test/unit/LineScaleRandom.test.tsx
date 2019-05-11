@@ -1,29 +1,55 @@
-import { mount, render, shallow } from 'enzyme';
-import enzymeToJson from 'enzyme-to-json';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { LineScaleRandom } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import LineScaleRandom from '../../src/LineScaleRandom';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
+const mathCopy = Object.create(global.Math);
 
 describe('<LineScaleRandom>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    beforeEach(() => {
+        global.Math.random = () => 0.5;
+    });
 
-  test('<LineScaleRandom> Shallow', () => {
-    // const wrapper = render(<LineScaleRandom loading={true}/>);
-    //
-    // expect(enzymeToJson(wrapper)).toMatchSnapshot();
-  });
-  test('<LineScaleRandom> Mount', () => {
-    // const ui = (<LineScaleRandom loading={true}/>);
-    //
-    // expect(enzymeToJson(mount(ui))).toMatchSnapshot();
-  });
-  test('<LineScaleRandom> Render', () => {
-    // const ui = (<LineScaleRandom loading={true}/>);
-    //
-    // expect(enzymeToJson(render(ui))).toMatchSnapshot();
-  });
+    afterEach(() => {
+        global.Math = mathCopy;
+        cleanup();
+    });
+
+    test('LineScaleRandom should match snapshot', () => {
+        const { container } = render(<LineScaleRandom loading={true}/>);
+
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('LineScaleRandom should have default color', () => {
+        const { container } = render(<LineScaleRandom loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('LineScaleRandom should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<LineScaleRandom color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('LineScaleRandom should have no children', () => {
+        const { container } = render(<LineScaleRandom loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('LineScaleRandom should have three children', () => {
+        const { container } = render(<LineScaleRandom loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(5);
+    });
 });

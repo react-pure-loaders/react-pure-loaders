@@ -1,29 +1,55 @@
-import { mount, render, shallow } from 'enzyme';
-import enzymeToJson from 'enzyme-to-json';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { BallGridBeat } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import BallGridBeat from '../../src/BallGridBeat';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
+const mathCopy = Object.create(global.Math);
 
 describe('<BallGridBeat>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    beforeEach(() => {
+        global.Math.random = () => 0.5;
+    });
 
-  test('<BallGridBeat> Shallow', () => {
-    // const ui = (<BallGridBeat loading={true}/>);
-    //
-    // expect(enzymeToJson(shallow(ui))).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<BallGridBeat> Mount', () => {
-    // const ui = (<BallGridBeat loading={true}/>);
-    //
-    // expect(enzymeToJson(mount(ui))).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<BallGridBeat> Render', () => {
-    // const ui = (<BallGridBeat loading={true}/>);
-    //
-    // expect(enzymeToJson(render(ui))).toMatchSnapshot(`enzyme.render`);
-  });
+    afterEach(() => {
+        global.Math = mathCopy;
+        cleanup();
+    });
+
+    test('BallGridBeat should match snapshot', () => {
+        const { container } = render(<BallGridBeat loading={true}/>);
+
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('BallGridBeat should have default color', () => {
+        const { container } = render(<BallGridBeat loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('BallGridBeat should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<BallGridBeat color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('BallGridBeat should have no children', () => {
+        const { container } = render(<BallGridBeat loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('BallGridBeat should have three children', () => {
+        const { container } = render(<BallGridBeat loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(10);
+    });
 });

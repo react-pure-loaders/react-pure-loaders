@@ -1,67 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TriangleSkewSpin> <TriangleSkewSpin> Mount: enzyme.mount 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  border-bottom: 20px solid #ffffff;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  height: 0px;
-  width: 0px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+exports[`<TriangleSkewSpin> TriangleSkewSpin should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+    -ms-transform: perspective(100px) rotateX(0) rotateY(0);
+    transform: perspective(100px) rotateX(0) rotateY(0);
+  }
+
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    transform: perspective(100px) rotateX(180deg) rotateY(0);
+  }
+
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+  }
+
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    transform: perspective(100px) rotateX(0) rotateY(180deg);
+  }
 }
 
-<TriangleSkewSpin
-  loading={true}
->
-  <div
-    data-css-0=""
-  >
-    <div />
-  </div>
-</TriangleSkewSpin>
-`;
-
-exports[`<TriangleSkewSpin> <TriangleSkewSpin> Render: enzyme.render 1`] = `
-.css-0 > div,
-[data-css-0] > div {
+.emotion-0 > div {
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  -webkit-animation: animation-0 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  animation: animation-0 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
   border-bottom: 20px solid #ffffff;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  height: 0px;
-  width: 0px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-}
-
-<div
-  data-css-0=""
->
-  <div />
-</div>
-`;
-
-exports[`<TriangleSkewSpin> <TriangleSkewSpin> Shallow: enzyme.shallow 1`] = `
-.css-0 > div,
-[data-css-0] > div {
-  animation-fill-mode: both;
-  animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
-  border-bottom: 20px solid #ffffff;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  height: 0px;
-  width: 0px;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation: animation_7yf550 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;
+  height: 0;
+  width: 0;
 }
 
 <div
-  data-css-0=""
+  class="emotion-0"
 >
   <div />
 </div>

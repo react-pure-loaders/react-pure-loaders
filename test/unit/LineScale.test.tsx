@@ -1,28 +1,47 @@
-import { mount, render, shallow } from 'enzyme';
-import { StyleSheet } from 'glamor/lib/sheet';
-import * as React from 'react';
-import { LineScale } from '../../src';
+import React from 'react';
+import Chance from 'chance';
+import { matchers } from 'jest-emotion';
+import { render, cleanup } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const stylesheet = new StyleSheet();
+import LineScale from '../../src/LineScale';
+import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
+
+const chance = new Chance();
 
 describe('<LineScale>', () => {
-  beforeEach(() => {
-    stylesheet.flush();
-  });
+    afterEach(cleanup);
 
-  test('<LineScale> Shallow', () => {
-    const ui = (<LineScale loading={true}/>);
+    test('LineScale should match snapshot', () => {
+        const { container } = render(<LineScale loading={true}/>);
 
-    expect(shallow(ui)).toMatchSnapshot(`enzyme.shallow`);
-  });
-  test('<LineScale> Mount', () => {
-    const ui = (<LineScale loading={true}/>);
+        expect(container.firstChild).toMatchSnapshot();
+    });
 
-    expect(mount(ui)).toMatchSnapshot(`enzyme.mount`);
-  });
-  test('<LineScale> Render', () => {
-    const ui = (<LineScale loading={true}/>);
+    test('LineScale should have default color', () => {
+        const { container } = render(<LineScale loading={true}/>);
 
-    expect(render(ui)).toMatchSnapshot(`enzyme.render`);
-  });
+        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
+    });
+
+    test('LineScale should have given color', () => {
+        const color = chance.color({ format: 'hex' });
+        const { container } = render(<LineScale color={color} loading={true}/>);
+
+        expect(container.firstChild).toHaveStyleRule('background-color', color, { target: '> div' });
+    });
+
+    test('LineScale should have no children', () => {
+        const { container } = render(<LineScale loading={false}/>);
+
+        expect(container.firstChild).toBeNull();
+    });
+
+    test('LineScale should have three children', () => {
+        const { container } = render(<LineScale loading={true}/>);
+
+        expect(container.querySelectorAll('div')).toHaveLength(6);
+    });
 });
