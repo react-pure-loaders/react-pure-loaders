@@ -42,7 +42,7 @@ test_steps: &test_steps
         command: npm install
     - run:
         name: Test Suite
-        command: npm run test
+        command: npm run test:ci
 
 jobs:
   install:
@@ -105,7 +105,7 @@ jobs:
       - run:
           name: Coverage
           command: |
-            npm run test:coverage
+            npm run test:coverage:ci
             npm run test:coverage:codecov
 
   build-typescript:
