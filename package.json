@@ -158,7 +158,7 @@
     "rollup-plugin-size-snapshot": "0.8.0",
     "rollup-plugin-terser": "4.0.4",
     "rollup-plugin-typescript": "1.0.1",
-    "semantic-release": "15.13.13",
+    "semantic-release": "15.13.14",
     "storybook-readme": "5.0.3",
     "ts-jest": "24.0.2",
     "typescript": "3.4.5"
