@@ -149,7 +149,7 @@
     "react-dom": "16.8.6",
     "react-testing-library": "7.0.1",
     "rimraf": "2.6.3",
-    "rollup": "1.12.3",
+    "rollup": "1.12.4",
     "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-commonjs": "9.3.4",
     "rollup-plugin-node-globals": "1.4.0",
