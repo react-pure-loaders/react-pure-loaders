@@ -16,7 +16,7 @@ install_steps: &install_steps
     - restore_cache:
         name: Restore node_modules cache
         keys:
-          - node-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          - node-modules-{{ .Branch }}-{{ checksum "package.json" }}
           - node-modules-{{ .Branch }}-
           - node-modules-
     - run:
@@ -24,7 +24,7 @@ install_steps: &install_steps
         command: npm install
     - save_cache:
         name: Save node_modules cache
-        key: node-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
+        key: node-modules-{{ .Branch }}-{{ checksum "package.json" }}
         paths:
           - node_modules/
     - persist_to_workspace:
@@ -36,7 +36,7 @@ test_steps: &test_steps
   steps:
     - checkout
     - restore_cache:
-        key: node-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
+        key: node-modules-{{ .Branch }}-{{ checksum "package.json" }}
     - run:
         name: Install Local Packages
         command: npm install
@@ -58,14 +58,6 @@ jobs:
           command: |
             sudo npm i -g npmvet
             npm run verify:npmvet
-
-  audit:
-    <<: *docker_defaults
-    steps:
-      - *attach_workspace
-      - run:
-          name: NPM Audit Fix
-          command: npm audit fix
 
   eslint:
     <<: *docker_defaults
@@ -139,12 +131,9 @@ workflows:
       - npmvet:
           requires:
             - install
-      - audit:
-          requires:
-            - npmvet
       - eslint:
           requires:
-            - audit
+            - npmvet
       - test-node-8:
           requires:
             - eslint
