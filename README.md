@@ -123,8 +123,14 @@ TriangleSkewSpin        |          |            |           |            |
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;"/><br /><sub><b>James W. Lane III</b></sub>](http://fueledbydreams.com)<br />[💻](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Code") [📖](https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/14790466?v=4" width="100px;"/><br /><sub><b>Greenkeeper</b></sub>](https://greenkeeper.io/)<br />[🔧](#tool-greenkeeperio-bot "Tools") | [<img src="https://avatars0.githubusercontent.com/u/29791463?v=4" width="100px;"/><br /><sub><b>fossabot</b></sub>](http://fossa.io)<br />[🔧](#tool-fossabot "Tools") |
-| :---: | :---: | :---: |
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="http://fueledbydreams.com"><img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;" alt="James W. Lane III"/><br /><sub><b>James W. Lane III</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Documentation">📖</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/wps13"><img src="https://avatars1.githubusercontent.com/u/19312323?v=4" width="100px;" alt="Willane Paiva"/><br /><sub><b>Willane Paiva</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=wps13" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification. Contributions of any kind welcome!

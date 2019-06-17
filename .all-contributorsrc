@@ -17,6 +17,17 @@
         "doc",
         "test"
       ]
+    },
+    {
+      "login": "wps13",
+      "name": "Willane Paiva",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19312323?v=4",
+      "profile": "https://github.com/wps13",
+      "contributions": [
+        "doc"
+      ]
     }
-  ]
+  ],
+  "repoType": "github",
+  "commitConvention": "none"
 }
