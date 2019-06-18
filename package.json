@@ -159,7 +159,7 @@
     "rollup-plugin-terser": "5.0.0",
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.16",
-    "storybook-readme": "5.0.3",
+    "storybook-readme": "5.0.5",
     "ts-jest": "24.0.2",
     "typescript": "3.5.2"
   },
