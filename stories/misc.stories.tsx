@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { withKnobs, color, boolean } from '@storybook/addon-knobs'
 
 import CubeTransition from '../src/CubeTransition';
 import Pacman from '../src/Pacman';
@@ -8,7 +9,9 @@ import SquareSpin from '../src/SquareSpin';
 import TriangleSkewSpin from '../src/TriangleSkewSpin';
 
 
-const color = '#000000';
+const defaultColor = '#000000';
+const defaultState = true;
+
 const style = {
     display: 'flex',
     flex: '0 1 auto',
@@ -23,8 +26,9 @@ const style = {
 };
 
 storiesOf('Misc Loaders', module)
-    .add('Cube Transition', () => <div style={style}><CubeTransition color={color} loading/></div>)
-    .add('Pacman', () => <div style={style}><Pacman color={color} loading/></div>)
-    .add('Semi Circle Spin', () => <div style={style}><SemiCircleSpin color={color} loading/></div>)
-    .add('Square Spin', () => <div style={style}><SquareSpin color={color} loading/></div>)
-    .add('Triangle Skew Spin', () => <div style={style}><TriangleSkewSpin color={color} loading/></div>);
+    .addDecorator(withKnobs)
+    .add('Cube Transition', () => <div style={style}><CubeTransition color={color('Color', defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Pacman', () => <div style={style}><Pacman color={color('Color', defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Semi Circle Spin', () => <div style={style}><SemiCircleSpin color={color('Color', defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Square Spin', () => <div style={style}><SquareSpin color={color('Color', defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Triangle Skew Spin', () => <div style={style}><TriangleSkewSpin color={color('Color', defaultColor)} loading={boolean('Loading',defaultState)}/></div>);
