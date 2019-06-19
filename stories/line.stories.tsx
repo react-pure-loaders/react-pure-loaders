@@ -25,65 +25,13 @@ const style = {
     justifyContent: 'center'
 };
 
+const Animation = ({children}) => <div style={style}>{children}</div>
+
 storiesOf('Line Loaders', module)
     .addDecorator(withKnobs)
-    .add('Scale', () => {
-        return (
-            <div style={style}>
-                <LineScale
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Party', () => {
-        return (
-            <div style={style}>
-                <LineScaleParty
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Pulse Out', () => {
-        return (
-            <div style={style}>
-                <LineScalePulseOut
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Pulse Out Rapid', () => {
-        return (
-            <div style={style}>
-                <LineScalePulseOutRapid
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Random', () => {
-        return (
-            <div style={style}>
-                <LineScaleRandom
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Spin Fade Loader', () => {
-        return (
-            <div style={style}>
-                <LineSpinFadeLoader
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    });
+    .add('Scale', () => <Animation><LineScale color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Scale Party', () => <Animation><LineScaleParty color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)}/></Animation>)
+    .add('Scale Pulse Out', () => <Animation><LineScalePulseOut color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Scale Pulse Out Rapid', () => <Animation><LineScalePulseOutRapid color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Scale Random', () => <Animation><LineScaleRandom color={color('Color', defaultColor)}  loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Spin Fade Loader', () => <Animation><LineSpinFadeLoader color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)

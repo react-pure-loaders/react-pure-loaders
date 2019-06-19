@@ -24,55 +24,12 @@ const style = {
     justifyContent: 'center'
 };
 
+const Animation = ({children}) => <div style={style}>{children}</div>
+
 storiesOf('Misc Loaders', module)
     .addDecorator(withKnobs)
-    .add('Cube Transition', () => {
-        return (
-            <div style={style}>
-                <CubeTransition
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Pacman', () => {
-        return (
-            <div style={style}>
-                <Pacman
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Semi Circle Spin', () => {
-        return (
-            <div style={style}>
-                <SemiCircleSpin
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Square Spin', () => {
-        return (
-            <div style={style}>
-                <SquareSpin
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    })
-    .add('Triangle Skew Spin', () => {
-        return (
-            <div style={style}>
-                <TriangleSkewSpin
-                    color={color('Color', defaultColor)}
-                    loading={boolean('Loading', defaultState)}
-                />
-            </div>
-        );
-    });
+    .add('Cube Transition', () => <Animation><CubeTransition color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Pacman', () => <Animation><Pacman color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Semi Circle Spin', () => <Animation><SemiCircleSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Square Spin', () => <Animation><SquareSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+    .add('Triangle Skew Spin', () =><Animation><TriangleSkewSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)

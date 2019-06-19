@@ -37,215 +37,29 @@ const style = {
     alignItems: 'center',
     justifyContent: 'center'
 };
+
+const Animation = ({children}) => <div style={style}>{children}</div>
+
 storiesOf('Ball Loaders', module)
     .addDecorator(withKnobs)
-    .add('Beat', () => {
-        return (
-            <div style={style}>
-                <BallBeat
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Clip Rotate', () => {
-        return (
-            <div style={style}>
-                <BallClipRotate
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Clip Rotate Multiple', () => {
-        return (
-            <div style={style}>
-                <BallClipRotateMultiple
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Clip Rotate Pulse', () => {
-        return (
-            <div style={style}>
-                <BallClipRotatePulse
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Grid Beat', () => {
-        return (
-            <div style={style}>
-                <BallGridBeat
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Grid Pulse', () => {
-        return (
-            <div style={style}>
-                <BallGridPulse
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Pulse', () => {
-        return (
-            <div style={style}>
-                <BallPulse
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Pulse Rise', () => {
-        return (
-            <div style={style}>
-                <BallPulseRise
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Pulse Round', () => {
-        return (
-            <div style={style}>
-                <BallPulseRound
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Pulse Sync', () => {
-        return (
-            <div style={style}>
-                <BallPulseSync
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Rotate', () => {
-        return (
-            <div style={style}>
-                <BallRotate
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Scale', () => {
-        return (
-            <div style={style}>
-                <BallScale
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Multiple', () => {
-        return (
-            <div style={style}>
-                <BallScaleMultiple
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Random', () => {
-        return (
-            <div style={style}>
-                <BallScaleRandom
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Ripple', () => {
-        return (
-            <div style={style}>
-                <BallScaleRipple
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Scale Ripple Multiple', () => {
-        return (
-            <div style={style}>
-                <BallScaleRippleMultiple
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Spin Fade Loader', () => {
-        return (
-            <div style={style}>
-                <BallSpinFadeLoader
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Spin Loader', () => {
-        return (
-            <div style={style}>
-                <BallSpinLoader
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Triangle Path', () => {
-        return (
-            <div style={style}>
-                <BallTrianglePath
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Zig Zag', () => {
-        return (
-            <div style={style}>
-                <BallZigZag
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    })
-    .add('Zig Zag Deflect', () => {
-        return (
-            <div style={style}>
-                <BallZigZagDeflect
-                    color={color('Color', defaultColor)}
-                    loading={boolean('loading', true)}
-                />
-            </div>
-        );
-    });
+    .add('Beat',() => <Animation><BallBeat color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Clip Rotate', () => <Animation><BallClipRotate color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Clip Rotate Multiple', () => <Animation><BallClipRotateMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Clip Rotate Pulse', () => <Animation><BallClipRotatePulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Grid Beat', () => <Animation><BallGridBeat color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Grid Pulse', () => <Animation><BallGridPulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Pulse', () => <Animation><BallPulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Pulse Rise', () => <Animation><BallPulseRise color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Pulse Round', () => <Animation><BallPulseRound color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Pulse Sync', () => <Animation><BallPulseSync color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Rotate', () => <Animation><BallRotate color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Scale', () => <Animation><BallScale color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Scale Multiple', () => <Animation><BallScaleMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Scale Random', () => <Animation><BallScaleRandom color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Scale Ripple', () => <Animation><BallScaleRipple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Scale Ripple Multiple', () => <Animation><BallScaleRippleMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Spin Fade Loader', () => <Animation><BallSpinFadeLoader color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Spin Loader', () => <Animation><BallSpinLoader color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Triangle Path', () => <Animation><BallTrianglePath color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Zig Zag', () => <Animation><BallZigZag color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+    .add('Zig Zag Deflect', () => <Animation><BallZigZagDeflect color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
