@@ -1,0 +1,1 @@
+{"version":3,"file":"main.9bc0af7a5a62b52abe76.bundle.js","sources":["webpack:///./src/variables/index.ts"],"sourcesContent":["export const PRIMARY_COLOR = '#ffffff';\nexport const BALL_SIZE = '15px';\nexport const MARGIN = '2px';\nexport const LINE_HEIGHT = '35px';\nexport const LINE_WIDTH = '4px';\n"],"mappings":"AAAA","sourceRoot":""}
