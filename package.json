@@ -95,7 +95,7 @@
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.3.3",
     "@commitlint/cli": "8.0.0",
-    "@commitlint/config-conventional": "7.6.0",
+    "@commitlint/config-conventional": "8.0.0",
     "@storybook/addon-backgrounds": "5.1.8",
     "@storybook/addon-centered": "5.1.8",
     "@storybook/addon-info": "5.1.8",
