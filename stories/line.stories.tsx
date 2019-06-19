@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { withKnobs,color, boolean } from '@storybook/addon-knobs'
 
 import LineScale from '../src/LineScale';
 import LineScaleParty from '../src/LineScaleParty';
@@ -8,7 +9,9 @@ import LineScalePulseOutRapid from '../src/LineScalePulseOutRapid';
 import LineScaleRandom from '../src/LineScaleRandom';
 import LineSpinFadeLoader from '../src/LineSpinFadeLoader';
 
-const color = '#000000';
+const defaultColor = '#000000';
+const defaultState = true;
+
 const style = {
     display: 'flex',
     flex: '0 1 auto',
@@ -23,9 +26,10 @@ const style = {
 };
 
 storiesOf('Line Loaders', module)
-    .add('Scale', () => <div style={style}><LineScale color={color} loading/></div>)
-    .add('Scale Party', () => <div style={style}><LineScaleParty color={color} loading/></div>)
-    .add('Scale Pulse Out', () => <div style={style}><LineScalePulseOut color={color} loading/></div>)
-    .add('Scale Pulse Out Rapid', () => <div style={style}><LineScalePulseOutRapid color={color} loading/></div>)
-    .add('Scale Random', () => <div style={style}><LineScaleRandom color={color} loading/></div>)
-    .add('Spin Fade Loader', () => <div style={style}><LineSpinFadeLoader color={color} loading/></div>);
+    .addDecorator(withKnobs)
+    .add('Scale', () => <div style={style}><LineScale color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Scale Party', () => <div style={style}><LineScaleParty color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Scale Pulse Out', () => <div style={style}><LineScalePulseOut color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Scale Pulse Out Rapid', () => <div style={style}><LineScalePulseOutRapid color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Scale Random', () => <div style={style}><LineScaleRandom color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>)
+    .add('Spin Fade Loader', () => <div style={style}><LineSpinFadeLoader color={color('Color',defaultColor)} loading={boolean('Loading',defaultState)}/></div>);
