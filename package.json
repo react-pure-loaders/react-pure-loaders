@@ -98,7 +98,7 @@
     "@commitlint/config-conventional": "8.0.0",
     "@storybook/addon-backgrounds": "5.1.8",
     "@storybook/addon-centered": "5.1.8",
-    "@storybook/addon-info": "5.1.8",
+    "@storybook/addon-info": "5.1.9",
     "@storybook/addon-knobs": "5.1.8",
     "@storybook/addon-options": "5.1.8",
     "@storybook/addons": "5.1.8",
