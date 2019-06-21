@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, color, boolean } from '@storybook/addon-knobs';
 
@@ -22,16 +22,41 @@ const style = {
     maxWidth: '25%',
     height: '150px',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
 };
 
-const Animation = ({children}) => <div style={style}>{children}</div>
+const animationsForStories = [
+    {
+        name: 'Scale',
+        component: <LineScale />,
+    },
+    {
+        name: 'Scale Party',
+        component: <LineScaleParty />,
+    },
+    {
+        name: 'Scale Pulse Out',
+        component: <LineScalePulseOut />,
+    },
+    {
+        name: 'Scale Pulse Out Rapid',
+        component: <LineScalePulseOutRapid />,
+    },
+    {
+        name: 'Scale Random',
+        component: <LineScaleRandom />,
+    },
+    {
+        name: 'Spin Fade Loader',
+        component: <LineSpinFadeLoader />,
+    },
+];
 
-storiesOf('Line Loaders', module)
-    .addDecorator(withKnobs)
-    .add('Scale', () => <Animation><LineScale color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Scale Party', () => <Animation><LineScaleParty color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)}/></Animation>)
-    .add('Scale Pulse Out', () => <Animation><LineScalePulseOut color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Scale Pulse Out Rapid', () => <Animation><LineScalePulseOutRapid color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Scale Random', () => <Animation><LineScaleRandom color={color('Color', defaultColor)}  loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Spin Fade Loader', () => <Animation><LineSpinFadeLoader color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+const stories = storiesOf('Line Loaders', module);
+
+stories.addDecorator(withKnobs);
+
+animationsForStories.forEach((animation) => {
+    const { name, component } = animation;
+    stories.add(name, () => (<div style={style}>{ cloneElement(component, { color: color('Color', defaultColor), loading: boolean('Loading', defaultState) })}</div>));
+});

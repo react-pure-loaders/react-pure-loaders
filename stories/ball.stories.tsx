@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, boolean, color } from '@storybook/addon-knobs';
 
@@ -25,6 +25,8 @@ import BallZigZag from '../src/BallZigZag';
 import BallZigZagDeflect from '../src/BallZigZagDeflect';
 
 const defaultColor = '#000000';
+const defaultState = true;
+
 const style = {
     display: 'flex',
     flex: '0 1 auto',
@@ -35,31 +37,101 @@ const style = {
     maxWidth: '25%',
     height: '150px',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
 };
 
-const Animation = ({children}) => <div style={style}>{children}</div>
+const animationsStories = [
+    {
+        name: 'Beat',
+        component: <BallBeat />,
+    },
+    {
+        name: 'Clip Rotate',
+        component: <BallClipRotate />,
+    },
+    {
+        name: 'Clip Rotate Multiple',
+        component: <BallClipRotateMultiple />,
+    },
+    {
+        name: 'Clip Rotate Pulse',
+        component: <BallClipRotatePulse />,
+    },
+    {
+        name: 'Grid Beat',
+        component: <BallGridBeat />,
+    },
+    {
+        name: 'Grid Pulse',
+        component: <BallGridPulse />,
+    },
+    {
+        name: 'Pulse',
+        component: <BallPulse />,
+    },
+    {
+        name: 'Pulse Rise',
+        component: <BallPulseRise />,
+    },
+    {
+        name: 'Pulse Round',
+        component: <BallPulseRound />,
+    },
+    {
+        name: 'Pulse Sync',
+        component: <BallPulseSync />,
+    },
+    {
+        name: 'Rotate',
+        component: <BallRotate />,
+    },
+    {
+        name: 'Scale',
+        component: <BallScale />,
+    },
+    {
+        name: 'Scale Multiple',
+        component: <BallScaleMultiple />,
+    },
+    {
+        name: 'Scale Random',
+        component: <BallScaleRandom />,
+    },
+    {
+        name: 'Scale Ripple',
+        component: <BallScaleRipple />,
+    },
+    {
+        name: 'Scale Ripple Multiple',
+        component: <BallScaleRippleMultiple />,
+    },
+    {
+        name: 'Spin Fade Loader',
+        component: <BallSpinFadeLoader />,
+    },
+    {
+        name: 'Spin Loader',
+        component: <BallSpinLoader />,
+    },
+    {
+        name: 'Triangle Path',
+        component: <BallTrianglePath />,
+    },
+    {
+        name: 'Zig Zag',
+        component: <BallZigZag />,
+    },
+    {
+        name: 'Zig Zag Deflect',
+        component: <BallZigZagDeflect />,
+    },
+];
 
-storiesOf('Ball Loaders', module)
-    .addDecorator(withKnobs)
-    .add('Beat',() => <Animation><BallBeat color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Clip Rotate', () => <Animation><BallClipRotate color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Clip Rotate Multiple', () => <Animation><BallClipRotateMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Clip Rotate Pulse', () => <Animation><BallClipRotatePulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Grid Beat', () => <Animation><BallGridBeat color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Grid Pulse', () => <Animation><BallGridPulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Pulse', () => <Animation><BallPulse color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Pulse Rise', () => <Animation><BallPulseRise color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Pulse Round', () => <Animation><BallPulseRound color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Pulse Sync', () => <Animation><BallPulseSync color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Rotate', () => <Animation><BallRotate color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Scale', () => <Animation><BallScale color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Scale Multiple', () => <Animation><BallScaleMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Scale Random', () => <Animation><BallScaleRandom color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Scale Ripple', () => <Animation><BallScaleRipple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Scale Ripple Multiple', () => <Animation><BallScaleRippleMultiple color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Spin Fade Loader', () => <Animation><BallSpinFadeLoader color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Spin Loader', () => <Animation><BallSpinLoader color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Triangle Path', () => <Animation><BallTrianglePath color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Zig Zag', () => <Animation><BallZigZag color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
-    .add('Zig Zag Deflect', () => <Animation><BallZigZagDeflect color={color('Color', defaultColor)} loading={boolean('loading', true)} /></Animation>)
+const stories = storiesOf('Ball Loaders', module);
+
+stories.addDecorator(withKnobs);
+
+animationsStories.forEach((animation) => {
+    const { name, component } = animation;
+    stories.add(name, () => (<div style={style}>{ cloneElement(component, { color: color('Color', defaultColor), loading: boolean('Loading', defaultState) }) }</div>));
+});

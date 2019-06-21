@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, color, boolean } from '@storybook/addon-knobs';
 
@@ -21,15 +21,38 @@ const style = {
     maxWidth: '25%',
     height: '150px',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
 };
 
-const Animation = ({children}) => <div style={style}>{children}</div>
 
-storiesOf('Misc Loaders', module)
-    .addDecorator(withKnobs)
-    .add('Cube Transition', () => <Animation><CubeTransition color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Pacman', () => <Animation><Pacman color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Semi Circle Spin', () => <Animation><SemiCircleSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Square Spin', () => <Animation><SquareSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
-    .add('Triangle Skew Spin', () =><Animation><TriangleSkewSpin color={color('Color', defaultColor)} loading={boolean('Loading', defaultState)} /></Animation>)
+const animationsForStories = [
+    {
+        name: 'Cube Transition',
+        component: <CubeTransition />,
+    },
+    {
+        name: 'Pacman',
+        component: <Pacman />,
+    },
+    {
+        name: 'Semi Circle Spin',
+        component: <SemiCircleSpin />,
+    },
+    {
+        name: 'Square Spin',
+        component: <SquareSpin />,
+    },
+    {
+        name: 'Triangle Skew Spin',
+        component: <TriangleSkewSpin />,
+    },
+];
+
+const stories = storiesOf('Misc Loaders', module);
+
+stories.addDecorator(withKnobs);
+
+animationsForStories.forEach((animation) => {
+    const { name, component } = animation;
+    stories.add(name, () => (<div style={style}>{ cloneElement(component, { color: color('Color', defaultColor), loading: boolean('Loading', defaultState) }) }</div>));
+});
