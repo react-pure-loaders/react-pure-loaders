@@ -30,7 +30,7 @@ React PureComponent loading animations
 
 ## Demo
 
-[Demo Page](https://react-pure-loaders.jameswlane.now.sh/)
+[Demo Page](https://reactpureloaders.io/)
 
 ## Installation
 
