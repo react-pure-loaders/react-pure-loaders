@@ -1,4 +1,8 @@
 {
+  "alias": [
+    "reactpureloaders.io",
+    "www.reactpureloaders.io"
+  ],
   "version": 2,
   "name": "react-pure-loaders",
   "builds": [
