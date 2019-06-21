@@ -10,6 +10,7 @@ coverage
 
 # Compiled source
 build
+storybook-static
 
 # Dependency directories
 node_modules/
