@@ -1,4 +1,4 @@
-import { cloneElement } from 'react';
+import React, { cloneElement } from 'react';
 import { color, boolean } from '@storybook/addon-knobs';
 
 const defaultColor = '#000000';
