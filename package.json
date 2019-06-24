@@ -150,7 +150,7 @@
     "react-dom": "16.8.6",
     "rimraf": "2.6.3",
     "rollup": "1.15.6",
-    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.0.0",
     "rollup-plugin-node-globals": "1.4.0",
     "rollup-plugin-node-resolve": "5.0.3",
