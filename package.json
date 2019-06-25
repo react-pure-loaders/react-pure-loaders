@@ -120,7 +120,7 @@
     "@types/storybook__addon-options": "4.0.2",
     "@types/storybook__react": "4.0.2",
     "@typescript-eslint/eslint-plugin": "1.11.0",
-    "@typescript-eslint/parser": "1.10.2",
+    "@typescript-eslint/parser": "1.11.0",
     "acorn": "6.1.1",
     "all-contributors-cli": "6.7.0",
     "awesome-typescript-loader": "5.2.1",
