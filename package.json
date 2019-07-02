@@ -142,7 +142,7 @@
     "jest": "24.8.0",
     "jest-dom": "3.5.0",
     "jest-emotion": "10.0.14",
-    "lint-staged": "8.2.1",
+    "lint-staged": "9.0.1",
     "marked": "0.6.2",
     "opt-cli": "1.6.0",
     "react": "16.8.6",
