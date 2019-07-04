@@ -42,7 +42,9 @@
     "verify:circleci": "circleci config validate -c .circleci/config.yml",
     "verify:david": "npx david",
     "verify:npmvet": "npx npmvet --renderer ci --strict",
-    "verify:tscheck": "npx typesync"
+    "verify:tscheck": "npx typesync",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "animation",
@@ -80,7 +82,8 @@
   },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
-    "@emotion/core": "10.0.14"
+    "@emotion/core": "10.0.14",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -177,5 +180,6 @@
       "commit-msg": "opt --in commit-msg --exec \"validate-commit-msg\"",
       "pre-commit": "lint-staged && opt --in pre-commit --exec \"npm run verify\""
     }
-  }
+  },
+  "snyk": true
 }
