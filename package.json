@@ -83,7 +83,7 @@
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
     "@emotion/core": "10.0.14",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "@babel/cli": "7.5.0",
