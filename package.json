@@ -82,8 +82,7 @@
   },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
-    "@emotion/core": "10.0.14",
-    "snyk": "^1.192.3"
+    "@emotion/core": "10.0.14"
   },
   "devDependencies": {
     "@babel/cli": "7.5.0",
@@ -162,6 +161,7 @@
     "rollup-plugin-terser": "5.1.0",
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.18",
+    "snyk": "1.192.3",
     "storybook": "1.0.0",
     "storybook-readme": "5.0.5",
     "ts-jest": "24.0.2",
