@@ -31,7 +31,7 @@
     "test:coverage": "jest --coverage",
     "test:coverage:ci": "jest --coverage --maxWorkers=4",
     "test:coverage:codecov": "codecov",
-    "eslint": "eslint src/**/*.{ts,tsx} stories/*.stories.tsx",
+    "eslint": "eslint src/**/*.{ts,tsx}",
     "eslint:fix": "eslint --fix src/**/*.{ts,tsx}",
     "verify": "npm run verify:npmvet && npm run verify:david && npm run verify:tscheck && npm run eslint && npm run test && npm run type-check",
     "verify:circleci": "circleci config validate -c .circleci/config.yml",
