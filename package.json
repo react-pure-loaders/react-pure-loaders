@@ -77,7 +77,7 @@
   },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
-    "@emotion/core": "10.0.14"
+    "@emotion/core": "10.0.16"
   },
   "devDependencies": {
     "@babel/cli": "7.5.5",
