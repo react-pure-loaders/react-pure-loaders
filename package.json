@@ -141,7 +141,7 @@
     "rollup-plugin-size-snapshot": "0.9.0",
     "rollup-plugin-terser": "5.1.1",
     "rollup-plugin-typescript": "1.0.1",
-    "semantic-release": "15.13.18",
+    "semantic-release": "15.13.21",
     "snyk": "1.193.0",
     "ts-jest": "24.0.2",
     "typescript": "3.5.3"
