@@ -76,9 +76,6 @@
     "url": "https://github.com/jameswlane/react-pure-loaders/issues"
   },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
-  "dependencies": {
-    "@emotion/core": "10.0.14"
-  },
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.4",
@@ -147,7 +144,8 @@
     "typescript": "3.5.3"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "@emotion/core": "10.0.16"
   },
   "config": {
     "commitizen": {
