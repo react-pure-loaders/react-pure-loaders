@@ -80,10 +80,10 @@
   "bugs": {
     "url": "https://github.com/jameswlane/react-pure-loaders/issues"
   },
-  "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
-    "@emotion/core": "10.0.14"
+    "@emotion/core": "10.0.16"
   },
+  "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.4",
