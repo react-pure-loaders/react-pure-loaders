@@ -21,7 +21,6 @@ const createStories = (animationsForStories: any[], stories: any) => {
     animationsForStories.forEach((animation: any) => {
         const { name, component } = animation;
         stories.add(name, () => (<div style={style}>{ cloneElement(component, { color: color('Color', defaultColor), loading: boolean('Loading', defaultState) })}</div>));
-        return;
     });
 };
 
