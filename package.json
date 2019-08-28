@@ -143,14 +143,14 @@
     "ts-jest": "24.0.2",
     "typescript": "3.5.3"
   },
-  "peerDependencies": {
-    "react": ">=16",
-    "@emotion/core": "10.0.16"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "@emotion/core": "10.0.16"
   },
   "husky": {
     "hooks": {
