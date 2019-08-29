@@ -128,6 +128,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="http://fueledbydreams.com"><img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;" alt="James W. Lane III"/><br /><sub><b>James W. Lane III</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Documentation">📖</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/wps13"><img src="https://avatars1.githubusercontent.com/u/19312323?v=4" width="100px;" alt="Willane Paiva"/><br /><sub><b>Willane Paiva</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=wps13" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Larissagilliane"><img src="https://avatars2.githubusercontent.com/u/27821672?v=4" width="100px;" alt="Larissa Moura"/><br /><sub><b>Larissa Moura</b></sub></a><br /><a href="#tool-Larissagilliane" title="Tools">🔧</a></td>
   </tr>
 </table>
 
