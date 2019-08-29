@@ -39,6 +39,5 @@ export function ballGrid() {
             animationDuration: `${duration}s`,
         };
     }
-
     return grid;
 }
