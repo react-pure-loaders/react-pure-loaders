@@ -118,3 +118,4 @@ const stories = storiesOf('Ball Loaders', module);
 stories.addDecorator(withKnobs);
 
 createStories(animationsStories, stories);
+
