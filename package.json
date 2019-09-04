@@ -100,12 +100,6 @@
     "@storybook/addon-options": "5.1.9",
     "@storybook/addons": "5.1.9",
     "@storybook/react": "5.1.9",
-    "@types/storybook-readme": "5.0.3",
-    "@types/storybook__addon-centered": "3.4.1",
-    "@types/storybook__addon-info": "4.1.2",
-    "@types/storybook__addon-knobs": "5.0.1",
-    "@types/storybook__addon-options": "4.0.2",
-    "@types/storybook__react": "4.0.2",
     "@testing-library/jest-dom": "4.0.0",
     "@testing-library/react": "8.0.4",
     "@types/acorn": "4.0.5",
@@ -119,6 +113,12 @@
     "@types/rimraf": "2.0.2",
     "@types/rollup-plugin-node-globals": "1.4.0",
     "@types/semantic-release": "15.13.0",
+    "@types/storybook-readme": "5.0.3",
+    "@types/storybook__addon-centered": "3.4.1",
+    "@types/storybook__addon-info": "4.1.2",
+    "@types/storybook__addon-knobs": "5.0.1",
+    "@types/storybook__addon-options": "4.0.2",
+    "@types/storybook__react": "4.0.2",
     "@typescript-eslint/eslint-plugin": "1.12.0",
     "@typescript-eslint/parser": "1.11.0",
     "acorn": "6.3.0",
@@ -152,14 +152,15 @@
     "rollup-plugin-commonjs": "10.0.1",
     "rollup-plugin-node-globals": "1.4.0",
     "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-peer-deps-external": "2.2.0",
     "rollup-plugin-replace": "2.2.0",
     "rollup-plugin-size-snapshot": "0.9.0",
     "rollup-plugin-terser": "5.1.1",
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.18",
+    "snyk": "1.193.0",
     "storybook": "1.0.0",
     "storybook-readme": "5.0.5",
-    "snyk": "1.193.0",
     "ts-jest": "24.0.2",
     "typescript": "3.5.3"
   },
@@ -170,7 +171,7 @@
   },
   "peerDependencies": {
     "react": ">=16",
-    "@emotion/core": "10.0.16"
+    "@emotion/core": "10.0.17"
   },
   "husky": {
     "hooks": {
@@ -178,5 +179,8 @@
       "pre-commit": "lint-staged && opt --in pre-commit --exec \"npm run verify\""
     }
   },
-  "snyk": true
+  "snyk": true,
+  "dependencies": {
+    "@emotion/core": "10.0.17"
+  }
 }

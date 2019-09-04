@@ -6,11 +6,13 @@ import nodeGlobals from 'rollup-plugin-node-globals';
 import { terser } from 'rollup-plugin-terser';
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 import rollupTypescript from 'rollup-plugin-typescript';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 const input = './src/index.ts';
 const globals = {
   react: 'React',
   'react-dom': 'ReactDOM',
+  '@emotion/core': 'emotion',
 };
 
 const babelOptions = {
@@ -56,6 +58,7 @@ export default [
     },
     external: Object.keys(globals),
     plugins: [
+      peerDepsExternal(),
       nodeResolve(),
       rollupTypescript(),
       babel(babelOptions),
@@ -75,6 +78,7 @@ export default [
     },
     external: Object.keys(globals),
     plugins: [
+      peerDepsExternal(),
       nodeResolve(),
       rollupTypescript(),
       babel(babelOptions),
