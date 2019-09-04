@@ -35,6 +35,7 @@
       "contributions": [
         "code",
         "test"
+        "tool"
       ]
     }
   ],
