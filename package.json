@@ -182,8 +182,5 @@
       "pre-commit": "lint-staged && opt --in pre-commit --exec \"npm run verify\""
     }
   },
-  "snyk": true,
-  "dependencies": {
-    "@emotion/core": "10.0.17"
-  }
+  "snyk": true
 }

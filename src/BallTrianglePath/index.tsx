@@ -13,6 +13,5 @@ export default function BallTrianglePath({ color, loading }: BaseProps) {
             </div>
         );
     }
-
     return null;
 }
