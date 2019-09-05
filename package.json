@@ -19,6 +19,8 @@
     "build:es": "cross-env NODE_ENV=production BABEL_ENV=es babel src --out-dir ./build/es --extensions \".ts,.tsx\"",
     "build:umd": "cross-env BABEL_ENV=production-umd rollup -c rollup.config.js",
     "build:types": "tsc --emitDeclarationOnly",
+    "now-build": "build-storybook -o ./public",
+    "now-dev": "start-storybook -s ./public -p $PORT",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "clean": "rimraf build coverage",
@@ -26,6 +28,9 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "semantic-release": "semantic-release",
+    "storybook": "start-storybook -s ./public -p 9001",
+    "build-storybook": "build-storybook -o ./public",
+    "gh-pages": "npm run build-storybook -o ./public && gh-pages -d public && rm -rf public",
     "test": "jest",
     "test:ci": "jest --maxWorkers=4",
     "test:coverage": "jest --coverage",
@@ -75,10 +80,10 @@
   "bugs": {
     "url": "https://github.com/jameswlane/react-pure-loaders/issues"
   },
-  "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "dependencies": {
-    "@emotion/core": "10.0.14"
+    "@emotion/core": "10.0.16"
   },
+  "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.4",
@@ -91,6 +96,19 @@
     "@babel/preset-typescript": "7.3.3",
     "@commitlint/cli": "8.1.0",
     "@commitlint/config-conventional": "8.1.0",
+    "@storybook/addon-backgrounds": "5.1.9",
+    "@storybook/addon-centered": "5.1.9",
+    "@storybook/addon-info": "5.1.9",
+    "@storybook/addon-knobs": "5.1.9",
+    "@storybook/addon-options": "5.1.9",
+    "@storybook/addons": "5.1.9",
+    "@storybook/react": "5.1.9",
+    "@types/storybook-readme": "5.0.3",
+    "@types/storybook__addon-centered": "3.4.1",
+    "@types/storybook__addon-info": "4.1.2",
+    "@types/storybook__addon-knobs": "5.0.1",
+    "@types/storybook__addon-options": "4.0.2",
+    "@types/storybook__react": "4.0.2",
     "@testing-library/jest-dom": "4.0.0",
     "@testing-library/react": "8.0.4",
     "@types/acorn": "4.0.5",
@@ -142,6 +160,8 @@
     "rollup-plugin-terser": "5.1.1",
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.18",
+    "storybook": "1.0.0",
+    "storybook-readme": "5.0.5",
     "snyk": "1.193.0",
     "ts-jest": "24.0.2",
     "typescript": "3.5.3"

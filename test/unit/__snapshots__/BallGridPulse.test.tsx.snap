@@ -1,6 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallGridPulse> BallGridPulse should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.7;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
 .emotion-0 {
   width: 57px;
 }
@@ -17,6 +39,8 @@ exports[`<BallGridPulse> BallGridPulse should match snapshot 1`] = `
   animation-delay: 0;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-name: animation-0;
+  animation-name: animation-0;
   display: inline-block;
   float: left;
 }
