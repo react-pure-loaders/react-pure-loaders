@@ -133,7 +133,7 @@
     "commitizen": "4.0.3",
     "coveralls": "3.0.5",
     "cross-env": "5.2.0",
-    "cz-conventional-changelog": "2.1.0",
+    "cz-conventional-changelog": "3.0.2",
     "eslint": "6.0.1",
     "eslint-config-airbnb": "17.1.1",
     "eslint-plugin-import": "2.18.2",
