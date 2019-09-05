@@ -81,7 +81,7 @@
     "url": "https://github.com/jameswlane/react-pure-loaders/issues"
   },
   "dependencies": {
-    "@emotion/core": "10.0.16"
+    "@emotion/core": "10.0.17"
   },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "devDependencies": {
