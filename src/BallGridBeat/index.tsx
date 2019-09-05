@@ -19,6 +19,5 @@ export default function BallGridBeat({ color, loading }: BaseProps) {
             </div>
         );
     }
-
     return null;
 }

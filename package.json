@@ -80,11 +80,14 @@
   "bugs": {
     "url": "https://github.com/jameswlane/react-pure-loaders/issues"
   },
+  "dependencies": {
+    "@emotion/core": "10.0.17"
+  },
   "homepage": "https://github.com/jameswlane/react-pure-loaders#readme",
   "devDependencies": {
     "@babel/cli": "7.5.5",
-    "@babel/core": "7.5.4",
-    "@babel/plugin-proposal-class-properties": "7.5.0",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "7.5.4",
     "@babel/plugin-transform-react-constant-elements": "7.5.0",
     "@babel/plugin-transform-runtime": "7.5.0",
