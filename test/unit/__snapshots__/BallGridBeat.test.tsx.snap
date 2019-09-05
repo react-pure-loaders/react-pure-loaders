@@ -1,6 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallGridBeat> BallGridBeat should match snapshot 1`] = `
+@keyframes animation-0 {
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
 .emotion-0 {
   width: 57px;
 }
@@ -78,6 +88,8 @@ exports[`<BallGridBeat> BallGridBeat should match snapshot 1`] = `
   animation-fill-mode: both;
   display: inline-block;
   float: left;
+  -webkit-animation-name: animation-0;
+  animation-name: animation-0;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-delay: 0;
