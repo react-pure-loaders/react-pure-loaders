@@ -128,7 +128,7 @@
     "all-contributors-cli": "6.9.0",
     "awesome-typescript-loader": "5.2.1",
     "babel-loader": "8.0.6",
-    "chance": "1.0.18",
+    "chance": "1.1.0",
     "codecov": "3.5.0",
     "commitizen": "4.0.3",
     "coveralls": "3.0.6",
