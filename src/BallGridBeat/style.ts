@@ -1,16 +1,15 @@
-// TODO
-// import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/core';
 import { ballGrid, balls, globalAnimation } from '../mixins';
 import { BALL_SIZE, MARGIN } from '../variables';
 
-// const ballGridBeat = keyframes({
-//     '100%': {
-//         opacity: 1,
-//     },
-//     '50%': {
-//         opacity: 0.7,
-//     },
-// });
+const ballGridBeat = keyframes({
+    '100%': {
+        opacity: 1,
+    },
+    '50%': {
+        opacity: 0.7,
+    },
+});
 
 export default (color?: string) => ({
     ...ballGrid(),
@@ -18,10 +17,9 @@ export default (color?: string) => ({
     ' > div': {
         ...balls(color),
         ...globalAnimation(),
-
         display: 'inline-block',
         float: 'left' as 'left',
-        // animationName: ballGridBeat,
+        animationName: ballGridBeat,
         animationIterationCount: 'infinite',
         animationDelay: '0',
     },
