@@ -1,7 +1,7 @@
 {
   "build/umd/react-pure-loaders.production.min.js": {
-    "bundled": 53231,
-    "minified": 23345,
-    "gzipped": 3548
+    "bundled": 53088,
+    "minified": 24042,
+    "gzipped": 3649
   }
 }
