@@ -91,7 +91,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.5.5",
     "@babel/plugin-transform-react-constant-elements": "7.5.0",
     "@babel/plugin-transform-runtime": "7.6.0",
-    "@babel/preset-env": "7.5.5",
+    "@babel/preset-env": "7.6.0",
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.6.0",
     "@commitlint/cli": "8.1.0",
