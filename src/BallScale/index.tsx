@@ -4,13 +4,13 @@ import style from './style';
 import { BaseProps } from '../types';
 
 export default function BallScale({ color, loading }: BaseProps) {
-    if (loading) {
-        return (
+  if (loading) {
+    return (
             <div css={style(color)}>
                 <div/>
             </div>
-        );
-    }
+    );
+  }
 
-    return null;
+  return null;
 }

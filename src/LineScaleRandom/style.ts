@@ -18,29 +18,29 @@ import { Grid } from '../types';
 // });
 
 function lineScale() {
-    let i = 1;
-    const grid: Grid = {};
-    for (; i < 5; i += 1) {
-        const delay = ((parseInt((Math.random() * 100).toString(), 10) / 100) - 0.2);
-        const duration = ((parseInt((Math.random() * 100).toString(), 10) / 100) + 0.3);
+  let i = 1;
+  const grid: Grid = {};
+  for (; i < 5; i += 1) {
+    const delay = ((parseInt((Math.random() * 100).toString(), 10) / 100) - 0.2);
+    const duration = ((parseInt((Math.random() * 100).toString(), 10) / 100) + 0.3);
 
-        grid[` > div:nth-of-type(${i})`] = {
-            animationDelay: `${delay}s`,
-            animationDuration: `${duration}s`,
-        };
-    }
+    grid[` > div:nth-of-type(${i})`] = {
+      animationDelay: `${delay}s`,
+      animationDuration: `${duration}s`,
+    };
+  }
 
-    return grid;
+  return grid;
 }
 
 export default (color?: string) => ({
-    ...lineScale(),
-    ' > div': {
-        ...lines(color),
-        ...globalAnimation(),
-        animationDelay: '0',
-        animationIterationCount: 'infinite',
-        // animationName: ballBeat,
-        display: 'inline-block',
-    },
+  ...lineScale(),
+  ' > div': {
+    ...lines(color),
+    ...globalAnimation(),
+    animationDelay: '0',
+    animationIterationCount: 'infinite',
+    // animationName: ballBeat,
+    display: 'inline-block',
+  },
 });
