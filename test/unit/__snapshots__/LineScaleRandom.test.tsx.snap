@@ -1,6 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LineScaleRandom> LineScaleRandom should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  100% {
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  50% {
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
 .emotion-0 > div:nth-of-type(1) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
@@ -41,6 +61,8 @@ exports[`<LineScaleRandom> LineScaleRandom should match snapshot 1`] = `
   animation-delay: 0;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-name: animation-0;
+  animation-name: animation-0;
   display: inline-block;
 }
 

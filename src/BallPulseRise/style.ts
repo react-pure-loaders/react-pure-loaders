@@ -47,21 +47,21 @@ import { balls, globalAnimation } from '../mixins';
 // });
 
 export default (color?: string) => ({
-  ' > div': {
-    ...balls(color),
-    ...globalAnimation(),
-    animationDelay: '0',
-    animationDuration: '1s',
-    animationIterationCount: 'infinite',
-    animationTimingFunction: 'cubic-bezier(.15,.46,.9,.6)',
-    display: 'inline-block',
+    ' > div': {
+        ...balls(color),
+        ...globalAnimation(),
+        animationDelay: '0',
+        animationDuration: '1s',
+        animationIterationCount: 'infinite',
+        animationTimingFunction: 'cubic-bezier(.15,.46,.9,.6)',
+        display: 'inline-block',
 
-    '&:nth-of-type(2n)': {
-      // animationName: ballPulseRiseEven,
-    },
+        '&:nth-of-type(2n)': {
+            // animationName: ballPulseRiseEven,
+        },
 
-    '&:nth-of-type(2n-1)': {
-      // animationName: ballPulseRiseOdd,
+        '&:nth-of-type(2n-1)': {
+            // animationName: ballPulseRiseOdd,
+        },
     },
-  },
 });
