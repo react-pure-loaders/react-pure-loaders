@@ -1,6 +1,5 @@
 import { keyframes } from '@emotion/core';
-import { globalAnimation, lines } from '../mixins';
-import { Grid } from '../types';
+import { globalAnimation, lines, ballGrid } from '../mixins';
 
 const random = 0.5;
 
@@ -16,24 +15,8 @@ const ballBeat = keyframes({
     },
 });
 
-function lineScale() {
-    let i = 1;
-    const grid: Grid = {};
-    for (; i < 5; i += 1) {
-        const delay = parseInt((Math.random() * 100).toString(), 10) / 100 - 0.2;
-        const duration = parseInt((Math.random() * 100).toString(), 10) / 100 + 0.3;
-
-        grid[` > div:nth-of-type(${i})`] = {
-            animationDelay: `${delay}s`,
-            animationDuration: `${duration}s`,
-        };
-    }
-
-    return grid;
-}
-
 export default (color?: string) => ({
-    ...lineScale(),
+    ...ballGrid(),
     ' > div': {
         ...lines(color),
         ...globalAnimation(),
