@@ -4,8 +4,8 @@ import style from './style';
 import { BaseProps } from '../types';
 
 export default function BallGridBeat({ color, loading }: BaseProps) {
-  if (loading) {
-    return (
+    if (loading) {
+        return (
             <div css={style(color)}>
                 <div/>
                 <div/>
@@ -17,7 +17,7 @@ export default function BallGridBeat({ color, loading }: BaseProps) {
                 <div/>
                 <div/>
             </div>
-    );
-  }
-  return null;
+        );
+    }
+    return null;
 }
