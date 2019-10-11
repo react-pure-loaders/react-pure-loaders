@@ -7,7 +7,9 @@ import {
 } from '../variables';
 import { Grid } from '../types';
 
-export const globalBg = (color?: string) => ({ backgroundColor: color || PRIMARY_COLOR });
+export const globalBg = (color?: string) => ({
+    backgroundColor: color || PRIMARY_COLOR,
+});
 
 export const globalAnimation = () => ({ animationFillMode: 'both' });
 

@@ -32,7 +32,8 @@ export default (color?: string) => ({
         '&:last-child': {
             animationDirection: 'reverse',
             animationDuration: '0.5s',
-            borderColor: `${color || PRIMARY_COLOR} transparent ${color || PRIMARY_COLOR} transparent`,
+            borderColor: `${color || PRIMARY_COLOR} transparent ${color
+        || PRIMARY_COLOR} transparent`,
             display: 'inline-block',
             height: '15px',
             left: '-10px',

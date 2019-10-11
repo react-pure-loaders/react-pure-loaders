@@ -49,7 +49,8 @@ export default (color?: string) => ({
             animationDuration: '1s',
             background: 'transparent',
             border: '2px solid',
-            borderColor: `${color || PRIMARY_COLOR} transparent ${color || PRIMARY_COLOR} transparent`,
+            borderColor: `${color || PRIMARY_COLOR} transparent ${color
+        || PRIMARY_COLOR} transparent`,
             height: '30px',
             left: '-16px',
             position: 'absolute' as 'absolute',
