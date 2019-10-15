@@ -77,7 +77,7 @@ jobs:
   test-node-10:
     working_directory: ~/react-pure-loaders
     docker:
-    <<: *docker_defaults
+      - image: circleci/node:10
     <<: *test_steps
 
   test-node-11:
