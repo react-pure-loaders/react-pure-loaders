@@ -1,6 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BallPulseRise> BallPulseRise should match snapshot 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  25% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  50% {
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+
+  75% {
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  99% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes animation-1 {
+  0% {
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+
+  100% {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+
+  25% {
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  99% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 .emotion-0 > div {
   border-radius: 100%;
   height: 15px;
@@ -18,6 +94,16 @@ exports[`<BallPulseRise> BallPulseRise should match snapshot 1`] = `
   -webkit-animation-timing-function: cubic-bezier(.15,.46,.9,.6);
   animation-timing-function: cubic-bezier(.15,.46,.9,.6);
   display: inline-block;
+}
+
+.emotion-0 > div:nth-of-type(2n) {
+  -webkit-animation-name: animation-0;
+  animation-name: animation-0;
+}
+
+.emotion-0 > div:nth-of-type(2n-1) {
+  -webkit-animation-name: animation-1;
+  animation-name: animation-1;
 }
 
 <div
