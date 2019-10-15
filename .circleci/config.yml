@@ -2,7 +2,7 @@ version: 2
 
 docker_defaults: &docker_defaults
   docker:
-    - image: circleci/node:8
+    - image: circleci/node:10
   working_directory: ~/project/react-pure-loaders
 
 attach_workspace: &attach_workspace
@@ -46,20 +46,21 @@ test_steps: &test_steps
 
 jobs:
   install:
+    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     <<: *install_steps
 
   npmvet:
+    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
       - run:
           name: NPM Vet
-          command: |
-            sudo npm i -g npmvet
-            npm run verify:npmvet
+          command: npm run verify:npmvet
 
   eslint:
+    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
@@ -70,12 +71,13 @@ jobs:
   test-node-8:
     working_directory: ~/react-pure-loaders
     docker:
-    <<: *docker_defaults
+      - image: circleci/node:8
     <<: *test_steps
 
   test-node-10:
+    working_directory: ~/react-pure-loaders
     docker:
-      - image: circleci/node:8
+    <<: *docker_defaults
     <<: *test_steps
 
   test-node-11:
@@ -91,6 +93,7 @@ jobs:
     <<: *test_steps
 
   coverage:
+    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
