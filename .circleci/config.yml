@@ -46,12 +46,10 @@ test_steps: &test_steps
 
 jobs:
   install:
-    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     <<: *install_steps
 
   npmvet:
-    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
@@ -60,7 +58,6 @@ jobs:
           command: npm run verify:npmvet
 
   eslint:
-    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
