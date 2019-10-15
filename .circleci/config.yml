@@ -90,7 +90,6 @@ jobs:
     <<: *test_steps
 
   coverage:
-    working_directory: ~/react-pure-loaders
     <<: *docker_defaults
     steps:
       - *attach_workspace
