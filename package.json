@@ -156,7 +156,7 @@
     "rollup-plugin-terser": "5.1.2",
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.24",
-    "snyk": "1.239.0",
+    "snyk": "1.244.0",
     "storybook": "5.1.11",
     "storybook-readme": "5.0.8",
     "ts-jest": "24.1.0",
