@@ -36,12 +36,12 @@ React PureComponent loading animations
 
 Install with `yarn`:
 ```bash
-yarn add react-pure-loaders
+yarn add @emotion/core react-pure-loaders
 ```
 
 Install with `npm`:
 ```bash
-npm install react-pure-loaders --save
+npm install @emotion/core react-pure-loaders --save
 ```
 
 ## Usage
