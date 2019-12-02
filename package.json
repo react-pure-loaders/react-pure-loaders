@@ -142,7 +142,7 @@
     "marked": "0.7.0",
     "opt-cli": "1.6.0",
     "react": "16.11.0",
-    "react-docgen-typescript-loader": "3.3.0",
+    "react-docgen-typescript-loader": "3.6.0",
     "react-dom": "16.10.2",
     "rimraf": "3.0.0",
     "rollup": "1.24.0",
