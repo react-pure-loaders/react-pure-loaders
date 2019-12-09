@@ -137,7 +137,7 @@
     "eslint-plugin-react-hooks": "2.1.2",
     "husky": "3.0.9",
     "jest": "24.9.0",
-    "jest-emotion": "10.0.17",
+    "jest-emotion": "10.0.26",
     "lint-staged": "9.4.2",
     "marked": "0.7.0",
     "opt-cli": "1.6.0",
