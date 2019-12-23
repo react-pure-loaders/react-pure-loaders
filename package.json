@@ -159,7 +159,7 @@
     "snyk": "1.251.0",
     "storybook": "5.1.11",
     "storybook-readme": "5.0.8",
-    "ts-jest": "24.1.0",
+    "ts-jest": "24.2.0",
     "typescript": "3.7.3"
   },
   "config": {
