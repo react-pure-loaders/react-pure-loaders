@@ -90,7 +90,7 @@
     "@babel/plugin-transform-runtime": "7.7.6",
     "@babel/preset-env": "7.6.3",
     "@babel/preset-react": "7.7.4",
-    "@babel/preset-typescript": "7.6.0",
+    "@babel/preset-typescript": "7.7.7",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@storybook/addon-backgrounds": "5.2.4",
