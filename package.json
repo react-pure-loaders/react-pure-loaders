@@ -112,7 +112,7 @@
     "@types/rollup-plugin-node-globals": "1.4.0",
     "@types/rollup-plugin-peer-deps-external": "2.2.0",
     "@types/rollup-plugin-size-snapshot": "0.10.0",
-    "@types/semantic-release": "15.13.0",
+    "@types/semantic-release": "15.13.1",
     "@types/storybook-readme": "5.0.4",
     "@types/storybook__react": "4.0.2",
     "@types/testing-library__react": "9.1.2",
