@@ -157,7 +157,7 @@
     "rollup-plugin-typescript": "1.0.1",
     "semantic-release": "15.13.31",
     "snyk": "1.274.0",
-    "storybook": "5.1.11",
+    "storybook": "5.3.7",
     "storybook-readme": "5.0.8",
     "ts-jest": "24.2.0",
     "typescript": "3.7.4"
