@@ -114,7 +114,7 @@
     "@types/rollup-plugin-size-snapshot": "0.10.0",
     "@types/semantic-release": "15.13.1",
     "@types/storybook-readme": "5.0.4",
-    "@types/storybook__react": "4.0.2",
+    "@types/storybook__react": "5.2.1",
     "@types/testing-library__react": "9.1.2",
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.19.2",
