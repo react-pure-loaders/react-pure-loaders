@@ -138,7 +138,7 @@
     "husky": "3.1.0",
     "jest": "24.9.0",
     "jest-emotion": "10.0.26",
-    "lint-staged": "9.5.0",
+    "lint-staged": "10.0.7",
     "marked": "0.7.0",
     "opt-cli": "1.6.0",
     "react": "16.12.0",
