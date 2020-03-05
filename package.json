@@ -139,7 +139,7 @@
     "jest": "24.9.0",
     "jest-emotion": "10.0.26",
     "lint-staged": "10.0.7",
-    "marked": "0.7.0",
+    "marked": "0.8.0",
     "opt-cli": "1.6.0",
     "react": "16.12.0",
     "react-docgen-typescript-loader": "3.6.0",
