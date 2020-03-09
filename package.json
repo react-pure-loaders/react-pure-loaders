@@ -160,7 +160,7 @@
     "storybook": "5.3.14",
     "storybook-readme": "5.0.8",
     "ts-jest": "24.3.0",
-    "typescript": "3.7.5"
+    "typescript": "3.8.3"
   },
   "config": {
     "commitizen": {
