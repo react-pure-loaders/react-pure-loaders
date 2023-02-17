@@ -1,4 +1,4 @@
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { ballGrid, balls, globalAnimation } from '../mixins';
 import { BALL_SIZE, MARGIN } from '../variables';
 

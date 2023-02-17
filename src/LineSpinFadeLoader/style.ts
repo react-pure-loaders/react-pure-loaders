@@ -1,4 +1,4 @@
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { globalAnimation, lines } from '../mixins';
 import delay from '../utilities';
 import { Grid } from '../types';

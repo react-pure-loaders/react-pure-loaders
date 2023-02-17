@@ -1,0 +1,6 @@
+{
+    "preset": "ts-jest",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.ts"],
+    "snapshotSerializers": ["@emotion/jest"],
+    "testEnvironment": "jsdom"
+}
