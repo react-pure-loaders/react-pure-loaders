@@ -4,18 +4,21 @@ exports[`<SemiCircleSpin> SemiCircleSpin should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   100% {
     -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 
   50% {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
@@ -28,12 +31,12 @@ exports[`<SemiCircleSpin> SemiCircleSpin should match snapshot 1`] = `
   width: 35px;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation: animation-0 0.6s 0s infinite linear;
   animation: animation-0 0.6s 0s infinite linear;
-  background-image: linear-gradient(transparent 0%,transparent 70%,#ffffff 30%,#ffffff 100%);
+  background-image: linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
   border-radius: 100%;
   border-width: 0px;
   height: 100%;

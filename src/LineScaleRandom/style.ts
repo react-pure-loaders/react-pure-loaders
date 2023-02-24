@@ -1,4 +1,4 @@
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { globalAnimation, lines, ballGrid } from '../mixins';
 
 const random = 0.5;

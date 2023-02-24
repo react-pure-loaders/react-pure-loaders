@@ -4,18 +4,21 @@ exports[`<BallPulseSync> BallPulseSync should match snapshot 1`] = `
 @keyframes animation-0 {
   100% {
     -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   33% {
     -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
 
   66% {
     -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
@@ -24,18 +27,21 @@ exports[`<BallPulseSync> BallPulseSync should match snapshot 1`] = `
 @keyframes animation-0 {
   100% {
     -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   33% {
     -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
 
   66% {
     -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
@@ -44,39 +50,42 @@ exports[`<BallPulseSync> BallPulseSync should match snapshot 1`] = `
 @keyframes animation-0 {
   100% {
     -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   33% {
     -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
 
   66% {
     -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 }
 
-.emotion-0 > div:nth-of-type(1) {
+.emotion-0>div:nth-of-type(1) {
   -webkit-animation: animation-0 0.6s -0.14s infinite ease-in-out;
   animation: animation-0 0.6s -0.14s infinite ease-in-out;
 }
 
-.emotion-0 > div:nth-of-type(2) {
+.emotion-0>div:nth-of-type(2) {
   -webkit-animation: animation-0 0.6s -0.07s infinite ease-in-out;
   animation: animation-0 0.6s -0.07s infinite ease-in-out;
 }
 
-.emotion-0 > div:nth-of-type(3) {
+.emotion-0>div:nth-of-type(3) {
   -webkit-animation: animation-0 0.6s 0.00s infinite ease-in-out;
   animation: animation-0 0.6s 0.00s infinite ease-in-out;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;

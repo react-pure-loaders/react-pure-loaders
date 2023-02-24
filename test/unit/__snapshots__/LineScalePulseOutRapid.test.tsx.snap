@@ -4,24 +4,27 @@ exports[`<LineScalePulseOutRapid> LineScalePulseOutRapid should match snapshot 1
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   80% {
     -webkit-transform: scaley(0.3);
+    -moz-transform: scaley(0.3);
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
 
   90% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -35,16 +38,16 @@ exports[`<LineScalePulseOutRapid> LineScalePulseOutRapid should match snapshot 1
   vertical-align: middle;
 }
 
-.emotion-0 > div:nth-of-type(2),
-.emotion-0 > div:nth-of-type(4) {
-  -webkit-animation-delay: -0.25s !important;
-  animation-delay: -0.25s !important;
+.emotion-0>div:nth-of-type(2),
+.emotion-0>div:nth-of-type(4) {
+  -webkit-animation-delay: -0.25s!important;
+  animation-delay: -0.25s!important;
 }
 
-.emotion-0 > div:nth-of-type(1),
-.emotion-0 > div:nth-of-type(5) {
-  -webkit-animation-delay: 0s !important;
-  animation-delay: 0s !important;
+.emotion-0>div:nth-of-type(1),
+.emotion-0>div:nth-of-type(5) {
+  -webkit-animation-delay: 0s!important;
+  animation-delay: 0s!important;
 }
 
 <div

@@ -87,81 +87,87 @@ exports[`<LineSpinFadeLoader> LineSpinFadeLoader should match snapshot 1`] = `
   top: -10px;
 }
 
-.emotion-0 > div:nth-of-type(1) {
+.emotion-0>div:nth-of-type(1) {
   -webkit-animation: animation-0 1.2s -0.84s infinite ease-in-out;
   animation: animation-0 1.2s -0.84s infinite ease-in-out;
   left: 0;
   top: 20px;
 }
 
-.emotion-0 > div:nth-of-type(2) {
+.emotion-0>div:nth-of-type(2) {
   -webkit-animation: animation-0 1.2s -0.72s infinite ease-in-out;
   animation: animation-0 1.2s -0.72s infinite ease-in-out;
   left: 13.636363636363637px;
   top: 13.636363636363637px;
   -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-.emotion-0 > div:nth-of-type(3) {
+.emotion-0>div:nth-of-type(3) {
   -webkit-animation: animation-0 1.2s -0.60s infinite ease-in-out;
   animation: animation-0 1.2s -0.60s infinite ease-in-out;
   left: 20px;
   top: 0;
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-.emotion-0 > div:nth-of-type(4) {
+.emotion-0>div:nth-of-type(4) {
   -webkit-animation: animation-0 1.2s -0.48s infinite ease-in-out;
   animation: animation-0 1.2s -0.48s infinite ease-in-out;
   left: 13.636363636363637px;
   top: -13.636363636363637;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-.emotion-0 > div:nth-of-type(5) {
+.emotion-0>div:nth-of-type(5) {
   -webkit-animation: animation-0 1.2s -0.36s infinite ease-in-out;
   animation: animation-0 1.2s -0.36s infinite ease-in-out;
   left: 0;
   top: -20px;
 }
 
-.emotion-0 > div:nth-of-type(6) {
+.emotion-0>div:nth-of-type(6) {
   -webkit-animation: animation-0 1.2s -0.24s infinite ease-in-out;
   animation: animation-0 1.2s -0.24s infinite ease-in-out;
   left: -13.636363636363637;
   top: -13.636363636363637;
   -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-.emotion-0 > div:nth-of-type(7) {
+.emotion-0>div:nth-of-type(7) {
   -webkit-animation: animation-0 1.2s -0.12s infinite ease-in-out;
   animation: animation-0 1.2s -0.12s infinite ease-in-out;
   left: -20px;
   top: 0;
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-.emotion-0 > div:nth-of-type(8) {
+.emotion-0>div:nth-of-type(8) {
   -webkit-animation: animation-0 1.2s 0.00s infinite ease-in-out;
   animation: animation-0 1.2s 0.00s infinite ease-in-out;
   left: -13.636363636363637;
   top: 13.636363636363637px;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 2px;
   height: 15px;
   margin: 2px;

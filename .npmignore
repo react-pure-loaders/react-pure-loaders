@@ -14,7 +14,7 @@ babel.config.js
 CHANGELOG.md
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
-jest.config.js
+jest.config.json
 lint-staged.config.js
 now.json
 package-lock.json

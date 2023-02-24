@@ -1,4 +1,4 @@
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { balls, globalAnimation } from '../mixins';
 import { PRIMARY_COLOR } from '../variables';
 

@@ -1,0 +1,5 @@
+{
+    "preset": "ts-jest",
+    "snapshotSerializers": ["@emotion/jest/serializer"],
+    "testEnvironment": "jsdom"
+}

@@ -1,4 +1,4 @@
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { balls } from '../mixins';
 import delay from '../utilities';
 import { PRIMARY_COLOR } from '../variables';

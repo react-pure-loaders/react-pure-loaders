@@ -5,6 +5,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -12,6 +13,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -21,6 +23,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -28,6 +31,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -37,6 +41,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -44,6 +49,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -53,6 +59,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -60,6 +67,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -69,6 +77,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -76,6 +85,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -85,6 +95,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -92,6 +103,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -101,6 +113,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -108,6 +121,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -117,6 +131,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   100% {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -124,6 +139,7 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   50% {
     opacity: 0.3;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
@@ -135,63 +151,63 @@ exports[`<BallSpinFadeLoader> BallSpinFadeLoader should match snapshot 1`] = `
   top: -10px;
 }
 
-.emotion-0 > div:nth-of-type(1) {
+.emotion-0>div:nth-of-type(1) {
   -webkit-animation: animation-0 1s -0.96s infinite linear;
   animation: animation-0 1s -0.96s infinite linear;
   left: 0;
   top: 25px;
 }
 
-.emotion-0 > div:nth-of-type(2) {
+.emotion-0>div:nth-of-type(2) {
   -webkit-animation: animation-0 1s -0.84s infinite linear;
   animation: animation-0 1s -0.84s infinite linear;
   left: 17.045454545454547px;
   top: 17.045454545454547px;
 }
 
-.emotion-0 > div:nth-of-type(3) {
+.emotion-0>div:nth-of-type(3) {
   -webkit-animation: animation-0 1s -0.72s infinite linear;
   animation: animation-0 1s -0.72s infinite linear;
   left: 25px;
   top: 0;
 }
 
-.emotion-0 > div:nth-of-type(4) {
+.emotion-0>div:nth-of-type(4) {
   -webkit-animation: animation-0 1s -0.60s infinite linear;
   animation: animation-0 1s -0.60s infinite linear;
   left: 17.045454545454547px;
   top: -17.045454545454547px;
 }
 
-.emotion-0 > div:nth-of-type(5) {
+.emotion-0>div:nth-of-type(5) {
   -webkit-animation: animation-0 1s -0.48s infinite linear;
   animation: animation-0 1s -0.48s infinite linear;
   left: 0;
   top: -25px;
 }
 
-.emotion-0 > div:nth-of-type(6) {
+.emotion-0>div:nth-of-type(6) {
   -webkit-animation: animation-0 1s -0.36s infinite linear;
   animation: animation-0 1s -0.36s infinite linear;
   left: -17.045454545454547px;
   top: -17.045454545454547px;
 }
 
-.emotion-0 > div:nth-of-type(7) {
+.emotion-0>div:nth-of-type(7) {
   -webkit-animation: animation-0 1s -0.24s infinite linear;
   animation: animation-0 1s -0.24s infinite linear;
   left: -25px;
   top: 0;
 }
 
-.emotion-0 > div:nth-of-type(8) {
+.emotion-0>div:nth-of-type(8) {
   -webkit-animation: animation-0 1s -0.12s infinite linear;
   animation: animation-0 1s -0.12s infinite linear;
   left: -17.045454545454547px;
   top: 17.045454545454547px;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;

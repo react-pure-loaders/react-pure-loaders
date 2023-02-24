@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "airbnb",
+        "airbnb-typescript",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+       "project": "./tsconfig.json"
+     },
+    "plugins": [
+        "@typescript-eslint",
+        "eslint-comments",
+        "import",
+        "jest-dom",
+        "jsx-a11y",
+        "n",
+        "no-use-extend-native",
+        "react",
+        "react-hooks",
+        "unicorn",
+        "prettier"
+    ],
+    "rules": {
+        "react/no-unknown-property": ["error", { "ignore": ["css"] }]
+    },
+    "root": true
+}
