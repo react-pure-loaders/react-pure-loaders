@@ -35,6 +35,8 @@ jobs:
         run: npm i pnpm@latest -g
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+      - name: install dependencies
+        run: pnpm install
       - name: run test
         run: pnpm test
 
@@ -50,6 +52,8 @@ jobs:
         run: npm i pnpm@latest -g
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+      - name: install dependencies
+        run: pnpm install
       - name: build code
         run: pnpm build
       - uses: actions/upload-artifact@v3
@@ -74,6 +78,8 @@ jobs:
         run: npm i pnpm@latest -g
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+      - name: install dependencies
+        run: pnpm install
       - name: publish package
         run: npx semantic-release
         env:
