@@ -4,24 +4,28 @@ exports[`<CubeTransition> CubeTransition should match snapshot 1`] = `
 @keyframes animation-0 {
   100% {
     -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
     -ms-transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
 
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
+    -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
 
   50% {
-    -webkit-transform: translate(50px,50px) rotate(-180deg);
-    -ms-transform: translate(50px,50px) rotate(-180deg);
-    transform: translate(50px,50px) rotate(-180deg);
+    -webkit-transform: translate(50px, 50px) rotate(-180deg);
+    -moz-transform: translate(50px, 50px) rotate(-180deg);
+    -ms-transform: translate(50px, 50px) rotate(-180deg);
+    transform: translate(50px, 50px) rotate(-180deg);
   }
 
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
+    -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
@@ -29,12 +33,13 @@ exports[`<CubeTransition> CubeTransition should match snapshot 1`] = `
 
 .emotion-0 {
   position: relative;
-  -webkit-transform: translate(-25,-25);
-  -ms-transform: translate(-25,-25);
-  transform: translate(-25,-25);
+  -webkit-transform: translate(-25, -25);
+  -moz-transform: translate(-25, -25);
+  -ms-transform: translate(-25, -25);
+  transform: translate(-25, -25);
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation: animation-0 1.6s 0s infinite ease-in-out;
@@ -47,7 +52,7 @@ exports[`<CubeTransition> CubeTransition should match snapshot 1`] = `
   width: 10px;
 }
 
-.emotion-0 > div:last-child {
+.emotion-0>div:last-child {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
 }

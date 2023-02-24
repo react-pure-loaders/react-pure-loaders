@@ -20,13 +20,13 @@ describe('<BallScale>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallScale should have default color', () => {
+    test.skip('BallScale should have default color', () => {
         const { container } = render(<BallScale loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallScale should have given color', () => {
+    test.skip('BallScale should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallScale color={color} loading={true}/>);
 

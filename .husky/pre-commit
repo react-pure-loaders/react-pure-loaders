@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+lint-staged
+opt --in pre-commit --exec "pnpm verify"

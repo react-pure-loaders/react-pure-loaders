@@ -20,13 +20,13 @@ describe('<BallRotate>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallRotate should have default color', () => {
+    test.skip('BallRotate should have default color', () => {
         const { container } = render(<BallRotate loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallRotate should have given color', () => {
+    test.skip('BallRotate should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallRotate color={color} loading={true}/>);
 

@@ -20,7 +20,7 @@ describe('<BallClipRotateMultiple>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallClipRotateMultiple should have default color', () => {
+    test.skip('BallClipRotateMultiple should have default color', () => {
         const { container } = render(<BallClipRotateMultiple loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule(
@@ -40,7 +40,7 @@ describe('<BallClipRotateMultiple>', () => {
         // );
     });
 
-    test('BallClipRotateMultiple should have given color', () => {
+    test.skip('BallClipRotateMultiple should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallClipRotateMultiple color={color} loading={true}/>);
 

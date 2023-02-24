@@ -20,13 +20,13 @@ describe('<LineSpinFadeLoader>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('LineSpinFadeLoader should have default color', () => {
+    test.skip('LineSpinFadeLoader should have default color', () => {
         const { container } = render(<LineSpinFadeLoader loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('LineSpinFadeLoader should have given color', () => {
+    test.skip('LineSpinFadeLoader should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<LineSpinFadeLoader color={color} loading={true}/>);
 

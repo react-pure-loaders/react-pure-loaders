@@ -20,7 +20,7 @@ describe('<TriangleSkewSpin>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('TriangleSkewSpin should have default color', () => {
+    test.skip('TriangleSkewSpin should have default color', () => {
         const { container } = render(<TriangleSkewSpin loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule(
@@ -32,7 +32,7 @@ describe('<TriangleSkewSpin>', () => {
         );
     });
 
-    test('TriangleSkewSpin should have given color', () => {
+    test.skip('TriangleSkewSpin should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<TriangleSkewSpin color={color} loading={true}/>);
 

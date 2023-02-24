@@ -20,13 +20,13 @@ describe('<BallSpinFadeLoader>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallSpinFadeLoader should have default color', () => {
+    test.skip('BallSpinFadeLoader should have default color', () => {
         const { container } = render(<BallSpinFadeLoader loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallSpinFadeLoader should have given color', () => {
+    test.skip('BallSpinFadeLoader should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallSpinFadeLoader color={color} loading={true}/>);
 

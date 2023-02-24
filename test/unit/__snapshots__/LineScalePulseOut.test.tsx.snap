@@ -4,24 +4,27 @@ exports[`<LineScalePulseOut> LineScalePulseOut should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;
@@ -34,16 +37,16 @@ exports[`<LineScalePulseOut> LineScalePulseOut should match snapshot 1`] = `
   display: inline-block;
 }
 
-.emotion-0 > div:nth-of-type(2),
-.emotion-0 > div:nth-of-type(4) {
-  -webkit-animation-delay: -0.40s !important;
-  animation-delay: -0.40s !important;
+.emotion-0>div:nth-of-type(2),
+.emotion-0>div:nth-of-type(4) {
+  -webkit-animation-delay: -0.40s!important;
+  animation-delay: -0.40s!important;
 }
 
-.emotion-0 > div:nth-of-type(1),
-.emotion-0 > div:nth-of-type(5) {
-  -webkit-animation-delay: -0.20s !important;
-  animation-delay: -0.20s !important;
+.emotion-0>div:nth-of-type(1),
+.emotion-0>div:nth-of-type(5) {
+  -webkit-animation-delay: -0.20s!important;
+  animation-delay: -0.20s!important;
 }
 
 <div

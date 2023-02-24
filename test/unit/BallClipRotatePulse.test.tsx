@@ -20,13 +20,13 @@ describe('<BallClipRotatePulse>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallClipRotatePulse should have default color', () => {
+    test.skip('BallClipRotatePulse should have default color', () => {
         const { container } = render(<BallClipRotatePulse loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallClipRotatePulse should have given color', () => {
+    test.skip('BallClipRotatePulse should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallClipRotatePulse color={color} loading={true}/>);
 

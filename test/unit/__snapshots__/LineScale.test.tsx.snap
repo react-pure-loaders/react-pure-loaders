@@ -4,18 +4,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -24,18 +27,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -44,18 +50,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -64,18 +73,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -84,18 +96,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -104,18 +119,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -124,18 +142,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -144,18 +165,21 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
@@ -164,69 +188,72 @@ exports[`<LineScale> LineScale should match snapshot 1`] = `
 @keyframes animation-0 {
   0% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   100% {
     -webkit-transform: scaley(1.0);
+    -moz-transform: scaley(1.0);
     -ms-transform: scaley(1.0);
     transform: scaley(1.0);
   }
 
   50% {
     -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
 }
 
-.emotion-0 > div:nth-of-type(1) {
+.emotion-0>div:nth-of-type(1) {
   -webkit-animation: animation-0 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s -0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(2) {
+.emotion-0>div:nth-of-type(2) {
   -webkit-animation: animation-0 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s -0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(3) {
+.emotion-0>div:nth-of-type(3) {
   -webkit-animation: animation-0 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s -0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(4) {
+.emotion-0>div:nth-of-type(4) {
   -webkit-animation: animation-0 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s -0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(5) {
+.emotion-0>div:nth-of-type(5) {
   -webkit-animation: animation-0 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s 0.00s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(6) {
+.emotion-0>div:nth-of-type(6) {
   -webkit-animation: animation-0 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s 0.10s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(7) {
+.emotion-0>div:nth-of-type(7) {
   -webkit-animation: animation-0 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s 0.20s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(8) {
+.emotion-0>div:nth-of-type(8) {
   -webkit-animation: animation-0 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s 0.30s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div:nth-of-type(9) {
+.emotion-0>div:nth-of-type(9) {
   -webkit-animation: animation-0 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
   animation: animation-0 1s 0.40s infinite cubic-bezier(.2,.68,.18,1.08);
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 2px;
   height: 35px;
   margin: 2px;

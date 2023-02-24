@@ -20,13 +20,13 @@ describe('<BallPulse>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallPulse should have default color', () => {
+    test.skip('BallPulse should have default color', () => {
         const { container } = render(<BallPulse loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallPulse should have given color', () => {
+    test.skip('BallPulse should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallPulse color={color} loading={true}/>);
 

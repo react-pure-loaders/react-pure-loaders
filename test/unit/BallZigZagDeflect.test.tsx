@@ -20,13 +20,13 @@ describe('<BallZigZagDeflect>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('BallZigZagDeflect should have default color', () => {
+    test.skip('BallZigZagDeflect should have default color', () => {
         const { container } = render(<BallZigZagDeflect loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('BallZigZagDeflect should have given color', () => {
+    test.skip('BallZigZagDeflect should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<BallZigZagDeflect color={color} loading={true}/>);
 

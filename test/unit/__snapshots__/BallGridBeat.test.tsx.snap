@@ -15,70 +15,70 @@ exports[`<BallGridBeat> BallGridBeat should match snapshot 1`] = `
   width: 57px;
 }
 
-.emotion-0 > div:nth-of-type(1) {
+.emotion-0>div:nth-of-type(1) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(2) {
+.emotion-0>div:nth-of-type(2) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(3) {
+.emotion-0>div:nth-of-type(3) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(4) {
+.emotion-0>div:nth-of-type(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(5) {
+.emotion-0>div:nth-of-type(5) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(6) {
+.emotion-0>div:nth-of-type(6) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(7) {
+.emotion-0>div:nth-of-type(7) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(8) {
+.emotion-0>div:nth-of-type(8) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div:nth-of-type(9) {
+.emotion-0>div:nth-of-type(9) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   -webkit-animation-duration: 1.1s;
   animation-duration: 1.1s;
 }
 
-.emotion-0 > div {
+.emotion-0>div {
   border-radius: 100%;
   height: 15px;
   margin: 2px;

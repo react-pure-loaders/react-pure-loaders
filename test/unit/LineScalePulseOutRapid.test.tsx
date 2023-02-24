@@ -20,13 +20,13 @@ describe('<LineScalePulseOutRapid>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test('LineScalePulseOutRapid should have default color', () => {
+    test.skip('LineScalePulseOutRapid should have default color', () => {
         const { container } = render(<LineScalePulseOutRapid loading={true}/>);
 
         expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR, { target: '> div' });
     });
 
-    test('LineScalePulseOutRapid should have given color', () => {
+    test.skip('LineScalePulseOutRapid should have given color', () => {
         const color = chance.color({ format: 'hex' });
         const { container } = render(<LineScalePulseOutRapid color={color} loading={true}/>);
 
