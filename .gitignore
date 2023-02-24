@@ -16,6 +16,9 @@ public
 # Dependency directories
 node_modules/
 
+# Package Lock (Using pnpm with pnpm-lock.yaml)
+package-lock.json
+
 # JetBrains settings
 .idea
 
