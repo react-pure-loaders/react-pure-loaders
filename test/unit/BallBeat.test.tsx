@@ -1,11 +1,11 @@
 import React from 'react';
-import { matchers } from '@emotion/jest';
+import Chance from 'chance';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import BallBeat from '../../src/BallBeat';
 import { PRIMARY_COLOR } from '../../src/variables';
 
-expect.extend(matchers);
+const chance = new Chance();
 
 describe('<BallBeat>', () => {
     afterEach(cleanup);
@@ -17,17 +17,24 @@ describe('<BallBeat>', () => {
     });
 
     test('BallBeat should have default color', () => {
-        const { getByTestId } = render(<BallBeat loading  />);
-        expect(getByTestId("ball-beat-container").querySelector("div")).toHaveStyle(
-            `background-color: ${PRIMARY_COLOR}`
-        );
+        const { getByTestId } = render(<BallBeat loading={true}/>);
+        const loader = getByTestId('ball-beat-container').querySelector("div");
+
+        expect(loader)
+        .toHaveStyle({
+            backgroundColor: PRIMARY_COLOR,
+          });
     });
 
     test('BallBeat should have given color', () => {
-        const { getByTestId } = render(<BallBeat loading color="red" />);
-        expect(getByTestId("ball-beat-container").querySelector("div")).toHaveStyle(
-            "background-color: red"
-        );
+        const expectedColor = chance.color();
+        const { getByTestId } = render(<BallBeat loading={true} color={expectedColor}/>);
+        const loader = getByTestId('ball-beat-container').querySelector("div");
+
+        expect(loader)
+        .toHaveStyle({
+            backgroundColor: expectedColor,
+          });
     });
 
     test('BallBeat should have no children', () => {
