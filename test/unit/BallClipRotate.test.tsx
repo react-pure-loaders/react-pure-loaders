@@ -1,9 +1,12 @@
 import React from 'react';
 import Chance from 'chance';
+import { matchers } from '@emotion/jest';
 import { render, cleanup } from '@testing-library/react';
-import '@testing-library/jest-dom';
+
 import BallClipRotate from '../../src/BallClipRotate';
 import { PRIMARY_COLOR } from '../../src/variables';
+
+expect.extend(matchers);
 
 const chance = new Chance();
 
@@ -17,24 +20,16 @@ describe('<BallClipRotate>', () => {
     });
 
     test('BallClipRotate should have default color', () => {
-        const { getByTestId } = render(<BallClipRotate loading={true}  />);
-        const loader = getByTestId('ball-clip-rotate-container').querySelector("div")
-
-        expect(loader)
-        .toHaveStyle({
-            backgroundColor: PRIMARY_COLOR,
-          });
+        const { getByTestId } = render(<BallClipRotate loading={true}/>);
+        const loader = getByTestId('ball-clip-rotate-container');
+        expect(loader).toHaveStyleRule('background-color', PRIMARY_COLOR);
     });
 
     test('BallClipRotate should have given color', () => {
-        const expectedColor = chance.color({ format: 'hex' });
-        const { getByTestId } = render(<BallClipRotate loading={true} color={expectedColor}/>);
-        const loader = getByTestId('ball-clip-rotate-container').querySelector("div")
-
-        expect(loader)
-        .toHaveStyle({
-            backgroundColor: expectedColor,
-          });
+        const color = chance.color({ format: 'hex' });
+        const { getByTestId } = render(<BallClipRotate color={color} loading={true}/>);
+        const loader = getByTestId('ball-clip-rotate-container');
+        expect(loader).toHaveStyleRule('background-color', color);
     });
 
     test('BallClipRotate should have no children', () => {
@@ -49,3 +44,4 @@ describe('<BallClipRotate>', () => {
         expect(container.querySelectorAll('div')).toHaveLength(2);
     });
 });
+
