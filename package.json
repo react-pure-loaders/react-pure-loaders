@@ -122,7 +122,7 @@
     "eslint-plugin-unicorn": "46.0.0",
     "husky": "8.0.3",
     "jest": "29.4.3",
-    "jest-environment-jsdom": "29.4.3",
+    "jest-environment-jsdom": "29.5.0",
     "lint-staged": "13.1.2",
     "marked": "4.2.12",
     "opt-cli": "1.6.0",
