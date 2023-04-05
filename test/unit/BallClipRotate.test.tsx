@@ -19,17 +19,17 @@ describe('<BallClipRotate>', () => {
         expect(container.firstChild).toMatchSnapshot();
     });
 
-    test.skip('BallClipRotate should have default color', () => {
-        const { container } = render(<BallClipRotate loading={true}/>);
-
-        expect(container.firstChild).toHaveStyleRule('background-color', PRIMARY_COLOR);
+    test('BallClipRotate should have default color', () => {
+        const { getByTestId } = render(<BallClipRotate loading={true}/>);
+        const loader = getByTestId('ball-clip-rotate-container');
+        expect(loader).toHaveStyleRule('background-color', PRIMARY_COLOR);
     });
 
-    test.skip('BallClipRotate should have given color', () => {
+    test('BallClipRotate should have given color', () => {
         const color = chance.color({ format: 'hex' });
-        const { container } = render(<BallClipRotate color={color} loading={true}/>);
-
-        expect(container.firstChild).toHaveStyleRule('background-color', color);
+        const { getByTestId } = render(<BallClipRotate color={color} loading={true}/>);
+        const loader = getByTestId('ball-clip-rotate-container');
+        expect(loader).toHaveStyleRule('background-color', color);
     });
 
     test('BallClipRotate should have no children', () => {
@@ -44,3 +44,4 @@ describe('<BallClipRotate>', () => {
         expect(container.querySelectorAll('div')).toHaveLength(2);
     });
 });
+

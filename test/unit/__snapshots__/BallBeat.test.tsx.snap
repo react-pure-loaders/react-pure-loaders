@@ -39,6 +39,7 @@ exports[`<BallBeat> BallBeat should match snapshot 1`] = `
 
 <div
   class="emotion-0"
+  data-testid="ball-beat-container"
 >
   <div />
   <div />

@@ -42,6 +42,7 @@ exports[`<BallClipRotate> BallClipRotate should match snapshot 1`] = `
 
 <div
   class="emotion-0"
+  data-testid="ball-clip-rotate-container"
 >
   <div />
 </div>

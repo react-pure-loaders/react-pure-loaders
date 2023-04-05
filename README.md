@@ -123,14 +123,21 @@ TriangleSkewSpin        |          |            |           |            |
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="http://fueledbydreams.com"><img src="https://avatars2.githubusercontent.com/u/794161?v=4" width="100px;" alt="James W. Lane III"/><br /><sub><b>James W. Lane III</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Documentation">📖</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/wps13"><img src="https://avatars1.githubusercontent.com/u/19312323?v=4" width="100px;" alt="Willane Paiva"/><br /><sub><b>Willane Paiva</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=wps13" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Larissagilliane"><img src="https://avatars2.githubusercontent.com/u/27821672?v=4" width="100px;" alt="Larissa Moura"/><br /><sub><b>Larissa Moura</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=Larissagilliane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=Larissagilliane" title="Tests">⚠️</a><a href="#tool-Larissagilliane" title="Tools">🔧</a><a href="#plugin-Larissagilliane" title="Plugin/utility libraries">🔌</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://fueledbydreams.com"><img src="https://avatars2.githubusercontent.com/u/794161?v=4?s=100" width="100px;" alt="James W. Lane III"/><br /><sub><b>James W. Lane III</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Documentation">📖</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=jameswlane" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/wps13"><img src="https://avatars1.githubusercontent.com/u/19312323?v=4?s=100" width="100px;" alt="Willane Paiva"/><br /><sub><b>Willane Paiva</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=wps13" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Larissagilliane"><img src="https://avatars2.githubusercontent.com/u/27821672?v=4?s=100" width="100px;" alt="Larissa Moura"/><br /><sub><b>Larissa Moura</b></sub></a><br /><a href="#plugin-Larissagilliane" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=Larissagilliane" title="Code">💻</a> <a href="https://github.com/jameswlane/react-pure-loaders/commits?author=Larissagilliane" title="Tests">⚠️</a> <a href="#tool-Larissagilliane" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/murillomamud"><img src="https://avatars.githubusercontent.com/u/4042807?v=4?s=100" width="100px;" alt="Murillo"/><br /><sub><b>Murillo</b></sub></a><br /><a href="https://github.com/jameswlane/react-pure-loaders/commits?author=murillomamud" title="Tests">⚠️</a></td>
+    </tr>
+  </tbody>
 </table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

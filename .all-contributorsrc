@@ -33,10 +33,19 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/27821672?v=4",
       "profile": "https://github.com/Larissagilliane",
       "contributions": [
-        "plugin"
+        "plugin",
         "code",
-        "test"
+        "test",
         "tool"
+      ]
+    },
+    {
+      "login": "murillomamud",
+      "name": "Murillo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4042807?v=4",
+      "profile": "https://github.com/murillomamud",
+      "contributions": [
+        "test"
       ]
     }
   ],
