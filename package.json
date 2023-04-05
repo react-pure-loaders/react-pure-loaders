@@ -126,7 +126,7 @@
     "lint-staged": "13.2.0",
     "marked": "4.2.12",
     "opt-cli": "1.6.0",
-    "prettier": "2.8.6",
+    "prettier": "2.8.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rimraf": "4.4.1",
